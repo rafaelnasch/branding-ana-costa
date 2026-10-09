@@ -1,0 +1,86 @@
+{
+  "_leia": "Partes do manual e seções previstas. O montar_brand_book.py usa esta lista para agrupar os fragmentos _fragmentos/sNN-*.html, montar o sumário lateral, as aberturas de parte e o índice. Seção que existe em fragmento mas não está aqui gera erro. Seção prevista sem fragmento só gera aviso. Títulos aqui são o padrão; o data-titulo do fragmento prevalece.",
+  "partes": [
+    {
+      "numero": "I",
+      "titulo": "A marca",
+      "chamada": "Quem é a Ana, a ideia que segura tudo e o jeito de ser de cada peça.",
+      "secoes": {
+        "s01": "Quem é a Ana Paula Costa",
+        "s02": "A ideia: cada fase pede outro prato",
+        "s03": "Personalidade e arquétipo"
+      }
+    },
+    {
+      "numero": "II",
+      "titulo": "Logotipo",
+      "chamada": "O ap. escrito com a mesma pena, as versões, os mínimos e o que nunca fazer.",
+      "secoes": {
+        "s04": "O símbolo e a construção",
+        "s05": "Versões e esquemas de cor",
+        "s06": "Área de proteção e tamanhos mínimos",
+        "s07": "Usos proibidos",
+        "s08": "Sub-marcas, avatar e favicon"
+      }
+    },
+    {
+      "numero": "III",
+      "titulo": "Cor",
+      "chamada": "Sálvia por cima, Algodão para ler e um único ponto quente por peça.",
+      "secoes": {
+        "s09": "Paleta e proporção",
+        "s10": "Contraste e leitura",
+        "s11": "Modos por fase"
+      }
+    },
+    {
+      "numero": "IV",
+      "titulo": "Tipografia",
+      "chamada": "Literata para dizer, Atkinson para ler sem esforço.",
+      "secoes": {
+        "s12": "As duas fontes",
+        "s13": "Escalas para tela, redes e papel"
+      }
+    },
+    {
+      "numero": "V",
+      "titulo": "Forma e imagem",
+      "chamada": "A Rota, os ícones, a fotografia e o movimento.",
+      "secoes": {
+        "s14": "A Rota, forma-assinatura",
+        "s15": "Ícones e capas de destaque",
+        "s16": "Fotografia e acervo",
+        "s17": "Movimento"
+      }
+    },
+    {
+      "numero": "VI",
+      "titulo": "Voz e conformidade",
+      "chamada": "Do jeito que a Ana fala, dentro do que a profissão permite.",
+      "secoes": {
+        "s18": "Voz e palavras",
+        "s19": "Conformidade e ética profissional"
+      }
+    },
+    {
+      "numero": "VII",
+      "titulo": "Aplicações",
+      "chamada": "As peças do dia a dia, prontas para produzir.",
+      "secoes": {
+        "s20": "Redes e formatos",
+        "s21": "Site e páginas",
+        "s22": "Consulta e papelaria",
+        "s23": "E-mail e WhatsApp"
+      }
+    },
+    {
+      "numero": "VIII",
+      "titulo": "Arquivos",
+      "chamada": "Tudo para baixar e o que ainda depende da Ana.",
+      "secoes": {
+        "s24": "Downloads",
+        "s25": "Pendências"
+      }
+    }
+  ]
+}

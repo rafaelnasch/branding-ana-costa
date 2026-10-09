@@ -1,0 +1,339 @@
+<section class="secao" id="s13" data-parte="IV" data-titulo="Escalas para tela, redes e papel" data-busca="tipografia escala tamanho hierarquia titulo texto corpo minimo leitura celular 45+ post story capa reels carrossel legenda queimada video impresso plano alimentar pt px">
+  <header class="secao-cabeca">
+    <p class="rotulo">Tipografia</p>
+    <h2>Grande o bastante para ler sem óculos.</h2>
+    <p class="chamada">Cada tela tem a sua régua: o site em pixels, as redes numa arte de 1080 px, o papel em pontos. Em todas, a ordem de leitura é a mesma e há um tamanho abaixo do qual nada desce.</p>
+  </header>
+
+  <div class="resumo">
+    <p class="resumo-titulo">Em um minuto</p>
+    <ul>
+      <li>No máximo cinco níveis por peça: <strong>rótulo, título, chamada, texto e botão</strong>, nessa ordem.</li>
+      <li>Site: texto de <strong>18 px</strong> (17 no celular) e <strong>20 px</strong> no modo 40+. Literata só a partir de 24 px.</li>
+      <li>Arte de 1080 px: título de <strong>88 a 92 px</strong>, texto de <strong>36 px</strong>, nada abaixo de <strong>32 px</strong> (rodapé com CRN: 28 px).</li>
+      <li>Papel: texto do plano alimentar em <strong>12 pt</strong>, nada abaixo de 9 pt.</li>
+    </ul>
+  </div>
+
+  <!-- ============ 2. Hierarquia ============ -->
+  <h3 id="s13-1">Hierarquia: quem fala primeiro</h3>
+  <p>Toda peça tem no máximo cinco níveis, sempre na mesma ordem. O rótulo diz o assunto, o título diz a ideia, a chamada explica em uma frase, o texto ensina e o botão diz o próximo passo. Se a peça precisa de mais níveis, ela está tentando dizer coisas demais: divida em duas.</p>
+
+  <figure class="peca">
+    <div class="peca-palco" data-fundo="algodao" data-escala="Tamanho real">
+      <div class="s13-hier">
+        <div class="s13-hier-pagina">
+          <p class="rotulo s13-m" data-n="1">Pós-parto e amamentação</p>
+          <p class="s13-hier-h1 s13-m" data-n="2">Seu corpo mudou de fase. Seu prato também precisa.</p>
+          <p class="s13-hier-chamada s13-m" data-n="3">Um plano que cabe na rotina com o bebê, feito a partir dos seus exames.</p>
+          <p class="s13-hier-corpo s13-m" data-n="4">Nas primeiras semanas em casa, o que mais pesa é a falta de tempo. A gente não começa pelo ideal: começa pelo possível, com refeições que se montam com uma mão só.</p>
+          <p class="s13-m" data-n="5"><a class="botao" href="#s13-1">Agendar minha avaliação <span class="s13-seta" data-svg="assets/forma/rota-seta-sobre-escuro.svg" data-decorativo></span></a></p>
+        </div>
+        <ol class="s13-hier-leg">
+          <li><b>Rótulo</b> Atkinson 600, 14 px, caixa alta, entreletra 14%. Cor de acento do modo.</li>
+          <li><b>Título</b> Literata 580, 52 px no computador e 36 px no celular. Mar Fundo.</li>
+          <li><b>Chamada</b> Atkinson 400, 20 a 22 px. Uma frase só.</li>
+          <li><b>Texto</b> Atkinson 400, 18 px (17 px no celular), entrelinha 1,65. Grafite Quente.</li>
+          <li><b>Botão</b> Atkinson 600, 17 px, altura mínima de 48 px. Um principal por tela.</li>
+        </ol>
+      </div>
+    </div>
+    <figcaption><span class="legenda-titulo">Topo de página do site, modo Pós-parto</span><span>Os números marcam a ordem de leitura.</span><span class="medida">coluna de 560 px</span></figcaption>
+  </figure>
+
+  <aside class="regra">
+    <p class="regra-rotulo">Regra</p>
+    <p class="regra-grande">Um título por tela. Contraste de tamanho, não de cor: o título é pelo menos o dobro do texto.</p>
+  </aside>
+
+  <!-- ============ 3. Escala web ============ -->
+  <h3 id="s13-2">Escala para o site e as telas</h3>
+  <p>As amostras abaixo estão no tamanho real da tela em que você lê. Abra este manual no celular e no computador para ver os dois tamanhos: o site usa exatamente estas medidas, já prontas no <code>tokens.css</code>.</p>
+
+  <ol class="s13-escada largo">
+    <li><p class="s13-escada-amostra s13-e-display">Cada fase pede outro prato.</p><p class="s13-escada-dados"><b>Display</b> Literata 580 · 72 px no computador, 44 px no celular · entrelinha 1,06 · <code>--texto-display</code></p></li>
+    <li><p class="s13-escada-amostra s13-e-h1">Nenhuma mulher é dose única.</p><p class="s13-escada-dados"><b>Título 1</b> Literata 580 · 52 px e 36 px · entrelinha 1,1 · <code>--texto-h1</code></p></li>
+    <li><p class="s13-escada-amostra s13-e-h2">A gente começa pelo possível.</p><p class="s13-escada-dados"><b>Título 2</b> Literata 580 · 38 px e 29 px · entrelinha 1,15 · <code>--texto-h2</code></p></li>
+    <li><p class="s13-escada-amostra s13-e-h3">O que muda no prato da gestante</p><p class="s13-escada-dados"><b>Título 3</b> Literata 560 · 26 px e 22 px · entrelinha 1,25 · <code>--texto-h3</code></p></li>
+    <li><p class="s13-escada-amostra s13-e-corpo">Ferro em jejum absorve mais. E também enjoa mais. Se o seu estômago reclama, existe outro horário, e a gente acha juntas.</p><p class="s13-escada-dados"><b>Texto</b> Atkinson 400 · 18 px e 17 px · entrelinha 1,65 · até 70 caracteres por linha</p></li>
+    <li><p class="s13-escada-amostra s13-e-corpo40">Isso não é uma perda. É uma transição, e ela tem estratégia própria.</p><p class="s13-escada-dados"><b>Texto no modo 40+</b> Atkinson 400 · 20 px e 19 px · 2 px a mais em toda peça desse público</p></li>
+    <li><p class="s13-escada-amostra"><span class="botao">Agendar minha avaliação</span></p><p class="s13-escada-dados"><b>Botão</b> Atkinson 600 · 17 px · altura mínima 48 px · verbo na primeira pessoa</p></li>
+    <li><p class="s13-escada-amostra"><span class="rotulo s13-e-rotulo">Gestação · semana 24</span></p><p class="s13-escada-dados"><b>Rótulo</b> Atkinson 600 · 14 px · caixa alta · entreletra 14%</p></li>
+    <li><p class="s13-escada-amostra s13-e-legenda">Foto do consultório de casa, onde a Ana atende online.</p><p class="s13-escada-dados"><b>Legenda e nota</b> Atkinson 400 · 15 px · o menor tamanho permitido na tela</p></li>
+  </ol>
+
+  <!-- ============ 4. Redes ============ -->
+  <h3 id="s13-3">Escala para as redes</h3>
+  <p>Toda arte das redes é feita numa tela de 1080 px de largura. No celular, ela aparece com cerca de 390 px: tudo encolhe quase três vezes. Por isso um texto de 36 px na arte chega à leitora com uns 13 px, o limite do confortável. As medidas abaixo valem para post, carrossel, story, capa de Reels e status do WhatsApp.</p>
+
+  <div class="tabela" data-empilha>
+    <table>
+      <thead><tr><th>Nível</th><th>Na arte de 1080 px</th><th>Fonte e regra</th></tr></thead>
+      <tbody>
+        <tr><td>Título de post e carrossel</td><td data-num>88 px</td><td>Literata 580, entrelinha 1,08, até 3 linhas</td></tr>
+        <tr><td>Título de story e capa de Reels</td><td data-num>92 px</td><td>Literata 580, até 3 linhas, dentro da zona segura</td></tr>
+        <tr><td>Subtítulo</td><td data-num>46 px</td><td>Atkinson 500 ou Literata itálico (frase da Ana)</td></tr>
+        <tr><td>Texto</td><td data-num>36 px (mínimo 32)</td><td>Atkinson 400, entrelinha 1,35, até 5 linhas por cartão</td></tr>
+        <tr><td>Rótulo e botão</td><td data-num>26 a 32 px</td><td>Atkinson 600, rótulo em caixa alta com entreletra 14%</td></tr>
+        <tr><td>Assinatura e CRN</td><td data-num>28 px (mínimo)</td><td>Atkinson 600 no nome, 400 no CRN, no rodapé</td></tr>
+        <tr><td>Legenda queimada no vídeo</td><td data-num>56 a 64 px</td><td>Atkinson 600, no máximo 2 linhas de 32 caracteres</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="s13-nota">No story e no Reels, nada essencial nos 250 px de cima nem nos 380 px de baixo (480 px em anúncio).</p>
+
+  <div class="grade s13-redes" data-col="3">
+    <figure class="peca s13-peca-rede">
+      <div class="peca-palco" data-fundo="pedra" data-escala="Escala 1:3,6">
+        <svg class="s13-arte" viewBox="0 0 1080 1350" role="img" aria-label="Post de carrossel 4 por 5 no modo Pós-parto: rótulo em caramelo tostado, título grande em Literata, texto curto em Atkinson, foto da Ana sorrindo junto à janela em moldura de arco e rodapé Mar Fundo com o símbolo e o CRN em confirmação.">
+          <defs><clipPath id="s13-arco-post"><path d="M620 720A180 180 0 0 1 980 720V1160H620Z"/></clipPath></defs>
+          <rect width="1080" height="1350" class="s13-f-algodao"/>
+          <rect x="80" y="54" width="140" height="8" rx="4" class="s13-f-mar"/><rect x="236" y="54" width="140" height="8" rx="4" class="s13-f-pedra"/><rect x="392" y="54" width="140" height="8" rx="4" class="s13-f-pedra"/><rect x="548" y="54" width="140" height="8" rx="4" class="s13-f-pedra"/><rect x="704" y="54" width="140" height="8" rx="4" class="s13-f-pedra"/><rect x="860" y="54" width="140" height="8" rx="4" class="s13-f-pedra"/>
+          <text x="80" y="160" class="s13-atk s13-t-rot s13-f-tostado">PÓS-PARTO · 1 DE 6</text>
+          <text class="s13-lit s13-f-mar" font-size="88"><tspan x="80" y="270">Seu corpo mudou</tspan><tspan x="80" y="365">de fase. Seu prato</tspan><tspan x="80" y="460">também precisa.</tspan></text>
+          <text class="s13-atk s13-f-grafite" font-size="36"><tspan x="80" y="590">Três trocas simples</tspan><tspan x="80" y="638">para a primeira</tspan><tspan x="80" y="686">semana em casa.</tspan></text>
+          <text x="80" y="800" class="s13-atk s13-t-rot s13-f-salvia-funda">ARRASTA PARA O LADO</text>
+          <path d="M592 732A208 208 0 0 1 1008 732V1180H592Z" class="s13-f-salvia"/>
+          <image href="assets/fotos/640/ana-04-janela-sorrindo.webp" x="620" y="540" width="360" height="620" preserveAspectRatio="xMidYMin slice" clip-path="url(#s13-arco-post)"/>
+          <rect y="1210" width="1080" height="140" class="s13-f-mar"/>
+          <image href="assets/marca/svg/simbolo-sobre-escuro.svg" x="80" y="1246" width="100" height="68"/>
+          <text x="214" y="1272" class="s13-atk s13-f-algodao" font-size="28" font-weight="600">Ana Paula Costa · Nutricionista</text>
+          <text x="214" y="1312" class="s13-atk s13-f-bruma" font-size="28">CRN-4 em confirmação</text>
+        </svg>
+      </div>
+      <figcaption><span class="legenda-titulo">Post de carrossel</span><span>Título 88 · texto 36 · rótulo 26 · rodapé 28</span><span class="medida">1080 × 1350 px</span></figcaption>
+    </figure>
+
+    <figure class="peca s13-peca-rede">
+      <div class="peca-palco" data-fundo="pedra" data-escala="Escala 1:5">
+        <svg class="s13-arte" viewBox="0 0 1080 1920" role="img" aria-label="Story 9 por 16 no modo Gestação: fundo Bruma, foto da Ana grávida segurando um caderno em moldura de arco, pergunta em Literata e três botões de fase, com a zona segura tracejada.">
+          <defs><clipPath id="s13-arco-story"><path d="M270 600A270 270 0 0 1 810 600V1060H270Z"/></clipPath></defs>
+          <rect width="1080" height="1920" class="s13-f-bruma"/>
+          <path d="M240 600A300 300 0 0 1 840 600V1080H240Z" class="s13-f-salvia"/>
+          <image href="assets/fotos/640/ana-01-caderno-camiseta-branca.webp" x="270" y="330" width="540" height="730" preserveAspectRatio="xMidYMin slice" clip-path="url(#s13-arco-story)"/>
+          <text x="500" y="1170" text-anchor="middle" class="s13-atk s13-t-rot s13-f-salvia-funda">GESTAÇÃO</text>
+          <text text-anchor="middle" class="s13-lit s13-f-mar" font-size="92"><tspan x="500" y="1280">Em qual fase</tspan><tspan x="500" y="1380">você está hoje?</tspan></text>
+          <rect x="120" y="1430" width="270" height="84" rx="42" class="s13-f-mar"/><text x="255" y="1483" text-anchor="middle" class="s13-atk s13-f-algodao" font-size="32" font-weight="600">Gestação</text>
+          <rect x="405" y="1430" width="270" height="84" rx="42" class="s13-f-algodao"/><text x="540" y="1483" text-anchor="middle" class="s13-atk s13-f-mar" font-size="32" font-weight="600">Pós-parto</text>
+          <rect x="690" y="1430" width="190" height="84" rx="42" class="s13-f-algodao"/><text x="785" y="1483" text-anchor="middle" class="s13-atk s13-f-mar" font-size="32" font-weight="600">40+</text>
+          <rect x="60" y="250" width="880" height="1290" class="s13-zona"/>
+          <text x="940" y="236" text-anchor="end" class="s13-atk s13-t-guia">zona segura</text>
+        </svg>
+      </div>
+      <figcaption><span class="legenda-titulo">Story de pergunta</span><span>Título 92 · botões 32 · rótulo 26</span><span class="medida">1080 × 1920 px</span></figcaption>
+    </figure>
+
+    <figure class="peca s13-peca-rede">
+      <div class="peca-palco" data-fundo="pedra" data-escala="Escala 1:5">
+        <svg class="s13-arte" viewBox="0 0 1080 1920" role="img" aria-label="Capa de Reels no modo 40+: foto da Ana de blazer preto diante de fundo escuro, faixa Mar Fundo com rótulo em Ouro Velho e título em Literata clara, dentro do retângulo que aparece na grade do perfil.">
+          <rect width="1080" height="1920" class="s13-f-mar"/>
+          <image href="assets/fotos/640/ana-12-evento-bracos-cruzados.webp" x="0" y="0" width="1080" height="1100" preserveAspectRatio="xMidYMin slice"/>
+          <rect y="1080" width="1080" height="840" class="s13-f-mar"/>
+          <text x="80" y="1160" class="s13-atk s13-t-rot s13-f-ouro">40+ E MENOPAUSA</text>
+          <text class="s13-lit s13-f-algodao" font-size="92"><tspan x="80" y="1270">Você não falhou.</tspan><tspan x="80" y="1370">Tentou a estratégia</tspan><tspan x="80" y="1470">da fase errada.</tspan></text>
+          <rect x="80" y="420" width="920" height="1080" class="s13-zona s13-zona--clara"/>
+          <text x="1000" y="406" text-anchor="end" class="s13-atk s13-t-guia s13-f-algodao">aparece na grade do perfil</text>
+        </svg>
+      </div>
+      <figcaption><span class="legenda-titulo">Capa de Reels</span><span>Título 92 dentro do retângulo x 80 a 1000 · y 420 a 1500</span><span class="medida">1080 × 1920 px</span></figcaption>
+    </figure>
+  </div>
+
+  <h4>Legenda queimada no vídeo</h4>
+  <p>A legenda é a fala da Ana escrita, não um resumo. Precisa ser lida de relance por uma mulher de 45 anos sem os óculos. Use a Atkinson em seminegrito (600), de 56 a 64 px, em caixa normal, com no máximo duas linhas de até 32 caracteres. Texto em Algodão sobre caixa Mar Fundo com 85% de opacidade; uma palavra por frase em Sálvia Ana, a que carrega o sentido.</p>
+
+  <figure class="peca">
+    <div class="peca-palco" data-fundo="pedra" data-escala="Escala 1:4">
+      <svg class="s13-video" viewBox="0 0 1080 1920" role="img" aria-label="Quadro de vídeo 9 por 16 com a Ana de perfil junto à janela e a legenda em duas linhas: Ferro em jejum absorve, mas também enjoa mais. A palavra enjoa está em Sálvia Ana; a caixa Mar Fundo termina acima da faixa ocupada pelos botões da rede.">
+        <image href="assets/fotos/640/ana-03-janela-perfil.webp" x="0" y="0" width="1080" height="1920" preserveAspectRatio="xMidYMid slice"/>
+        <rect x="0" y="0" width="1080" height="250" class="s13-faixa-rede"/>
+        <rect x="0" y="1540" width="1080" height="380" class="s13-faixa-rede"/>
+        <rect x="940" y="250" width="140" height="1290" class="s13-faixa-rede"/>
+        <rect x="90" y="1316" width="820" height="184" rx="24" class="s13-f-mar" opacity=".85"/>
+        <text text-anchor="middle" class="s13-atk s13-f-algodao" font-size="60" font-weight="600"><tspan x="500" y="1394">Ferro em jejum absorve,</tspan><tspan x="500" y="1466">mas também <tspan class="s13-f-salvia">enjoa</tspan> mais.</tspan></text>
+        <text x="40" y="150" class="s13-atk s13-t-guia s13-f-algodao">250 px livres</text>
+        <text x="40" y="1740" class="s13-atk s13-t-guia s13-f-algodao">380 px livres (480 em anúncio)</text>
+      </svg>
+    </div>
+    <figcaption><span class="legenda-titulo">Legenda queimada</span><span>Atkinson 600 · 60 px · base do bloco em y = 1500 · lateral até x = 940</span><span class="medida">1080 × 1920 px</span></figcaption>
+  </figure>
+
+  <!-- ============ 5. Impresso ============ -->
+  <h3 id="s13-4">Escala para o impresso</h3>
+  <p>No papel a medida é em pontos (pt), a unidade da gráfica e do Word. O plano alimentar é lido de perto, com calma, muitas vezes preso na geladeira: o texto fica em 12 pt, maior do que o padrão de escritório, para que a paciente leia sem procurar os óculos.</p>
+
+  <div class="s13-impresso largo">
+    <figure class="peca s13-a4">
+      <div class="peca-palco" data-fundo="pedra" data-escala="Escala 1:2,4">
+        <svg class="s13-folha" viewBox="0 0 210 297" role="img" aria-label="Página A4 de plano alimentar de exemplo: logotipo no topo, divisor Rota, título Plano da semana em Literata, refeições com horário em Atkinson, quadro Bruma de recado e rodapé com nome e CRN em confirmação.">
+          <rect width="210" height="297" class="s13-f-algodao"/>
+          <image href="assets/marca/svg/logo-horizontal-cor.svg" x="20" y="18" width="72" height="10.84"/>
+          <text x="190" y="25.5" text-anchor="end" class="s13-atk s13-f-salvia-funda s13-t-rot-pt">SEMANA 1 · PÓS-PARTO</text>
+          <image href="assets/forma/rota-divisor-curto-salvia.svg" x="20" y="38" width="44" height="4.8"/>
+          <text x="20" y="60" class="s13-lit s13-f-mar" font-size="9.2">Plano da semana</text>
+          <text class="s13-atk s13-f-grafite" font-size="4.23"><tspan x="20" y="70">Cardápio de exemplo para organizar a rotina com o bebê.</tspan><tspan x="20" y="76.3">Ajustamos juntas na consulta de retorno.</tspan></text>
+          <g class="s13-atk" font-size="4.23">
+            <line x1="20" y1="86" x2="190" y2="86" class="s13-fio"/>
+            <text x="20" y="95" class="s13-f-mar" font-weight="600">Café da manhã</text><text x="20" y="101" class="s13-f-salvia-funda" font-size="3.5">7h30</text>
+            <text class="s13-f-grafite"><tspan x="72" y="95">Iogurte natural com aveia e banana</tspan><tspan x="72" y="101.3">Café com leite</tspan></text>
+            <line x1="20" y1="110" x2="190" y2="110" class="s13-fio"/>
+            <text x="20" y="119" class="s13-f-mar" font-weight="600">Lanche</text><text x="20" y="125" class="s13-f-salvia-funda" font-size="3.5">10h</text>
+            <text x="72" y="119" class="s13-f-grafite">Uma fruta e um punhado de castanhas</text>
+            <line x1="20" y1="134" x2="190" y2="134" class="s13-fio"/>
+            <text x="20" y="143" class="s13-f-mar" font-weight="600">Almoço</text><text x="20" y="149" class="s13-f-salvia-funda" font-size="3.5">12h30</text>
+            <text class="s13-f-grafite"><tspan x="72" y="143">Arroz, feijão, frango e salada colorida</tspan><tspan x="72" y="149.3">Metade do prato com vegetais</tspan></text>
+            <line x1="20" y1="158" x2="190" y2="158" class="s13-fio"/>
+            <text x="20" y="167" class="s13-f-mar" font-weight="600">Lanche</text><text x="20" y="173" class="s13-f-salvia-funda" font-size="3.5">16h</text>
+            <text x="72" y="167" class="s13-f-grafite">Pão integral com queijo branco</text>
+            <line x1="20" y1="182" x2="190" y2="182" class="s13-fio"/>
+            <text x="20" y="191" class="s13-f-mar" font-weight="600">Jantar</text><text x="20" y="197" class="s13-f-salvia-funda" font-size="3.5">19h30</text>
+            <text class="s13-f-grafite"><tspan x="72" y="191">Omelete de legumes e uma fatia de pão</tspan><tspan x="72" y="197.3">Chá sem cafeína, se quiser</tspan></text>
+            <line x1="20" y1="206" x2="190" y2="206" class="s13-fio"/>
+          </g>
+          <rect x="20" y="220" width="170" height="26" rx="3" class="s13-f-bruma"/>
+          <text class="s13-lit-i s13-f-mar" font-size="4.6"><tspan x="27" y="231">Deixe uma garrafa de água perto de onde</tspan><tspan x="27" y="238">você amamenta. Com carinho, Ana</tspan></text>
+          <line x1="20" y1="272" x2="190" y2="272" class="s13-fio"/>
+          <text x="20" y="280" class="s13-atk s13-f-grafite" font-size="3.2">Ana Paula Costa · Nutricionista · CRN-4 em confirmação</text>
+          <text x="190" y="280" text-anchor="end" class="s13-atk s13-f-grafite" font-size="3.2">1 de 2</text>
+        </svg>
+      </div>
+      <figcaption><span class="legenda-titulo">Plano alimentar de exemplo</span><span>Cardápio ilustrativo, só para mostrar a diagramação.</span><span class="medida">A4 · 210 × 297 mm</span></figcaption>
+    </figure>
+
+    <div>
+    <div class="tabela s13-tab-impresso" data-empilha>
+      <table>
+        <thead><tr><th>Nível</th><th>Tamanho</th><th>Fonte</th></tr></thead>
+        <tbody>
+          <tr><td>Título de capa</td><td data-num>28 a 36 pt</td><td>Literata 580</td></tr>
+          <tr><td>Título de página</td><td data-num>24 a 26 pt</td><td>Literata 580</td></tr>
+          <tr><td>Subtítulo</td><td data-num>14 pt</td><td>Atkinson 600 (Literata só a partir de 18 pt)</td></tr>
+          <tr><td>Texto do plano e de materiais</td><td data-num>12 pt, entrelinha 1,5</td><td>Atkinson 400</td></tr>
+          <tr><td>Rótulo</td><td data-num>8,5 a 9 pt</td><td>Atkinson 600, caixa alta, entreletra 14%</td></tr>
+          <tr><td>Rodapé, CRN e notas</td><td data-num>9 pt (mínimo)</td><td>Atkinson 400</td></tr>
+          <tr><td>Cartão de visita 90 × 50 mm</td><td data-num>8,5 pt (mínimo 8)</td><td>Atkinson; o nome vem do arquivo do logotipo</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="s13-nota">1 pt = 0,35 mm. Margem mínima de 15 mm em folha A4.</p>
+    </div>
+  </div>
+
+  <!-- ============ 6. Mínimos ============ -->
+  <h3 id="s13-5">Tamanhos mínimos para ler no celular</h3>
+  <p>A partir dos 40 anos, quase todo mundo passa a ter a vista cansada para perto: as letras pequenas embaçam e a pessoa afasta o celular. Boa parte de quem segue a Ana está nessa fase ou chega a ela em breve. Texto pequeno não é elegante para essa leitora: é texto que ela não lê. Os mínimos abaixo não se negociam.</p>
+
+  <div class="s13-regua largo" role="img" aria-label="Régua de leitura: a mesma frase em 13, 15, 17 e 19 pixels, com o veredito de cada tamanho.">
+    <div class="s13-regua-linha" data-veredito="nao"><span class="s13-regua-px">13 px</span><p style="font-size:13px">Nenhuma mulher é dose única. A sua fase pede um plano seu.</p><span class="s13-regua-tag">Nunca</span></div>
+    <div class="s13-regua-linha" data-veredito="limite"><span class="s13-regua-px">15 px</span><p style="font-size:15px">Nenhuma mulher é dose única. A sua fase pede um plano seu.</p><span class="s13-regua-tag">Só legenda</span></div>
+    <div class="s13-regua-linha" data-veredito="sim"><span class="s13-regua-px">17 px</span><p style="font-size:17px">Nenhuma mulher é dose única. A sua fase pede um plano seu.</p><span class="s13-regua-tag">Texto no celular</span></div>
+    <div class="s13-regua-linha" data-veredito="sim"><span class="s13-regua-px">19 px</span><p style="font-size:19px">Nenhuma mulher é dose única. A sua fase pede um plano seu.</p><span class="s13-regua-tag">Modo 40+</span></div>
+  </div>
+
+  <div class="tabela" data-empilha>
+    <table>
+      <thead><tr><th>Onde</th><th>Mínimo</th><th>Observação</th></tr></thead>
+      <tbody>
+        <tr><td>Texto do site no celular</td><td data-num>17 px (19 px no 40+)</td><td>Nada de texto corrido abaixo disso, nem em rodapé</td></tr>
+        <tr><td>Legenda, nota, rótulo na tela</td><td data-num>14 a 15 px</td><td>Só frases curtas; nunca um parágrafo</td></tr>
+        <tr><td>Literata em qualquer tela</td><td data-num>24 px</td><td>Abaixo disso a serifa fica fina demais: use Atkinson</td></tr>
+        <tr><td>Texto em arte de 1080 px</td><td data-num>32 px</td><td>Chega ao celular com uns 11,5 px; 36 px é o padrão</td></tr>
+        <tr><td>Assinatura e CRN na arte</td><td data-num>28 px</td><td>A única exceção abaixo de 32 px</td></tr>
+        <tr><td>Legenda de vídeo</td><td data-num>56 px</td><td>Em vídeo de 1080 px de largura</td></tr>
+        <tr><td>Impresso</td><td data-num>9 pt (texto 12 pt)</td><td>Cartão de visita: 8 pt</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="faca-nao">
+    <figure class="faca">
+      <div class="faca-palco" data-fundo="pedra">
+        <svg class="s13-mini" viewBox="0 0 1080 1350" role="img" aria-label="Cartão de carrossel correto: título em Literata de 88 pixels e texto de 36 pixels em poucas linhas, legível mesmo reduzido.">
+          <rect width="1080" height="1350" class="s13-f-algodao"/>
+          <text x="80" y="170" class="s13-atk s13-t-rot s13-f-tostado">GESTAÇÃO · 2 DE 6</text>
+          <text class="s13-lit s13-f-mar" font-size="88"><tspan x="80" y="300">Ferro: com ou</tspan><tspan x="80" y="395">sem comida?</tspan></text>
+          <text class="s13-atk s13-f-grafite" font-size="36"><tspan x="80" y="520">Em jejum, o corpo absorve mais.</tspan><tspan x="80" y="568">Mas, se der enjoo, tomar com</tspan><tspan x="80" y="616">uma fruta pode ajudar.</tspan><tspan x="80" y="700">Antes de mudar o horário,</tspan><tspan x="80" y="748">fale com quem te acompanha.</tspan></text>
+          <rect y="1210" width="1080" height="140" class="s13-f-mar"/>
+          <text x="80" y="1292" class="s13-atk s13-f-algodao" font-size="28" font-weight="600">Ana Paula Costa · Nutricionista</text>
+        </svg>
+      </div>
+      <figcaption><strong>Faça</strong>Título de 88 px, texto de 36 px e no máximo cinco linhas por cartão. O que não couber vai para o cartão seguinte.</figcaption>
+    </figure>
+    <figure class="nao-faca" data-exemplo="proibido">
+      <div class="faca-palco" data-fundo="pedra">
+        <svg class="s13-mini" viewBox="0 0 1080 1350" role="img" aria-label="Erro: cartão com título em Literata de 48 pixels e um parágrafo longo em 22 pixels; reduzido, vira uma mancha cinza ilegível.">
+          <rect width="1080" height="1350" class="s13-f-algodao"/>
+          <text x="80" y="170" class="s13-lit s13-f-mar" font-size="48">Ferro: com ou sem comida? Entenda tudo</text>
+          <text class="s13-lit s13-f-grafite" font-size="22"><tspan x="80" y="250">O sulfato ferroso é absorvido em maior quantidade quando ingerido em jejum, porém</tspan><tspan x="80" y="282">muitas gestantes relatam náusea, desconforto gástrico e outros sintomas que acabam</tspan><tspan x="80" y="314">levando ao abandono do suplemento. Uma alternativa é a ingestão junto a alimentos</tspan><tspan x="80" y="346">ricos em vitamina C, como frutas cítricas, o que pode favorecer a absorção. Além</tspan><tspan x="80" y="378">disso, é importante evitar o consumo junto a laticínios, café e chás, que podem</tspan><tspan x="80" y="410">reduzir a absorção do mineral. Converse sempre com o profissional que acompanha</tspan><tspan x="80" y="442">o seu pré-natal antes de qualquer mudança no horário ou na dose do suplemento.</tspan></text>
+          <rect y="1210" width="1080" height="140" class="s13-f-mar"/>
+          <text x="80" y="1290" class="s13-atk s13-f-algodao" font-size="18">Ana Paula Costa · Nutricionista</text>
+        </svg>
+      </div>
+      <figcaption><strong>Não faça</strong>Literata em 22 px e parágrafo inteiro num cartão: no celular vira uma mancha cinza. Assinatura de 18 px some.</figcaption>
+    </figure>
+  </div>
+
+  <style data-fragmento="s13">
+.s13-lit{font-family:var(--fonte-titulo);font-weight:580;font-variation-settings:"opsz" 60}
+.s13-lit-i{font-family:var(--fonte-titulo);font-style:italic;font-weight:560;font-variation-settings:"opsz" 48}
+.s13-atk{font-family:var(--fonte-texto)}
+.s13-ficha-aa.s13-atk{font-weight:400}
+.s13-hier{display:grid;grid-template-columns:minmax(0,560px) minmax(0,300px);gap:clamp(24px,4vw,56px);align-items:start;width:100%;max-width:920px;color:var(--cor-grafite);--titulo:var(--cor-mar);--acento:var(--cor-caramelo-tostado)}
+.s13-hier-pagina{text-align:left}
+.s13-hier-pagina > p{margin:0 0 16px}
+.s13-hier-h1{font:580 var(--texto-h1)/1.1 var(--fonte-titulo);font-variation-settings:"opsz" 72;color:var(--cor-mar);letter-spacing:-.01em;text-wrap:balance}
+.s13-hier-chamada{font-size:clamp(19px,1.6vw,21px);line-height:1.5;color:var(--cor-mar)}
+.s13-hier-corpo{font-size:var(--texto-corpo);line-height:1.65}
+.s13-m{position:relative}
+.s13-m::before{content:attr(data-n);position:absolute;left:-34px;top:.15em;width:22px;height:22px;border-radius:50%;background:var(--cor-mar);color:var(--cor-algodao);font:600 12px/22px var(--fonte-texto);text-align:center;letter-spacing:0}
+.s13-hier-leg{margin:0;padding:0 0 0 1.4em;font-size:15.5px;line-height:1.5;color:var(--cor-grafite)}
+.s13-hier-leg li{margin:0 0 12px}
+.s13-hier-leg li::marker{color:var(--cor-mar);font-weight:600}
+.s13-hier-leg b{display:block;color:var(--cor-mar)}
+.s13-seta{display:inline-block;width:30px;color:var(--cor-algodao);line-height:0}
+.s13-escada{list-style:none;padding:0!important;margin:28px 0;border-top:2px solid var(--titulo)}
+.s13-escada li{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:12px 32px;align-items:baseline;padding:22px 0;border-bottom:1px solid var(--linha);margin:0}
+.s13-escada-amostra{margin:0!important;color:var(--titulo);overflow-wrap:break-word}
+.s13-escada-dados{margin:0!important;font-size:14.5px;line-height:1.5;color:var(--texto-suave)}
+.s13-escada-dados code{white-space:nowrap}
+.s13-escada-dados b{display:block;color:var(--titulo)}
+.s13-e-display{font:580 var(--texto-display)/1.06 var(--fonte-titulo);font-variation-settings:"opsz" 72;letter-spacing:-.005em}
+.s13-e-h1{font:580 var(--texto-h1)/1.1 var(--fonte-titulo);font-variation-settings:"opsz" 72}
+.s13-e-h2{font:580 var(--texto-h2)/1.15 var(--fonte-titulo);font-variation-settings:"opsz" 60}
+.s13-e-h3{font:560 var(--texto-h3)/1.25 var(--fonte-titulo);font-variation-settings:"opsz" 48}
+.s13-e-corpo{font:400 18px/1.65 var(--fonte-texto);color:var(--texto)!important;max-width:36em}
+.s13-e-corpo40{font:400 20px/1.65 var(--fonte-texto);color:var(--texto)!important;max-width:34em}
+.s13-e-legenda{font:400 15px/1.5 var(--fonte-texto);color:var(--texto-suave)!important}
+.s13-e-rotulo{margin:0!important}
+.s13-redes .peca{margin:0}
+.s13-redes .peca-palco{padding:44px 16px 24px}
+.peca-palco .s13-arte{width:100%;max-width:300px;height:auto;border-radius:6px;box-shadow:var(--sombra-suave)}
+.peca-palco .s13-video{width:100%;max-width:270px;height:auto;border-radius:6px}
+.faca-palco .s13-mini{width:100%;max-width:280px;height:auto;border-radius:4px;box-shadow:var(--sombra-suave)}
+.peca-palco .s13-folha{width:100%;max-width:380px;height:auto;box-shadow:var(--sombra-cartao)}
+.s13-f-algodao{fill:var(--cor-algodao)}.s13-f-mar{fill:var(--cor-mar)}.s13-f-pedra{fill:var(--cor-pedra)}.s13-f-bruma{fill:var(--cor-bruma)}.s13-f-salvia{fill:var(--cor-salvia)}.s13-f-salvia-funda{fill:var(--cor-salvia-funda)}.s13-f-tostado{fill:var(--cor-caramelo-tostado)}.s13-f-grafite{fill:var(--cor-grafite)}.s13-f-ouro{fill:var(--cor-ouro-velho)}
+.s13-t-rot{font-size:26px;font-weight:600;letter-spacing:3.6px}
+.s13-t-rot-pt{font-size:3px;font-weight:600;letter-spacing:.42px}
+.s13-t-guia{font-size:24px;font-weight:600}
+.s13-t-guia:not(.s13-f-algodao){fill:var(--cor-salvia-funda)}
+.s13-zona{fill:none;stroke:var(--cor-salvia-funda);stroke-width:3;stroke-dasharray:14 10}
+.s13-zona--clara{stroke:var(--cor-ouro-velho)}
+.s13-faixa-rede{fill:var(--cor-mar);opacity:.38}
+.s13-fio{stroke:var(--cor-pedra);stroke-width:.35}
+.s13-impresso{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:clamp(20px,3vw,40px);align-items:start;margin:28px 0}
+.s13-impresso .peca,.s13-impresso .tabela{margin:0}
+.s13-regua{margin:28px 0;border-top:2px solid var(--titulo)}
+.s13-regua-linha{display:grid;grid-template-columns:64px minmax(0,1fr) 140px;gap:8px 20px;align-items:center;padding:14px 0;border-bottom:1px solid var(--linha)}
+.s13-regua-linha p{margin:0!important;line-height:1.45;color:var(--texto)}
+.s13-regua-px{font:580 22px/1 var(--fonte-titulo);color:var(--titulo)}
+.s13-regua-tag{justify-self:end;padding:5px 12px;border-radius:999px;font:600 13px/1.2 var(--fonte-texto);background:var(--cor-salvia-funda);color:var(--cor-algodao);text-align:center}
+.s13-regua-linha[data-veredito="nao"] .s13-regua-tag{background:transparent;color:var(--acento);box-shadow:inset 0 0 0 1.5px var(--acento)}
+.s13-regua-linha[data-veredito="limite"] .s13-regua-tag{background:var(--superficie);color:var(--titulo)}
+@media (max-width:860px){.s13-hier,.s13-impresso{grid-template-columns:1fr}.s13-escada li{grid-template-columns:1fr}}
+@media (max-width:760px){.s13-hier{padding-top:28px}.s13-hier-pagina{padding-left:36px}.s13-m::before{left:-36px;top:.1em}.s13-regua-linha{grid-template-columns:52px minmax(0,1fr)}.s13-regua-tag{grid-column:2;justify-self:start}.s13-redes .peca-palco .s13-arte{max-width:260px}}
+@media print{.s13-escada li,.s13-regua-linha,.s13-impresso{break-inside:avoid}.peca-palco .s13-folha{max-width:300px}.peca-palco .s13-arte,.peca-palco .s13-video,.faca-palco .s13-mini{max-width:200px}}
+.s13-nota{font-size:14.5px;line-height:1.5;color:var(--texto-suave);margin:-16px 0 28px!important}
+.s13-impresso .s13-nota{margin:10px 0 0!important}
+.s13-video .s13-t-guia{font-size:44px}
+  </style>
+</section>

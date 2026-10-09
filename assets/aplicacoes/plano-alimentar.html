@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR" data-fase="pos-parto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plano alimentar · modelo A4</title>
+<link rel="stylesheet" href="../../tokens.css">
+<style>
+  @page{size:A4;margin:0}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--cor-pedra);color:var(--cor-grafite);font:400 15px/1.55 var(--fonte-texto)}
+  .aviso{max-width:210mm;margin:16px auto;padding:0 16px;font-size:14px;color:var(--cor-mar)}
+  .folha{width:min(210mm,100%);min-height:297mm;margin:0 auto 24px;background:var(--cor-algodao);padding:16mm 15mm 14mm;display:flex;flex-direction:column}
+  .topo{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .topo img{width:46mm;height:auto}
+  .fase{border-radius:999px;background:var(--cor-pedra);color:var(--cor-mar);font-weight:600;font-size:12px;padding:5px 12px}
+  h1{font:580 30px/1.1 var(--fonte-titulo);color:var(--cor-mar);margin:12mm 0 2mm}
+  .meta{font-size:13px;color:var(--cor-grafite);margin:0}
+  .rota{width:80mm;margin:6mm 0 4mm}
+  table{width:100%;border-collapse:collapse}
+  th{text-align:left;width:34%;padding:10px 12px 10px 0;font-weight:600;color:var(--cor-mar);vertical-align:top;border-bottom:1px solid var(--cor-pedra)}
+  th::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--cor-salvia-funda);margin-right:9px;vertical-align:.1em}
+  td{padding:10px 0;border-bottom:1px solid var(--cor-pedra)}
+  [contenteditable]:focus{outline:2px solid var(--cor-salvia-funda);outline-offset:2px;border-radius:4px}
+  .recado{margin-top:7mm;background:var(--cor-bruma);color:var(--cor-mar);border-radius:10px;padding:12px 14px;font-size:14px}
+  .rodape{margin-top:auto;padding-top:8mm;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:11.5px;color:var(--cor-grafite)}
+  @media print{body{background:none}.aviso{display:none}.folha{margin:0;width:210mm;height:297mm}}
+</style>
+</head>
+<body>
+<p class="aviso"><strong>Modelo editável.</strong> Clique nos textos para trocar. Depois, Imprimir, em A4, sem margens, com gráficos de fundo ligados. Plano alimentar individual só sai da consulta; para material de muitas pessoas, use a palavra "exemplo" no título.</p>
+<main class="folha">
+  <div class="topo">
+    <img src="../marca/svg/logo-horizontal-reduzida-cor.svg" alt="Ana Paula Costa" width="174" height="26">
+    <span class="fase" contenteditable="true">Fase: pós-parto</span>
+  </div>
+  <h1 contenteditable="true">Plano alimentar</h1>
+  <p class="meta" contenteditable="true">Paciente: nome · Semana 1 · revisão em 15 dias</p>
+  <img class="rota" src="../forma/rota-divisor-salvia.svg" alt="" width="302" height="16">
+  <table>
+    <tbody>
+      <tr><th contenteditable="true">Café da manhã</th><td contenteditable="true">Pão integral com ovo mexido · mamão · café com leite</td></tr>
+      <tr><th contenteditable="true">Lanche</th><td contenteditable="true">Iogurte natural com aveia e banana</td></tr>
+      <tr><th contenteditable="true">Almoço</th><td contenteditable="true">Arroz, feijão, frango grelhado, salada colorida e azeite</td></tr>
+      <tr><th contenteditable="true">Lanche da tarde</th><td contenteditable="true">Fruta e um punhado de castanhas</td></tr>
+      <tr><th contenteditable="true">Jantar</th><td contenteditable="true">Omelete de legumes · salada · batata-doce</td></tr>
+    </tbody>
+  </table>
+  <p class="recado" contenteditable="true"><strong>Recado da Ana:</strong> café e bolo no fim de semana estão liberados. Constância vence perfeição.</p>
+  <div class="rodape">
+    <span contenteditable="true">Ana Paula Costa · Nutricionista · CRN-4 em confirmação</span>
+    <span contenteditable="true">Página 1 de 2</span>
+  </div>
+</main>
+</body>
+</html>

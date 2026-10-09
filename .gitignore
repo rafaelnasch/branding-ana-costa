@@ -1,0 +1,49 @@
+# Repositório PÚBLICO (GitHub Pages). Nada interno entra aqui.
+
+# Lista de termos proibidos: cita nomes do time e valores internos, então fica só na máquina
+tools/termos-proibidos.txt
+
+# Conferências, capturas e prévias
+_qa/
+_previa*.html
+assets/fotos/_folha.jpg
+
+
+# Sistema, editores, dependências
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.claude/
+.codex/
+.vscode/
+.idea/
+.env
+.env.*
+*.zip
+
+# Caminhos locais das fontes de verdade (pastas internas de trabalho)
+tools/origens.local.json
+
+# Pacote da skill para claude.ai e ChatGPT (gerado por tools/empacotar_skill.py; sobe como anexo, não no repositório)
+dist-skill/
+
+# Pacote do Drive é montado fora do repositório (tools/montar_pacote_drive.py)
+
+# P3 · autorização de uso das fotos ainda aberta. Fotos da Ana e tudo que mostra o rosto dela
+# ficam fora do repositório público até a autorização por escrito. No endereço publicado, cada
+# foto vira a moldura "foto da Ana · autorização em confirmação". As peças de redes com foto
+# estão listadas em assets/redes/.gitignore (gerado por tools/exportar_redes.py).
+# Quando a P3 fechar: apague este bloco e o assets/redes/.gitignore e faça o commit dos arquivos.
+assets/fotos/640/
+assets/fotos/1600/
+assets/aplicacoes/site/
+assets/referencia/
+assets/producao/legenda/legenda-referencia*
+assets/producao/cor/previa-antes-depois.jpg
+assets/producao/zona-segura/previa-zona-segura.jpg
+
+# Andaime de produção do manual (o conteúdo está nos fragmentos sNN)
+_fragmentos/MODELO-SECAO.md

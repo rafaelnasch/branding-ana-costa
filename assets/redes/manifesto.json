@@ -1,0 +1,461 @@
+{
+ "gerado_por": "tools/exportar_redes.py",
+ "arquivos": [
+  {
+   "arquivo": "ana-costa_citacao_pos-parto_1080x1350.png",
+   "nome": "Post de citação",
+   "modelo": "citacao",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_carrossel-01_gestacao_1080x1350.png",
+   "nome": "Carrossel · capa",
+   "modelo": "car-capa",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_carrossel-02_gestacao_1080x1350.png",
+   "nome": "Carrossel · miolo",
+   "modelo": "car-miolo",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_carrossel-07_gestacao_1080x1350.png",
+   "nome": "Carrossel · fim",
+   "modelo": "car-fim",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_levo_pos-parto_1080x1350.png",
+   "nome": "Levo ou Deixo",
+   "modelo": "levo",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_peco_pos-parto_1080x1350.png",
+   "nome": "Peço ou Não Peço",
+   "modelo": "peco",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_isso_gestacao_1080x1350.png",
+   "nome": "Isso ou Aquilo",
+   "modelo": "isso",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_casos_pos-parto_1080x1350.png",
+   "nome": "Casos de consultório",
+   "modelo": "casos",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_coisas_gestacao_1080x1350.png",
+   "nome": "Coisas que eu falo sendo nutri",
+   "modelo": "coisas",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_receita_pos-parto_1080x1350.png",
+   "nome": "Receita",
+   "modelo": "receita",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_boas-vindas_gestacao_1080x1350.png",
+   "nome": "Boas-vindas da Comunidade",
+   "modelo": "boas-vindas",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_anuncio-4x5_gestacao_1080x1350.png",
+   "nome": "Anúncio do feed",
+   "modelo": "anuncio-4x5",
+   "largura": 1080,
+   "altura": 1350,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_grade-3x4_pos-parto_1080x1440.png",
+   "nome": "Post só para a grade (3:4)",
+   "modelo": "grade-3x4",
+   "largura": 1080,
+   "altura": 1440,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_story-enquete_pos-parto_1080x1920.png",
+   "nome": "Story · enquete de fase",
+   "modelo": "story-enquete",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_story-caixinha_pos-parto_1080x1920.png",
+   "nome": "Story · caixinha de pergunta",
+   "modelo": "story-caixinha",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_story-cta_pos-parto_1080x1920.png",
+   "nome": "Story · convite para a consulta",
+   "modelo": "story-cta",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_reels_pos-parto_1080x1920.png",
+   "nome": "Capa de Reels e TikTok",
+   "modelo": "reels",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_destaque-comece-aqui_1080x1920.png",
+   "nome": "Capas dos destaques · Comece aqui",
+   "modelo": "destaque",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-consulta_1080x1920.png",
+   "nome": "Capas dos destaques · Consulta",
+   "modelo": "destaque",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-comunidade_1080x1920.png",
+   "nome": "Capas dos destaques · Comunidade",
+   "modelo": "destaque",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-gestacao_1080x1920.png",
+   "nome": "Capas dos destaques · Gestação",
+   "modelo": "destaque",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-pos-parto_1080x1920.png",
+   "nome": "Capas dos destaques · Pós-parto",
+   "modelo": "destaque",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-40-mais_1080x1920.png",
+   "nome": "Capas dos destaques · 40+",
+   "modelo": "destaque",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-receitas_1080x1920.png",
+   "nome": "Capas dos destaques · Receitas",
+   "modelo": "destaque",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-depoimentos_1080x1920.png",
+   "nome": "Capas dos destaques · Depoimentos",
+   "modelo": "destaque",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_status_pos-parto_1080x1920.png",
+   "nome": "Status do WhatsApp",
+   "modelo": "status",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_anuncio-9x16_gestacao_1080x1920.png",
+   "nome": "Anúncio vertical",
+   "modelo": "anuncio-9x16",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_live-ana_pos-parto_1080x1920.png",
+   "nome": "Capa de live e de encontro · Live da Ana",
+   "modelo": "live",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_live-comunidade_pos-parto_1080x1920.png",
+   "nome": "Capa de live e de encontro · Encontro da Comunidade",
+   "modelo": "live",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_destaque-story-comece-aqui_pos-parto_1080x1920.png",
+   "nome": "Stories dos destaques · Comece aqui",
+   "modelo": "destaque-story",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-story-consulta_pos-parto_1080x1920.png",
+   "nome": "Stories dos destaques · Consulta",
+   "modelo": "destaque-story",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-story-comunidade_pos-parto_1080x1920.png",
+   "nome": "Stories dos destaques · Comunidade",
+   "modelo": "destaque-story",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-story-gestacao_gestacao_1080x1920.png",
+   "nome": "Stories dos destaques · Gestação",
+   "modelo": "destaque-story",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-story-pos-parto_pos-parto_1080x1920.png",
+   "nome": "Stories dos destaques · Pós-parto",
+   "modelo": "destaque-story",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-story-40-mais_40-mais_1080x1920.png",
+   "nome": "Stories dos destaques · 40+",
+   "modelo": "destaque-story",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-story-receitas_pos-parto_1080x1920.png",
+   "nome": "Stories dos destaques · Receitas",
+   "modelo": "destaque-story",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_destaque-story-depoimentos_pos-parto_1080x1920.png",
+   "nome": "Stories dos destaques · Depoimentos",
+   "modelo": "destaque-story",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_story-semana_1080x1920.png",
+   "nome": "Story · Semana Bem Nutrida",
+   "modelo": "story-semana",
+   "largura": 1080,
+   "altura": 1920,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_thumb_gestacao_1280x720.png",
+   "nome": "Miniatura do YouTube",
+   "modelo": "thumb",
+   "largura": 1280,
+   "altura": 720,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_banner_pos-parto_2560x1440.png",
+   "nome": "Banner do canal",
+   "modelo": "banner",
+   "largura": 2560,
+   "altura": 1440,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_facebook_pos-parto_851x315.png",
+   "nome": "Capa do Facebook",
+   "modelo": "facebook",
+   "largura": 851,
+   "altura": 315,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_linkedin_pos-parto_1584x396.png",
+   "nome": "Capa do LinkedIn",
+   "modelo": "linkedin",
+   "largura": 1584,
+   "altura": 396,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_pin_pos-parto_1000x1500.png",
+   "nome": "Pin do Pinterest",
+   "modelo": "pin",
+   "largura": 1000,
+   "altura": 1500,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_live-16x9-ana_pos-parto_1920x1080.png",
+   "nome": "Capa de live (horizontal) · Live da Ana",
+   "modelo": "live-16x9",
+   "largura": 1920,
+   "altura": 1080,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_live-16x9-comunidade_pos-parto_1920x1080.png",
+   "nome": "Capa de live (horizontal) · Encontro da Comunidade",
+   "modelo": "live-16x9",
+   "largura": 1920,
+   "altura": 1080,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_catalogo-whatsapp-semana_1080x1080.png",
+   "nome": "Item do catálogo do WhatsApp · Semana Bem Nutrida",
+   "modelo": "catalogo-whatsapp",
+   "largura": 1080,
+   "altura": 1080,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_catalogo-whatsapp-comunidade_1080x1080.png",
+   "nome": "Item do catálogo do WhatsApp · Comunidade Bem Nutrida",
+   "modelo": "catalogo-whatsapp",
+   "largura": 1080,
+   "altura": 1080,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_catalogo-whatsapp-avaliacao_1080x1080.png",
+   "nome": "Item do catálogo do WhatsApp · Avaliação da Fase",
+   "modelo": "catalogo-whatsapp",
+   "largura": 1080,
+   "altura": 1080,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_catalogo-whatsapp-acompanhamento_1080x1080.png",
+   "nome": "Item do catálogo do WhatsApp · Acompanhamento 90 dias",
+   "modelo": "catalogo-whatsapp",
+   "largura": 1080,
+   "altura": 1080,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_linkedin-post_pos-parto_1200x627.png",
+   "nome": "Post do LinkedIn",
+   "modelo": "linkedin-post",
+   "largura": 1200,
+   "altura": 627,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_email-cabecalho_pos-parto_1200x400.png",
+   "nome": "Cabeçalho de e-mail",
+   "modelo": "email-cabecalho",
+   "largura": 1200,
+   "altura": 400,
+   "foto": false
+  },
+  {
+   "arquivo": "ana-costa_perfil-rosto_pos-parto_1080x1080.png",
+   "nome": "Foto de perfil · Rosto da Ana",
+   "modelo": "perfil",
+   "largura": 1080,
+   "altura": 1080,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_perfil-rosto_pos-parto_800x800.png",
+   "nome": "Foto de perfil · Rosto da Ana · 800 px",
+   "modelo": "perfil",
+   "largura": 800,
+   "altura": 800,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_perfil-rosto_pos-parto_720x720.png",
+   "nome": "Foto de perfil · Rosto da Ana · 720 px",
+   "modelo": "perfil",
+   "largura": 720,
+   "altura": 720,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_perfil-rosto_pos-parto_640x640.png",
+   "nome": "Foto de perfil · Rosto da Ana · 640 px",
+   "modelo": "perfil",
+   "largura": 640,
+   "altura": 640,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_perfil-rosto_pos-parto_400x400.png",
+   "nome": "Foto de perfil · Rosto da Ana · 400 px",
+   "modelo": "perfil",
+   "largura": 400,
+   "altura": 400,
+   "foto": true
+  },
+  {
+   "arquivo": "ana-costa_perfil-simbolo_pos-parto_1080x1080.png",
+   "nome": "Foto de perfil · Símbolo (grupo e comunidade)",
+   "modelo": "perfil",
+   "largura": 1080,
+   "altura": 1080,
+   "foto": false
+  }
+ ]
+}

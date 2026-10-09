@@ -1,0 +1,57 @@
+/* Gerado por tools/sync_marca.py a partir da marca-final. Não edite aqui: edite na origem e rode o script. */
+/* Ana Paula Costa · Nutricionista — sistema Rota ap. · tokens v1.2 (out/2026) */
+@font-face{font-family:'Literata';src:url('assets/fontes/web/literata-var.woff2') format('woff2'),url('assets/fontes/Literata[opsz,wght].ttf') format('truetype');font-weight:200 900;font-display:swap}
+@font-face{font-family:'Literata';src:url('assets/fontes/web/literata-italic-var.woff2') format('woff2'),url('assets/fontes/Literata-Italic[opsz,wght].ttf') format('truetype');font-weight:200 900;font-style:italic;font-display:swap}
+@font-face{font-family:'Atkinson Hyperlegible Next';src:url('assets/fontes/web/atkinson-next-var.woff2') format('woff2'),url('assets/fontes/AtkinsonHyperlegibleNext[wght].ttf') format('truetype');font-weight:200 800;font-display:swap}
+@font-face{font-family:'Atkinson Hyperlegible Next';src:url('assets/fontes/web/atkinson-next-italic-var.woff2') format('woff2'),url('assets/fontes/AtkinsonHyperlegibleNext-Italic[wght].ttf') format('truetype');font-weight:200 800;font-style:italic;font-display:swap}
+/* algarismos com zero aberto: a Atkinson só tem zero cortado (4Ø+). Só 0-9 vêm da Literata */
+@font-face{font-family:'Ana Numerais';src:url('assets/fontes/web/literata-var.woff2') format('woff2'),url('assets/fontes/Literata[opsz,wght].ttf') format('truetype');font-weight:200 900;font-display:swap;unicode-range:U+0030-0039}
+:root{
+  --cor-salvia:#63AF9C; /* Sálvia Ana · rgb(99,175,156) */
+  --cor-algodao:#F2F0EB; /* Algodão · rgb(242,240,235) */
+  --cor-bruma:#D8ECE5; /* Bruma · rgb(216,236,229) */
+  --cor-mar:#103A40; /* Mar Fundo · rgb(16,58,64) */
+  --cor-salvia-funda:#2F6E60; /* Sálvia Funda · rgb(47,110,96) */
+  --cor-pedra:#E4E0D8; /* Pedra · rgb(228,224,216) */
+  --cor-caramelo:#C99A68; /* Caramelo · rgb(201,154,104) */
+  --cor-caramelo-tostado:#8A5A2E; /* Caramelo Tostado · rgb(138,90,46) */
+  --cor-ouro-velho:#C9B583; /* Ouro Velho · rgb(201,181,131) */
+  --cor-grafite:#2B2724; /* Grafite Quente · rgb(43,39,36) */
+  --cor-salvia-clara:#A9D3C6; /* Sálvia Clara (derivada) · rgb(169,211,198) */
+  --cor-mar-medio:#2A5C63; /* Mar Médio (derivada) · rgb(42,92,99) */
+  --cor-mar-superficie:#17464D; /* Mar Superfície (derivada) · rgb(23,70,77) */
+  --fonte-titulo:'Literata',Georgia,serif;
+  --fonte-texto:'Ana Numerais','Atkinson Hyperlegible Next',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --peso-titulo:580; --opsz-titulo:60;
+  --texto-display:clamp(44px,6.2vw,72px); --texto-h1:clamp(36px,4.6vw,52px); --texto-h2:clamp(29px,3.4vw,38px); --texto-h3:clamp(22px,2.2vw,26px);
+  --texto-corpo:18px; --texto-botao:17px; --texto-rotulo:14px; --texto-legenda:15px; --entrelinha-corpo:1.65; --tracking-rotulo:.14em;
+  --esp-1:4px; --esp-2:8px; --esp-3:12px; --esp-4:16px; --esp-5:24px; --esp-6:32px; --esp-7:48px; --esp-8:64px; --esp-9:96px; --esp-10:128px;
+  --raio-p:8px; --raio-m:14px; --raio-g:24px; --raio-pilula:999px;
+  --sombra-suave:0 1px 2px rgba(16,58,64,.06),0 6px 18px rgba(16,58,64,.08);
+  --sombra-cartao:0 2px 4px rgba(16,58,64,.06),0 14px 36px rgba(16,58,64,.10);
+  --mare:cubic-bezier(.33,0,.15,1); --t-rapido:160ms; --t-base:240ms; --t-entrada:480ms; --t-traco:1200ms;
+  /* modo ativo (padrão = pós-parto/morno) */
+  --fundo:var(--cor-algodao); --superficie:var(--cor-pedra); --texto:var(--cor-grafite); --titulo:var(--cor-mar); --acento:var(--cor-caramelo-tostado); --ponto:var(--cor-caramelo);
+}
+@media (max-width:640px){:root{--texto-corpo:17px}}
+[data-fase="gestacao"]{--fundo:var(--cor-bruma); --superficie:var(--cor-algodao); --titulo:var(--cor-mar); --acento:var(--cor-salvia-funda); --ponto:var(--cor-salvia-funda)}
+[data-fase="pos-parto"]{--fundo:var(--cor-algodao); --superficie:var(--cor-pedra); --titulo:var(--cor-mar); --acento:var(--cor-caramelo-tostado); --ponto:var(--cor-caramelo)}
+[data-fase="40-mais"]{--fundo:var(--cor-mar); --superficie:var(--cor-mar-superficie); --texto:var(--cor-algodao); --titulo:var(--cor-algodao); --acento:var(--cor-ouro-velho); --ponto:var(--cor-ouro-velho); --texto-corpo:20px}
+@media (max-width:640px){[data-fase="40-mais"]{--texto-corpo:19px}}
+
+body{background:var(--fundo);color:var(--texto);font:400 var(--texto-corpo)/var(--entrelinha-corpo) var(--fonte-texto)}
+h1,h2,h3,.display{font-family:var(--fonte-titulo);font-weight:var(--peso-titulo);font-variation-settings:'opsz' var(--opsz-titulo);color:var(--titulo);letter-spacing:-.005em}
+.rotulo{font:600 var(--texto-rotulo)/1.3 var(--fonte-texto);letter-spacing:var(--tracking-rotulo);text-transform:uppercase;color:var(--acento)}
+.botao{display:inline-flex;align-items:center;gap:.6em;min-height:48px;padding:0 1.4em;border-radius:var(--raio-pilula);background:var(--cor-salvia-funda);color:var(--cor-algodao);font:600 var(--texto-botao)/1.2 var(--fonte-texto);text-decoration:none;transition:background var(--t-base) var(--mare)}
+.botao:hover{background:var(--cor-mar)}
+/* modo 40+: o botão Sálvia Funda sumiria sobre o Mar Fundo (2,1:1); vira Ouro Velho com texto Mar Fundo (6,1:1) */
+[data-fase="40-mais"] .botao{background:var(--cor-ouro-velho);color:var(--cor-mar)}
+[data-fase="40-mais"] .botao:hover{background:var(--cor-algodao)}
+/* rótulo de fase com número (40+): Literata, zero aberto */
+.num-fase{font-family:var(--fonte-titulo);font-weight:600;font-variant-numeric:lining-nums}
+/* forma-assinatura: a rota (use o SVG de forma-assinatura/ ou este traço simples) */
+.rota{display:block;width:100%;height:28px;background:no-repeat left center/100% 100% url("assets/forma/rota-divisor.svg")}
+.ponto{display:inline-block;width:.42em;height:.42em;border-radius:50%;background:var(--ponto)}
+.moldura-arco{border-radius:999px 999px var(--raio-m) var(--raio-m);overflow:hidden}
+@keyframes rota-desenha{from{stroke-dashoffset:var(--comprimento,800)}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}

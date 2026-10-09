@@ -1,0 +1,1829 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kit de redes · Ana Paula Costa</title>
+<meta name="description" content="Editor dos modelos de redes sociais da nutricionista Ana Paula Costa em tamanho real: texto editável, fotos do acervo, modo por fase, zonas seguras e exportação em PNG na resolução de cada rede.">
+<meta name="theme-color" content="#63AF9C">
+<meta property="og:title" content="Kit de redes · Ana Paula Costa, Nutricionista">
+<meta property="og:description" content="Os modelos de post, carrossel, story, capa e banner do sistema Rota ap., prontos para editar e baixar.">
+<meta property="og:image" content="assets/marca/og/og-image-1200x630.png">
+<link rel="icon" href="assets/marca/favicon/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/marca/favicon/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/marca/favicon/favicon-180-apple-touch.png">
+<link rel="preload" href="assets/fontes/web/literata-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fontes/web/atkinson-next-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="tokens.css">
+<style>
+/* =====================================================================
+   Kit de redes · sistema Rota ap.
+   Valores de cor, fonte e movimento: tokens.css (gerado pela marca-final).
+   Peça em tamanho real (px nativos) dentro de .ks-zoom, que só escala na tela.
+   A exportação fotografa .pc, que não tem transformação, na resolução nativa.
+   Prefixos: ks- (página), pc- (peça), m- (composição de um modelo).
+   ===================================================================== */
+:root{
+  --linha:color-mix(in srgb,var(--cor-mar) 14%,transparent);
+  --linha-forte:color-mix(in srgb,var(--cor-mar) 28%,transparent);
+  --suave:color-mix(in srgb,var(--cor-grafite) 78%,var(--cor-algodao));
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;background:var(--cor-algodao)}
+body.ks{margin:0;background:var(--cor-algodao);color:var(--cor-grafite);font:400 17px/1.6 var(--fonte-texto);-webkit-font-smoothing:antialiased}
+[hidden]{display:none!important}
+.ks a{color:var(--cor-caramelo-tostado);text-underline-offset:.18em;text-decoration-thickness:1px}
+.ks a:hover{text-decoration-thickness:2px}
+.ks :focus-visible{outline:3px solid var(--cor-salvia-funda);outline-offset:3px;border-radius:6px}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.pular{position:absolute;left:12px;top:-60px;z-index:100;background:var(--cor-mar);color:var(--cor-algodao)!important;padding:10px 16px;border-radius:999px;font-weight:600;text-decoration:none}
+.pular:focus{top:12px}
+.ks-ic{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.rotulo-ks{margin:0 0 10px;font:600 13px/1.3 var(--fonte-texto);letter-spacing:.14em;text-transform:uppercase;color:var(--cor-caramelo-tostado)}
+
+/* ---------- topo ---------- */
+.ks-topo{position:sticky;top:0;z-index:40;background:color-mix(in srgb,var(--cor-algodao) 94%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--linha)}
+.ks-topo-in{max-width:1480px;margin:0 auto;display:flex;align-items:center;gap:16px;min-height:64px;padding:0 clamp(16px,3vw,32px)}
+.ks-topo .ks-logo{display:block;height:30px;width:auto}
+.ks-topo .ks-sep{width:1px;height:26px;background:var(--linha-forte);flex:none}
+.ks-topo .ks-nome{margin:0;font:600 15px/1.2 var(--fonte-texto);color:var(--cor-mar);white-space:nowrap}
+.ks-topo nav{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
+.ks-topo nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;border-radius:999px;color:var(--cor-mar);text-decoration:none;font:600 15px/1 var(--fonte-texto)}
+.ks-topo nav a:hover{background:var(--cor-pedra)}
+
+/* ---------- abertura ---------- */
+.ks-livro{max-width:1480px;margin:0 auto;padding:clamp(32px,5vw,64px) clamp(16px,3vw,32px) 96px}
+.ks-intro{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:24px 64px;align-items:end}
+.ks-intro h1{margin:0;font-family:var(--fonte-titulo);font-weight:580;font-variation-settings:'opsz' 72;font-size:clamp(40px,5.6vw,68px);line-height:1.04;letter-spacing:-.01em;color:var(--cor-mar)}
+.ks-intro h1 em{font-style:italic;font-weight:480;color:var(--cor-salvia-funda)}
+.ks-intro .ks-apoio{margin:0;max-width:58ch;font-size:18px;line-height:1.65}
+.ks-intro .ks-apoio b{color:var(--cor-mar);font-weight:600}
+.ks-aviso{margin:28px 0 0;display:flex;gap:14px;align-items:flex-start;padding:16px 20px;border-radius:14px;background:var(--cor-pedra);font-size:16px;line-height:1.55;max-width:1100px}
+.ks-aviso .ponto-k{flex:none;width:10px;height:10px;border-radius:50%;background:var(--cor-caramelo);margin-top:8px}
+.pendente{display:inline;white-space:nowrap;padding:.05em .45em;border-radius:999px;background:var(--cor-bruma);color:var(--cor-mar);font-weight:600}
+.pendente::after{content:" [P" attr(data-p) "]";font-weight:500;color:var(--cor-salvia-funda)}
+
+/* ---------- editor ---------- */
+.ks-editor{display:grid;grid-template-columns:248px minmax(0,1fr) 380px;gap:24px;align-items:start;margin-top:40px;padding-top:28px;border-top:1px solid var(--linha)}
+.ks-modelos{position:sticky;top:84px;max-height:calc(100vh - 100px);overflow:auto;padding-right:4px}
+.ks-grupo{margin:0 0 18px}
+.ks-grupo h2{margin:0 0 6px;font:600 12px/1.3 var(--fonte-texto);letter-spacing:.14em;text-transform:uppercase;color:var(--cor-caramelo-tostado)}
+.ks-grupo ol{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.ks-mod{display:flex;flex-direction:column;align-items:flex-start;width:100%;min-height:48px;padding:8px 12px;border:0;border-radius:10px;background:none;color:var(--cor-mar);font:600 15px/1.25 var(--fonte-texto);text-align:left;cursor:pointer}
+.ks-mod small{font:400 13px/1.3 var(--fonte-texto);color:var(--suave)}
+.ks-mod:hover{background:var(--cor-pedra)}
+.ks-mod[aria-current="true"]{background:var(--cor-mar);color:var(--cor-algodao)}
+.ks-mod[aria-current="true"] small{color:var(--cor-salvia-clara)}
+.ks-campo.ks-sel-cel{display:none}
+
+.ks-palco{min-width:0}
+.ks-barra{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin:0 0 14px}
+.ks-barra h2{margin:0;font-family:var(--fonte-titulo);font-weight:580;font-variation-settings:'opsz' 48;font-size:28px;line-height:1.15;color:var(--cor-mar)}
+.ks-barra .ks-medida{font:600 14px/1 var(--fonte-texto);color:var(--suave);padding:8px 10px;border-radius:999px;background:var(--cor-pedra)}
+.ks-host{display:flex;justify-content:center;align-items:flex-start;padding:24px;border-radius:24px;background:repeating-conic-gradient(color-mix(in srgb,var(--cor-pedra) 70%,var(--cor-algodao)) 0 25%,var(--cor-algodao) 0 50%) 0 0/24px 24px;border:1px solid var(--linha);min-height:240px;overflow:hidden}
+.ks-escala{position:relative;flex:none;box-shadow:var(--sombra-cartao);border-radius:4px;overflow:hidden}
+.ks-zoom{position:absolute;left:0;top:0;transform-origin:0 0}
+.ks-dica{margin:12px 0 0;font-size:15px;color:var(--suave)}
+.ks-legenda{display:flex;flex-wrap:wrap;gap:8px 16px;margin:10px 0 0;padding:0;list-style:none;font-size:14px;color:var(--suave)}
+.ks-legenda li{display:flex;align-items:center;gap:8px}
+.ks-legenda i{display:inline-block;width:22px;height:14px;border-radius:3px}
+.ks-legenda .l-livre{background:repeating-linear-gradient(45deg,rgba(16,58,64,.5) 0 3px,rgba(16,58,64,.18) 3px 7px)}
+.ks-legenda .l-util{border:2px dashed #2F6E60}
+.ks-legenda .l-corte{border:2px dashed #8A5A2E}
+.ks-legenda .l-fig{background:rgba(242,240,235,.7);border:2px dotted #103A40}
+
+.ks-painel{display:grid;gap:16px;min-width:0}
+.ks-caixa{padding:18px;border-radius:18px;background:var(--cor-pedra);border:1px solid var(--linha)}
+.ks-caixa h2{margin:0 0 12px;font:600 13px/1.3 var(--fonte-texto);letter-spacing:.14em;text-transform:uppercase;color:var(--cor-caramelo-tostado)}
+.ks-seg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.ks-seg button{min-height:48px;padding:6px 8px;border:1px solid var(--linha-forte);border-radius:12px;background:var(--cor-algodao);color:var(--cor-mar);font:600 15px/1.2 var(--fonte-texto);cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px}
+.ks-seg button{white-space:nowrap}
+.ks-seg button i{width:12px;height:12px;border-radius:50%;flex:none;border:1px solid rgba(16,58,64,.25)}
+.ks-seg button[aria-pressed="true"]{background:var(--cor-mar);color:var(--cor-algodao);border-color:var(--cor-mar)}
+.ks-seg button:disabled{opacity:.38;cursor:not-allowed}
+.ks-campo{display:grid;gap:6px;margin:0 0 14px}
+.ks-campo:last-child{margin-bottom:0}
+.ks-campo label,.ks-campo .ks-lab{font:600 15px/1.3 var(--fonte-texto);color:var(--cor-mar)}
+.ks-campo input[type=text],.ks-campo input[type=number],.ks-campo textarea,.ks-campo select{width:100%;min-height:46px;padding:10px 12px;border:1px solid var(--linha-forte);border-radius:10px;background:var(--cor-algodao);color:var(--cor-grafite);font:400 16px/1.45 var(--fonte-texto)}
+.ks-campo textarea{min-height:92px;resize:vertical}
+.ks-campo .ks-conta{font-size:13px;color:var(--suave)}
+.ks-campo .ks-conta[data-estado="alto"]{color:var(--cor-caramelo-tostado);font-weight:600}
+.ks-fotos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.ks-fotos button{position:relative;padding:0;border:2px solid transparent;border-radius:10px;overflow:hidden;background:var(--cor-pedra);aspect-ratio:2/3;cursor:pointer}
+.ks-fotos button img{width:100%;height:100%;object-fit:cover}
+.ks-fotos button[aria-pressed="true"]{border-color:var(--cor-mar);box-shadow:0 0 0 2px var(--cor-algodao) inset}
+.ks-fotos .ks-sem{display:flex;align-items:center;justify-content:center;font:600 13px/1.2 var(--fonte-texto);color:var(--cor-mar);padding:6px;text-align:center}
+.ks-linha{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.ks-bt{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 18px;border-radius:999px;border:1px solid var(--linha-forte);background:var(--cor-algodao);color:var(--cor-mar);font:600 15px/1.2 var(--fonte-texto);cursor:pointer;text-decoration:none}
+.ks-bt:hover{background:var(--cor-pedra)}
+.ks-bt.principal{background:var(--cor-salvia-funda);border-color:var(--cor-salvia-funda);color:var(--cor-algodao);font-size:17px;width:100%}
+.ks-bt.principal:hover{background:var(--cor-mar)}
+.ks-bt:disabled{opacity:.5;cursor:wait}
+.ks-arquivo{position:relative;overflow:hidden}
+.ks-arquivo input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.ks-range{display:grid;grid-template-columns:96px minmax(0,1fr);gap:8px;align-items:center;font-size:14px;color:var(--suave)}
+.ks-range input{width:100%;accent-color:var(--cor-salvia-funda)}
+.ks-chk{display:flex;gap:10px;align-items:center;min-height:44px;font:600 15px/1.3 var(--fonte-texto);color:var(--cor-mar);cursor:pointer}
+.ks-chk input{width:20px;height:20px;accent-color:var(--cor-salvia-funda)}
+.ks-conf{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:15px;line-height:1.45}
+.ks-conf li{display:grid;grid-template-columns:14px minmax(0,1fr);gap:10px}
+.ks-conf li::before{content:"";width:10px;height:10px;border-radius:50%;margin-top:6px;background:var(--cor-salvia-funda)}
+.ks-conf li[data-n="alerta"]::before{background:var(--cor-caramelo)}
+.ks-conf li[data-n="bloqueio"]::before{background:var(--cor-mar);box-shadow:0 0 0 3px var(--cor-bruma)}
+.ks-saida p{margin:10px 0 0;font-size:14px;line-height:1.5;color:var(--suave)}
+.ks-saida p[data-estado="ok"]{color:var(--cor-salvia-funda);font-weight:600}
+.ks-saida p[data-estado="erro"]{color:var(--cor-caramelo-tostado);font-weight:600}
+
+/* ---------- referência ---------- */
+.ks-ref{margin-top:72px;padding-top:40px;border-top:1px solid var(--linha);display:grid;gap:56px}
+.ks-ref h2{margin:0 0 8px;font-family:var(--fonte-titulo);font-weight:580;font-variation-settings:'opsz' 60;font-size:clamp(29px,3.4vw,38px);line-height:1.12;color:var(--cor-mar)}
+.ks-ref .chamada{margin:0 0 24px;max-width:62ch;font-size:18px}
+.ks-regras{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;margin:0;padding:0;list-style:none}
+.ks-regras li{padding:20px;border-radius:16px;background:var(--cor-pedra);border:1px solid var(--linha);font-size:16px;line-height:1.55}
+.ks-regras b{display:block;margin-bottom:4px;font-family:var(--fonte-titulo);font-weight:600;font-size:21px;line-height:1.25;color:var(--cor-mar)}
+.ks-tabela-wrap{overflow-x:auto;border:1px solid var(--linha);border-radius:16px;background:var(--cor-algodao)}
+.ks-tabela{width:100%;border-collapse:collapse;font-size:16px;line-height:1.45}
+.ks-tabela th,.ks-tabela td{padding:12px 16px;text-align:left;border-bottom:1px solid var(--linha);vertical-align:top}
+.ks-tabela th{font:600 13px/1.3 var(--fonte-texto);letter-spacing:.1em;text-transform:uppercase;color:var(--suave);background:var(--cor-pedra)}
+.ks-tabela tr:last-child td{border-bottom:0}
+.ks-tabela td[data-r="Arquivo"]{white-space:nowrap}
+.ks-tabela td:first-child{font-weight:600;color:var(--cor-mar)}
+.ks-tabela button{all:unset;cursor:pointer;color:var(--cor-caramelo-tostado);text-decoration:underline;text-underline-offset:.18em}
+.ks-baixar{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,180px),1fr));gap:16px;margin:0;padding:0;list-style:none}
+.ks-baixar a{display:grid;gap:8px;text-decoration:none;color:var(--cor-mar)!important;font:600 15px/1.3 var(--fonte-texto)}
+.ks-baixar figure{margin:0;display:flex;align-items:center;justify-content:center;aspect-ratio:1;border-radius:14px;background:var(--cor-pedra);overflow:hidden;padding:12px}
+.ks-baixar img{max-width:100%;max-height:100%;width:auto;height:auto;box-shadow:var(--sombra-suave)}
+.ks-baixar small{display:block;font-weight:400;color:var(--suave)}
+.ks-rodape{margin-top:72px;padding-top:24px;border-top:1px solid var(--linha);display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;font-size:14px;color:var(--suave)}
+
+/* ---------- celular e tablet ---------- */
+@media (max-width:1180px){
+  .ks-editor{grid-template-columns:minmax(0,1fr) 360px}
+  .ks-modelos{display:none}
+  .ks-campo.ks-sel-cel{display:grid}
+}
+@media (max-width:860px){
+  .ks-intro{grid-template-columns:minmax(0,1fr)}
+  .ks-editor{grid-template-columns:minmax(0,1fr)}
+  .ks-host{padding:12px;border-radius:16px}
+  .ks-topo nav a{padding:0 8px;font-size:14px}
+  .ks-topo .ks-sep,.ks-topo .ks-nome{display:none}
+  .ks-tabela thead{display:none}
+  .ks-tabela,.ks-tabela tbody,.ks-tabela tr,.ks-tabela td{display:block;width:100%}
+  .ks-tabela tr{padding:12px 16px;border-bottom:1px solid var(--linha)}
+  .ks-tabela td{padding:2px 0;border:0}
+  .ks-tabela td[data-r]::before{content:attr(data-r) ": ";font-weight:600;color:var(--suave)}
+}
+@media (max-width:360px){.ks-seg button{font-size:15px;padding:6px 4px;gap:6px}}
+@media (max-width:420px){
+  .ks-topo .ks-logo{height:26px}
+  .ks-topo nav a.opcional-cel{display:none}
+  .ks-fotos{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* ---------- impressão A4: a peça atual e as regras ---------- */
+@page{size:A4;margin:14mm}
+@media print{
+  html,body.ks{background:none}
+  .ks-topo,.ks-modelos,.ks-sel-cel,.ks-painel,.ks-legenda,.ks-dica,.ks-baixar-sec,.pular{display:none!important}
+  .ks-editor{display:block;border:0;margin-top:0;padding-top:0;break-before:page}
+  .ks-host{background:none;border:0;padding:0;break-inside:avoid}
+  .ks-escala{box-shadow:none;border:1px solid var(--linha-forte)}
+  .ks-ref{break-before:page}
+  .ks-regras li,.ks-tabela-wrap{break-inside:avoid}
+  .ks-tabela-wrap{overflow:visible}
+  .pc{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .ks-zoom{position:static;transform:none!important;zoom:var(--z)}
+  .pc .zonas{display:none!important}
+}
+
+/* =====================================================================
+   PEÇA (tamanho real). Cores chegam por variáveis --k-* (modo da fase).
+   ===================================================================== */
+.pc{position:relative;overflow:hidden;background:var(--k-f);color:var(--k-x);font-family:var(--fonte-texto);font-weight:400;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision;--corpo:36px}
+.pc[data-fase="40-mais"]{--corpo:40px}
+.pc *{box-sizing:border-box}
+.pc img{display:block;max-width:none}
+.pc .ab{position:absolute}
+.pc .tit{font-family:var(--fonte-titulo);font-weight:580;font-variation-settings:'opsz' 72;line-height:1.06;letter-spacing:-.012em;color:var(--k-t);margin:0;overflow:hidden;overflow-wrap:break-word}
+.pc .rot{font:600 26px/1.3 var(--fonte-texto);letter-spacing:.14em;text-transform:uppercase;color:var(--k-a);margin:0;white-space:nowrap;overflow:hidden}
+.pc .cor{font-size:var(--corpo);line-height:1.42;color:var(--k-x);margin:0;overflow:hidden}
+.pc .num{font-family:var(--fonte-titulo);font-weight:600;font-variant-numeric:lining-nums;font-variation-settings:'opsz' 72}
+.pc [contenteditable]{outline:none;cursor:text}
+.pc [contenteditable]:hover{box-shadow:0 0 0 3px rgba(99,175,156,.55)}
+.pc [contenteditable]:focus{box-shadow:0 0 0 4px rgba(201,154,104,.8)}
+.pc .ft{position:absolute;overflow:hidden;background:var(--k-s)}
+.pc .ft img{width:100%;height:100%;object-fit:cover}
+.pc .arco{border-radius:9999px 9999px 0 0}
+/* foto ainda sem autorização no endereço publicado [P3] */
+.pc .ft-reservada,.ft-reservada{display:flex;align-items:center;justify-content:center;text-align:center;background:var(--cor-pedra);color:var(--cor-grafite);font:600 clamp(12px,2.4em,30px)/1.3 var(--fonte-texto);padding:8%}
+/* espaço de foto do produto (Levo ou Deixo, Peço ou Não Peço) */
+.pc .slot{position:absolute;overflow:hidden;border-radius:24px}
+.pc .slot img{width:100%;height:100%;object-fit:cover}
+.ks-slot{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;margin:0 0 10px}
+.ks-slot b{font:600 15px/1.3 var(--fonte-texto);color:var(--cor-mar)}
+/* fontes */
+.ks-fontes{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));margin:0;padding:0;list-style:none}
+.ks-fontes li{padding:18px 20px;border-radius:16px;background:var(--cor-algodao);border:1px solid var(--linha);font-size:16px;line-height:1.55}
+.ks-fontes b{display:block;margin-bottom:4px;font:600 17px/1.3 var(--fonte-texto);color:var(--cor-mar)}
+.ks-fontes-baixar{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 18px}
+.ks-ref > section{min-width:0}
+.ks-fontes-baixar .ks-bt{white-space:normal;text-align:center;max-width:100%}
+.pc .svgk{display:block}
+/* rodapé de assinatura (Mar Fundo) */
+.pc .rod{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:0 80px 80px;background:var(--k-rod);color:var(--cor-algodao)}
+.pc .rod-tx{display:grid;gap:4px;min-width:0}
+.pc .rod-tx b{font:600 30px/1.2 var(--fonte-texto)}
+.pc .rod-tx span{font:400 28px/1.25 var(--fonte-texto);color:color-mix(in srgb,var(--cor-algodao) 86%,var(--k-rod))}
+.pc .rod img{height:60px;width:auto;flex:none}
+/* barra de progresso do carrossel */
+.pc .prog{position:absolute;left:80px;right:80px;top:64px;display:flex;gap:12px}
+.pc .prog i{flex:1;height:6px;border-radius:3px;background:var(--k-prog0)}
+.pc .prog i.on{background:var(--k-prog1)}
+/* pílulas e botões */
+.pc .pil{display:inline-flex;align-items:center;gap:14px;height:88px;padding:0 40px;border-radius:999px;font:600 34px/1 var(--fonte-texto);white-space:nowrap}
+.pc .pil .dot{width:16px;height:16px;border-radius:50%;flex:none}
+.pc .btn{display:inline-flex;align-items:center;gap:22px;height:104px;padding:0 48px;border-radius:999px;background:var(--k-btn);color:var(--k-btnT);font:600 36px/1 var(--fonte-texto);white-space:nowrap}
+/* camada de zonas (nunca exportada) */
+.pc .zonas{position:absolute;inset:0;pointer-events:none;z-index:50}
+.pc .z{position:absolute}
+.pc .z-livre{background:repeating-linear-gradient(45deg,rgba(16,58,64,.42) 0 calc(6px / var(--esc)),rgba(16,58,64,.14) calc(6px / var(--esc)) calc(14px / var(--esc)))}
+.pc .z-util{border:calc(2px / var(--esc)) dashed #2F6E60;box-shadow:0 0 0 calc(1px / var(--esc)) rgba(242,240,235,.6)}
+.pc .z-corte{border:calc(2px / var(--esc)) dashed #8A5A2E}
+.pc .z-fig{background:rgba(242,240,235,.62);border:calc(2px / var(--esc)) dotted #103A40;border-radius:calc(12px / var(--esc))}
+.pc .z-circ{border-radius:50%;border:calc(2px / var(--esc)) dashed #2F6E60}
+.pc .z-circ.sombra{box-shadow:0 0 0 9999px rgba(16,58,64,.5)}
+.pc .z b{position:absolute;left:calc(6px / var(--esc));top:calc(6px / var(--esc));padding:calc(3px / var(--esc)) calc(8px / var(--esc));border-radius:calc(6px / var(--esc));background:#103A40;color:#F2F0EB;font:600 calc(12px / var(--esc))/1.2 var(--fonte-texto);white-space:nowrap;letter-spacing:0}
+.pc .z-corte b{background:#8A5A2E}
+.pc .z-fig b{background:#F2F0EB;color:#103A40}
+.pc .z.b-baixo b{top:auto;bottom:calc(6px / var(--esc))}
+.pc .z.b-dir b{left:auto;right:calc(6px / var(--esc))}
+.pc .z.b-centro b{left:50%;top:50%;transform:translate(-50%,-50%)}
+</style>
+</head>
+<body class="ks">
+<a class="pular" href="#ks-editor">Pular para o editor</a>
+<header class="ks-topo">
+  <div class="ks-topo-in">
+    <a href="index.html" aria-label="Ana Paula Costa, Nutricionista: voltar à entrada dos materiais"><img class="ks-logo" src="assets/marca/svg/logo-horizontal-reduzida-cor.svg" alt="Ana Paula Costa" width="200" height="30"></a>
+    <span class="ks-sep" aria-hidden="true"></span>
+    <p class="ks-nome">Kit de redes sociais</p>
+    <nav aria-label="Materiais da marca">
+      <a href="brand-book.html">Manual</a>
+      <a href="kit-video.html" class="opcional-cel">Kit de vídeo</a>
+      <a href="guia-de-uso.html" class="opcional-cel">Guia de uso</a>
+      <a href="lockup.html" class="opcional-cel">Trechos</a>
+    </nav>
+  </div>
+</header>
+
+<main class="ks-livro" id="topo">
+  <section class="ks-intro" aria-labelledby="ks-t">
+    <div>
+      <p class="rotulo-ks">Sistema Rota ap. · modelos de redes</p>
+      <h1 id="ks-t">Troca o texto e a foto, <em>nunca o desenho.</em></h1>
+    </div>
+    <p class="ks-apoio">Cada modelo está em <b>tamanho real</b>, com as zonas seguras de cada rede desenhadas por cima. Escolha o modelo e a fase, escreva direto na peça ou nos campos, troque a foto pelo acervo e baixe o <b>PNG na resolução da rede</b>. As zonas nunca saem no arquivo.</p>
+  </section>
+  <p class="ks-aviso"><span class="ponto-k" aria-hidden="true"></span><span>Nenhuma peça vai a público com marcador aberto. Hoje as peças saem com <span class="pendente" data-p="1">CRN-4 em confirmação</span> e as fotos dos ensaios esperam a <span class="pendente" data-p="3">autorização em confirmação</span>. Quando o número do CRN chegar, escreva no campo “Número do CRN-4” e todas as peças se atualizam.</span></p>
+
+  <div class="ks-editor" id="ks-editor">
+    <nav class="ks-modelos" aria-label="Modelos" id="ks-modelos"></nav>
+
+    <section class="ks-palco" aria-labelledby="ks-palco-t">
+      <div class="ks-campo ks-sel-cel">
+        <label for="ks-sel">Modelo</label>
+        <select id="ks-sel"></select>
+      </div>
+      <div class="ks-barra">
+        <h2 id="ks-palco-t">Modelo</h2>
+        <span class="ks-medida" id="ks-medida"></span>
+      </div>
+      <div class="ks-host" id="ks-host" aria-live="off"></div>
+      <ul class="ks-legenda" id="ks-legenda" aria-label="Legenda das zonas">
+        <li><i class="l-livre"></i>Livre: a rede cobre</li>
+        <li><i class="l-util"></i>Área útil</li>
+        <li><i class="l-corte"></i>Onde a rede corta</li>
+        <li><i class="l-fig"></i>Lugar da figurinha</li>
+      </ul>
+      <p class="ks-dica" id="ks-dica"></p>
+    </section>
+
+    <aside class="ks-painel" aria-label="Ajustes da peça">
+      <section class="ks-caixa" aria-labelledby="ks-fase-t">
+        <h2 id="ks-fase-t">Modo da fase</h2>
+        <div class="ks-seg" id="ks-fases" role="group" aria-label="Modo da fase">
+          <button type="button" data-fase="gestacao" aria-pressed="false"><i style="background:#D8ECE5"></i>Gestação</button>
+          <button type="button" data-fase="pos-parto" aria-pressed="false"><i style="background:#F2F0EB"></i>Pós-parto</button>
+          <button type="button" data-fase="40-mais" aria-pressed="false"><i style="background:#103A40"></i><span><span class="num">40</span>+</span></button>
+        </div>
+      </section>
+      <section class="ks-caixa" aria-labelledby="ks-campos-t">
+        <h2 id="ks-campos-t">Texto</h2>
+        <div id="ks-campos"></div>
+      </section>
+      <section class="ks-caixa" aria-labelledby="ks-foto-t" id="ks-foto-caixa">
+        <h2 id="ks-foto-t">Foto</h2>
+        <div id="ks-foto"></div>
+      </section>
+      <section class="ks-caixa" aria-labelledby="ks-geral-t">
+        <h2 id="ks-geral-t">Todas as peças</h2>
+        <div class="ks-campo">
+          <label for="ks-crn">Número do CRN-4</label>
+          <input type="text" id="ks-crn" inputmode="numeric" autocomplete="off" placeholder="em confirmação">
+          <span class="ks-conta">Vazio, as peças mostram “CRN-4 em confirmação”.</span>
+        </div>
+        <label class="ks-chk"><input type="checkbox" id="ks-zonas" checked> Mostrar zonas seguras na tela</label>
+      </section>
+      <section class="ks-caixa" aria-labelledby="ks-conf-t">
+        <h2 id="ks-conf-t">Conferência</h2>
+        <ul class="ks-conf" id="ks-conf"></ul>
+      </section>
+      <section class="ks-caixa ks-saida" aria-labelledby="ks-saida-t">
+        <h2 id="ks-saida-t">Baixar</h2>
+        <div class="ks-campo">
+          <label for="ks-mult">Tamanho do arquivo</label>
+          <select id="ks-mult"><option value="1">Resolução da rede</option><option value="2">Dobro (telas de alta densidade)</option></select>
+        </div>
+        <button type="button" class="ks-bt principal" id="ks-exportar"><svg class="ks-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg><span>Baixar PNG</span></button>
+        <button type="button" class="ks-bt" id="ks-carrossel" hidden style="width:100%;margin-top:8px"><svg class="ks-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v13H4zM8 7V4h8v3M12 11v5m0 0-2.5-2.5M12 16l2.5-2.5"/></svg><span>Baixar carrossel inteiro (ZIP)</span></button>
+        <p id="ks-motivo" role="status">O arquivo sai sem as zonas e sem marcação de edição.</p>
+        <div class="ks-linha" style="margin-top:12px">
+          <button type="button" class="ks-bt" id="ks-restaurar">Voltar ao texto de exemplo</button>
+        </div>
+      </section>
+    </aside>
+  </div>
+
+  <div class="ks-ref">
+    <section aria-labelledby="ks-fontes-t" id="fontes">
+      <h2 id="ks-fontes-t">Antes de começar: instale as fontes</h2>
+      <p class="chamada">O kit já usa as fontes da marca. Para montar ou ajustar uma peça fora dele, instale Literata e Atkinson Hyperlegible Next uma vez em cada aparelho. Use os arquivos com o peso no nome: muitos editores não leem o arquivo de peso variável.</p>
+      <div class="ks-fontes-baixar">
+        <a class="ks-bt" href="assets/fontes/Literata-Display-Assinatura.ttf" download>Literata Assinatura (títulos)</a>
+        <a class="ks-bt" href="assets/fontes/AtkinsonHyperlegibleNext-Regular.ttf" download>Atkinson Regular (texto)</a>
+        <a class="ks-bt" href="assets/fontes/AtkinsonHyperlegibleNext-SemiBold.ttf" download>Atkinson SemiBold (destaques)</a>
+      </div>
+      <ul class="ks-fontes">
+        <li><b>Mac</b>Clique duas vezes no arquivo .ttf e depois em Instalar fonte.</li>
+        <li><b>Windows</b>Botão direito no arquivo e Instalar para todos os usuários.</li>
+        <li><b>CapCut no celular</b>Texto, Fonte, ícone de importar (a pastinha), escolha o arquivo .ttf baixado.</li>
+        <li><b>Canva</b>Só no plano Pro: Kit de marca, Fontes, Enviar fonte. No plano gratuito, use os PNG baixados daqui e não digite título com outra fonte.</li>
+      </ul>
+    </section>
+    <section aria-labelledby="ks-regras-t">
+      <h2 id="ks-regras-t">Regras de toda peça</h2>
+      <p class="chamada">O kit já respeita estas regras. Elas valem também para quem montar uma peça do zero no Canva ou no editor de vídeo.</p>
+      <ul class="ks-regras">
+        <li><b>Zona segura unificada</b>Vídeo vertical, story e status: área útil de x 60 a 940 e de y 250 a 1540, em 1080 × 1920 px. Em anúncio, a base livre sobe para 480 px.</li>
+        <li><b>Assinatura e CRN</b>Toda peça estática traz “Ana Paula Costa · Nutricionista” e o CRN no rodapé, com no mínimo 28 px em arte de 1080 de largura.</li>
+        <li><b>Um ponto caramelo por peça</b>O ponto do logotipo conta. Rotas, marcadores e pílulas usam ponto Sálvia Funda no claro e Ouro Velho no modo 40+.</li>
+        <li><b>Texto sobre foto, só em faixa</b>Faixa sólida Sálvia Ana, Mar Fundo ou Algodão. Nunca texto solto em cima do rosto ou do fundo da foto.</li>
+        <li><b>Foto real, só a Ana</b>Sem filhos, sem outras pessoas e sem mão na barriga. No modo 40+, só fotos sem gestação. Imagem de IA nunca mostra pessoa, corpo ou consulta.</li>
+        <li><b>Nada de preço de consulta</b>Nem em post, story, catálogo ou anúncio. Sem promoção, desconto ou sorteio de consulta. “Valores informados no agendamento.”</li>
+        <li><b>Sem antes e depois</b>Zero quilos, medidas, exame, foto de corpo e promessa de resultado (“cura”, “trata”, “garantido”, “emagrece”).</li>
+        <li><b>Números em Literata</b>“40+”, datas e medidas sempre com o zero aberto da Literata. No kit isso já acontece sozinho.</li>
+        <li><b>Antes de publicar</b>Confira no celular, com a camada de zonas escondida, e passe pelo checklist do <a href="brand-book.html#s20">capítulo de redes</a>.</li>
+      </ul>
+    </section>
+    <section aria-labelledby="ks-formatos-t">
+      <h2 id="ks-formatos-t">Os modelos e as medidas</h2>
+      <p class="chamada">Cada linha abre o modelo no editor. As medidas seguem o capítulo de redes do manual.</p>
+      <div class="ks-tabela-wrap"><table class="ks-tabela" id="ks-tabela"><thead><tr><th scope="col">Modelo</th><th scope="col">Rede</th><th scope="col">Arquivo</th><th scope="col">Zona e regra</th></tr></thead><tbody></tbody></table></div>
+    </section>
+    <section aria-labelledby="ks-baixar-t" class="ks-baixar-sec">
+      <h2 id="ks-baixar-t">Versões prontas para editar</h2>
+      <p class="chamada">Os mesmos modelos com o texto de exemplo, em PNG na resolução da rede, para usar de base no Canva ou no editor de vídeo. Troque o texto e a foto antes de publicar.</p>
+      <ul class="ks-baixar" id="ks-baixar"></ul>
+    </section>
+  </div>
+
+  <footer class="ks-rodape">
+    <span>Ana Paula Costa · Nutricionista · <span class="pendente" data-p="1">CRN-4 em confirmação</span></span>
+    <span>Sistema criado pela GrowAI</span>
+  </footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/modern-screenshot@4.7.0/dist/index.js"></script>
+<script>
+(function () {
+  'use strict';
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var CHAVE = 'ana-kit-social-v1';
+
+  /* ============================== 1. Cores (lidas do tokens.css) ============================== */
+  var C = {};
+  function lerCores() {
+    var cs = getComputedStyle(document.documentElement);
+    var nomes = { salvia: 'salvia', algodao: 'algodao', bruma: 'bruma', mar: 'mar', salviaFunda: 'salvia-funda', pedra: 'pedra', caramelo: 'caramelo', tostado: 'caramelo-tostado', ouro: 'ouro-velho', grafite: 'grafite', salviaClara: 'salvia-clara', marMedio: 'mar-medio', marSup: 'mar-superficie' };
+    var reserva = { salvia: '#63AF9C', algodao: '#F2F0EB', bruma: '#D8ECE5', mar: '#103A40', salviaFunda: '#2F6E60', pedra: '#E4E0D8', caramelo: '#C99A68', tostado: '#8A5A2E', ouro: '#C9B583', grafite: '#2B2724', salviaClara: '#A9D3C6', marMedio: '#2A5C63', marSup: '#17464D' };
+    Object.keys(nomes).forEach(function (k) {
+      var v = cs.getPropertyValue('--cor-' + nomes[k]).trim();
+      C[k] = (v || reserva[k]).toUpperCase();
+    });
+  }
+  /* modo da fase: fundo, superfície, título, texto, acento, ponto livre, rota, rodapé, botão, esquema do logo */
+  function tema(fase) {
+    if (fase === 'gestacao') return { f: C.bruma, s: C.algodao, t: C.mar, x: C.grafite, a: C.salviaFunda, p: C.salviaFunda, rota: C.mar, rod: C.mar, btn: C.mar, btnT: C.algodao, prog0: 'rgba(16,58,64,.18)', prog1: C.mar, esquema: 'cor', escuro: false };
+    if (fase === '40-mais') return { f: C.mar, s: C.marSup, t: C.algodao, x: C.algodao, a: C.ouro, p: C.ouro, rota: C.algodao, rod: C.marSup, btn: C.ouro, btnT: C.mar, prog0: 'rgba(242,240,235,.22)', prog1: C.ouro, esquema: 'sobre-escuro', escuro: true };
+    return { f: C.algodao, s: C.pedra, t: C.mar, x: C.grafite, a: C.tostado, p: C.salviaFunda, rota: C.mar, rod: C.mar, btn: C.mar, btnT: C.algodao, prog0: 'rgba(16,58,64,.16)', prog1: C.mar, esquema: 'cor', escuro: false };
+  }
+  function varsTema(t) {
+    return '--k-f:' + t.f + ';--k-s:' + t.s + ';--k-t:' + t.t + ';--k-x:' + t.x + ';--k-a:' + t.a + ';--k-p:' + t.p + ';--k-rod:' + t.rod + ';--k-btn:' + t.btn + ';--k-btnT:' + t.btnT + ';--k-prog0:' + t.prog0 + ';--k-prog1:' + t.prog1;
+  }
+
+  /* ============================== 2. SVG da marca (lidos dos arquivos e recoloridos) ============================== */
+  var SVG = {};
+  var DESTAQUES = [
+    { id: 'comece-aqui', nome: 'Comece aqui' }, { id: 'consulta', nome: 'Consulta' }, { id: 'comunidade', nome: 'Comunidade' },
+    { id: 'gestacao', nome: 'Gestação' }, { id: 'pos-parto', nome: 'Pós-parto' }, { id: '40-mais', nome: '40+' },
+    { id: 'receitas', nome: 'Receitas' }, { id: 'depoimentos', nome: 'Depoimentos' }
+  ];
+  var ARQ_SVG = {
+    rota: 'assets/forma/rota-divisor.svg', rotaCurta: 'assets/forma/rota-divisor-curto.svg', seta: 'assets/forma/rota-seta.svg',
+    modClaro: 'assets/forma/padrao-modulo-claro.svg', modEscuro: 'assets/forma/padrao-modulo-escuro.svg'
+  };
+  DESTAQUES.forEach(function (d) { ARQ_SVG['ic-' + d.id] = 'assets/forma/icones-destaques/icone-' + d.id + '.svg'; });
+  function carregarSVG() {
+    return Promise.all(Object.keys(ARQ_SVG).map(function (k) {
+      return fetch(ARQ_SVG[k]).then(function (r) { if (!r.ok) throw new Error(ARQ_SVG[k]); return r.text(); }).then(function (t) { SVG[k] = t; });
+    }));
+  }
+  function recolorir(txt, mapa) {
+    Object.keys(mapa).forEach(function (de) { txt = txt.split(de).join(mapa[de]).split(de.toLowerCase()).join(mapa[de]); });
+    return txt;
+  }
+  /* linha (#103A40) e ponto (#C99A68) dos arquivos de forma e ícones */
+  function svgk(nome, linha, ponto, estilo) {
+    var t = SVG[nome] || '';
+    t = t.replace(/<title>[\s\S]*?<\/title>/, '');
+    t = recolorir(t, { '#103A40': '@@L', '#C99A68': '@@P' }).split('@@L').join(linha).split('@@P').join(ponto || linha);
+    return t.replace(/^<svg([^>]*?)\swidth="[^"]*"\sheight="[^"]*"/, '<svg$1').replace(/^<svg/, '<svg class="svgk" aria-hidden="true" style="' + (estilo || '') + '"').replace(/role="img"\s*/, '').replace(/aria-label="[^"]*"/, '');
+  }
+  /* padrão de fundo: o módulo com o fundo trocado pela cor do modo */
+  function padrao(escuro, fundo) {
+    var t = SVG[escuro ? 'modEscuro' : 'modClaro'] || '';
+    t = t.replace(/<title>[\s\S]*?<\/title>/, '');
+    t = t.replace(/(<rect width="320" height="96" fill=")#[0-9A-Fa-f]{6}/, '$1' + fundo);
+    return "url('data:image/svg+xml;charset=utf-8," + encodeURIComponent(t).replace(/'/g, '%27') + "')";
+  }
+  function logo(tipo, esquema, estilo, alt) {
+    return '<img src="assets/marca/svg/' + tipo + '-' + esquema + '.svg" alt="' + (alt || '') + '" style="' + (estilo || '') + '">';
+  }
+
+  /* ============================== 3. Acervo de fotos ============================== */
+  var ACERVO = [];
+  function carregarAcervo() {
+    return fetch('assets/fotos/catalogo.json').then(function (r) { return r.json(); }).then(function (d) { ACERVO = d.fotos || []; });
+  }
+  function fotoPorId(id) { for (var i = 0; i < ACERVO.length; i++) if (ACERVO[i].id === id) return ACERVO[i]; return null; }
+  function fotoPermitida(f, fase) { return fase !== '40-mais' || f.fase === '40-mais' || f.fase === 'todas'; }
+
+  /* ============================== 4. Estado ============================== */
+  var S = { modelo: 'citacao', fase: {}, v: {}, foto: {}, variante: {}, crn: '', zonas: true, mult: 1 };
+  var UPLOAD = {}; /* fotos enviadas: só na memória desta aba */
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function br(s) { return esc(s).replace(/\n/g, '<br>'); }
+  function crn() { return S.crn.trim() ? 'CRN-4 ' + S.crn.trim() : 'CRN-4 em confirmação'; }
+  function palavras(s) { return String(s || '').trim().split(/\s+/).filter(Boolean).length; }
+  function numFase(s) { return esc(s).replace(/(\d+)/g, '<span class="num">$1</span>'); }
+  function ed(k, cls, estilo, html, fit) {
+    return '<div class="' + cls + '" data-k="' + k + '"' + (fit ? ' data-fit="' + fit + '"' : '') + ' contenteditable="plaintext-only" spellcheck="true" style="' + estilo + '">' + html + '</div>';
+  }
+
+  /* ============================== 5. Peças: utilidades de composição ============================== */
+  function rodape(ctx, o) {
+    o = o || {};
+    var h = o.h || 190;
+    return '<div class="rod" style="height:' + h + 'px">' +
+      '<div class="rod-tx"><b>Ana Paula Costa · Nutricionista</b><span>' + esc(crn()) + (o.semArroba ? '' : ' · @ana_costarodrigues') + '</span></div>' +
+      (o.semLogo ? '' : logo('simbolo', 'sobre-escuro', '', 'Símbolo ap.')) + '</div>';
+  }
+  function progresso(atual, total) {
+    var s = '<div class="prog" aria-hidden="true">';
+    for (var i = 1; i <= total; i++) s += '<i class="' + (i <= atual ? 'on' : '') + '"></i>';
+    return s + '</div>';
+  }
+  function foto(ctx, estilo, cls) {
+    var f = ctx.foto;
+    if (!f || !f.src) return '';
+    var ox = Math.round(f.fx * 100), oy = Math.round(f.fy * 100);
+    return '<div class="ft ' + (cls || '') + '" style="' + estilo + '"><img src="' + esc(f.src) + '" alt="' + esc(f.alt || '') + '" style="position:absolute;width:' + (f.z * 100) + '%;height:' + (f.z * 100) + '%;left:' + (-(f.z - 1) * ox) + '%;top:' + (-(f.z - 1) * oy) + '%;object-position:' + ox + '% ' + oy + '%"></div>';
+  }
+  /* linha "Ana Paula Costa · Nutricionista · CRN": 28 px ou mais, dentro da área útil */
+  function assinatura(c, estilo, cor) {
+    return '<p class="ab" style="' + estilo + ';margin:0;font:600 28px/1.3 var(--fonte-texto);color:' + (cor || 'var(--k-x)') + '">Ana Paula Costa · Nutricionista · ' + esc(crn()) + '</p>';
+  }
+  function setaSVG(cor, w) { return svgk('seta', cor, cor, 'width:' + w + 'px;height:auto;flex:none'); }
+
+  /* capa de live e de encontro da comunidade (vertical e horizontal) */
+  function capaLive(c, horiz) {
+    var v = c.v, e = c.t.escuro, com = c.variante === 'comunidade';
+    var ic = function (d) { return '<svg viewBox="0 0 24 24" aria-hidden="true" style="width:1em;height:1em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round">' + d + '</svg>'; };
+    var pil = function (svg, k) { return '<span class="pil" style="height:84px;padding:0 32px;font-size:34px;background:var(--k-s);color:var(--k-t)">' + svg + '<span data-k="' + k + '" contenteditable="plaintext-only">' + numFase(v[k]) + '</span></span>'; };
+    var info = pil(ic('<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>'), 'dia') + pil(ic('<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>'), 'horario');
+    var x = horiz ? 900 : 80, w = horiz ? 940 : 860;
+    var y = horiz ? { rot: 150, tema: 200, hTema: 400, info: 640, selo: 800 } : { rot: 912, tema: 962, hTema: 300, info: 1286, selo: 1392 };
+    var selo = com ?
+      logo('submarca-comunidade-bem-nutrida', e ? 'sobre-escuro' : 'cor', 'position:absolute;left:' + x + 'px;top:' + y.selo + 'px;width:' + (horiz ? 520 : 440) + 'px;height:auto', 'Comunidade Bem Nutrida, com Ana Paula Costa') +
+        assinatura(c, 'left:' + x + 'px;top:' + (y.selo + (horiz ? 124 : 102)) + 'px;width:' + w + 'px') :
+      '<div class="ab" style="left:' + x + 'px;top:' + y.selo + 'px;display:flex;align-items:center;gap:20px">' + logo('simbolo', c.t.esquema, 'height:64px;width:auto', 'Símbolo ap.') +
+        '<span style="display:grid;gap:2px"><b style="font:600 30px/1.2 var(--fonte-texto);color:var(--k-t)">Ana Paula Costa · Nutricionista</b><span style="font:400 28px/1.2 var(--fonte-texto);color:var(--k-x)">' + esc(crn()) + '</span></span></div>';
+    return foto(c, horiz ? 'left:0;top:0;width:820px;height:1080px' : 'left:0;top:0;width:1080px;height:860px') +
+      '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:' + x + 'px;top:' + y.rot + 'px;width:' + w + 'px">' + esc(v.rot) + '</p>' +
+      ed('tema', 'tit ab', 'left:' + x + 'px;top:' + y.tema + 'px;width:' + w + 'px;height:' + y.hTema + 'px', br(v.tema), horiz ? '112,72' : '92,60') +
+      '<div class="ab" style="left:' + x + 'px;top:' + y.info + 'px;width:' + w + 'px;display:flex;flex-wrap:wrap;gap:16px">' + info + '</div>' + selo;
+  }
+
+  /* zonas */
+  function zStory(base) {
+    var b = base || 'Base livre · legenda, música e resposta';
+    return [
+      { t: 'livre', x: 0, y: 0, w: 1080, h: 250, r: 'Topo livre · 250 px · nome e barra de progresso' },
+      { t: 'livre', x: 0, y: 1540, w: 1080, h: 380, r: b + ' · 380 px (anúncio: 480 px)', c: 'b-baixo' },
+      { t: 'livre', x: 940, y: 250, w: 140, h: 1290, r: 'Botões', c: 'b-dir' },
+      { t: 'util', x: 60, y: 250, w: 880, h: 1290, r: 'Área útil · x 60 a 940 · y 250 a 1540' }
+    ];
+  }
+  function zFeed() {
+    return [
+      { t: 'util', x: 80, y: 80, w: 920, h: 1190, r: 'Margem de 80 px', c: 'b-dir' },
+      { t: 'corte', x: 34, y: 0, w: 1012, h: 1350, r: 'Grade do perfil mostra 1012 × 1350' }
+    ];
+  }
+
+  /* ============================== 6. Os modelos ============================== */
+  var TODAS = ['gestacao', 'pos-parto', '40-mais'];
+  var FOTO_PADRAO = {
+    retrato: { gestacao: ['ana-04-janela-sorrindo', .5, .22], 'pos-parto': ['ana-04-janela-sorrindo', .5, .22], '40-mais': ['ana-11-evento-mao-no-queixo', .5, .2] },
+    gestante: { gestacao: ['ana-01-caderno-camiseta-branca', .42, .16], 'pos-parto': ['ana-06-notebook-no-colo', .5, .2], '40-mais': ['ana-12-evento-bracos-cruzados', .5, .2] },
+    close: { gestacao: ['ana-10-jeans-retrato', .5, .3], 'pos-parto': ['ana-10-jeans-retrato', .5, .3], '40-mais': ['ana-11-evento-mao-no-queixo', .5, .22] },
+    consulta: { gestacao: ['ana-06-notebook-no-colo', .5, .2], 'pos-parto': ['ana-06-notebook-no-colo', .5, .2], '40-mais': ['ana-12-evento-bracos-cruzados', .5, .18] },
+    perfil: { gestacao: ['ana-14-retrato-blusa-caramelo', .5, .38], 'pos-parto': ['ana-14-retrato-blusa-caramelo', .5, .38], '40-mais': ['ana-14-retrato-blusa-caramelo', .5, .38] },
+    janela: { gestacao: ['ana-03-janela-perfil', .5, .2], 'pos-parto': ['ana-03-janela-perfil', .5, .2], '40-mais': ['ana-11-evento-mao-no-queixo', .5, .2] },
+    capaReels: { gestacao: ['ana-10-jeans-retrato', .5, .28], 'pos-parto': ['ana-10-jeans-retrato', .5, .28], '40-mais': ['ana-11-evento-mao-no-queixo', .5, .2] }
+  };
+
+  var MODELOS = [
+    /* ---------- Instagram · feed 4:5 ---------- */
+    {
+      id: 'citacao', grupo: 'Instagram · feed 4:5', nome: 'Post de citação', rede: 'Instagram e Threads', w: 1080, h: 1350, fases: TODAS, fase: 'pos-parto',
+      regra: 'Frase dela em Literata, grande, com a Rota em tinta (ponto Sálvia) sublinhando a palavra principal. Assinatura e CRN no rodapé, dentro da margem de 80 px.',
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 6 },
+        { k: 'frase', r: 'Frase', tipo: 'texto', max: 14 },
+        { k: 'destaque', r: 'Palavra sublinhada pela Rota', tipo: 'linha', ajuda: 'Uma palavra que exista na frase.' },
+        { k: 'apoio', r: 'Complemento', tipo: 'texto', max: 30 }
+      ],
+      padrao: { rot: 'O óbvio que precisa ser dito', frase: 'Você não precisa ser radical, basta ser consistente.', destaque: 'consistente', apoio: 'Um prato possível hoje vale mais que o plano perfeito que fica para segunda.' },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v, frase = br(v.frase), d = String(v.destaque || '').trim();
+        if (d) {
+          var re = new RegExp('(' + esc(d).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'i');
+          frase = frase.replace(re, '<span style="position:relative;white-space:nowrap;display:inline-block">$1' + svgk('rota', c.t.rota, c.t.escuro ? C.salvia : C.salviaFunda, 'position:absolute;left:-2%;width:104%;height:auto;top:92%') + '</span>');
+        }
+        return '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:80px;top:110px;width:920px">' + esc(v.rot) + '</p>' +
+          '<div class="tit ab" data-k="frase" data-fit="112,72" data-recompor style="left:80px;top:180px;width:920px;height:700px;display:flex;flex-direction:column;justify-content:center;line-height:1.1;padding-bottom:24px"><div>' + frase + '</div></div>' +
+          ed('apoio', 'cor ab', 'left:80px;top:910px;width:860px;height:240px;color:var(--k-x)', br(v.apoio), '40,32') +
+          rodape(c);
+      }
+    },
+    {
+      id: 'car-capa', grupo: 'Instagram · feed 4:5', nome: 'Carrossel · capa', rede: 'Instagram e LinkedIn', w: 1080, h: 1350, fases: TODAS, fase: 'gestacao', foto: 'gestante',
+      regra: 'Cartão 1: barra de progresso, título de até 8 palavras e o rosto da Ana na moldura em arco.',
+      campos: [
+        { k: 'total', r: 'Total de cartões', tipo: 'numero', min: 2, max: 20 },
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 6 },
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 8 },
+        { k: 'apoio', r: 'Subtítulo', tipo: 'texto', max: 18 },
+        { k: 'arraste', r: 'Chamada para arrastar', tipo: 'linha', max: 4 }
+      ],
+      padrao: { total: 7, rot: 'Nutrição por fases · gestação', titulo: 'Ferro na gestação sem passar mal', apoio: 'Os 3 erros mais comuns e a pergunta que vale levar ao pré-natal.', arraste: 'Arraste para o lado' },
+      padraoFase: {
+        'pos-parto': { rot: 'Nutrição por fases · pós-parto', titulo: 'Comer bem com o bebê no colo', apoio: 'Refeições que se montam com uma mão só, para os dias corridos.' },
+        '40-mais': { rot: 'Nutrição por fases · 40+', titulo: 'Proteína no café da manhã', apoio: 'Por que ela importa nesta fase e 4 jeitos simples de colocar no prato.' }
+      },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v;
+        return progresso(1, +v.total || 7) +
+          '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:80px;top:112px;width:920px">' + esc(v.rot) + '</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:166px;width:920px;height:340px', br(v.titulo), '104,64') +
+          '<div class="ab arco" style="right:80px;top:540px;width:500px;height:640px;background:' + (c.t.escuro ? C.marMedio : C.salvia) + '"></div>' +
+          foto(c, 'right:108px;top:568px;width:444px;height:612px', 'arco') +
+          ed('apoio', 'cor ab', 'left:80px;top:560px;width:380px;height:440px', br(v.apoio), '40,32') +
+          '<div class="ab" style="left:80px;top:1060px;display:flex;align-items:center;gap:18px;color:var(--k-a)"><span data-k="arraste" contenteditable="plaintext-only" style="font:600 30px/1.2 var(--fonte-texto)">' + esc(v.arraste) + '</span>' + setaSVG(c.t.a, 110) + '</div>' +
+          rodape(c);
+      }
+    },
+    {
+      id: 'car-miolo', grupo: 'Instagram · feed 4:5', nome: 'Carrossel · miolo', rede: 'Instagram e LinkedIn', w: 1080, h: 1350, fases: TODAS, fase: 'gestacao',
+      regra: 'Uma ideia por cartão, até 30 palavras. Todos os cartões do mesmo tamanho.',
+      campos: [
+        { k: 'atual', r: 'Número deste cartão', tipo: 'numero', min: 2, max: 20 },
+        { k: 'total', r: 'Total de cartões', tipo: 'numero', min: 2, max: 20 },
+        { k: 'titulo', r: 'Título do cartão', tipo: 'texto', max: 10 },
+        { k: 'texto', r: 'Texto', tipo: 'texto', max: 30 },
+        { k: 'lista', r: 'Para baixar o carrossel inteiro: os cartões do miolo', tipo: 'texto', ajuda: 'Um cartão por bloco: título na primeira linha e texto nas linhas de baixo. Deixe uma linha em branco entre os cartões. Vazio, o miolo repete o cartão acima.' }
+      ],
+      padrao: { atual: 2, total: 7, titulo: 'Parar o ferro por conta própria', texto: 'Se o ferro faz mal, a saída não é largar. Leve o enjoo para o pré-natal: muitas vezes dá para ajustar o horário ou a forma de tomar.', lista: '' },
+      padraoFase: {
+        'pos-parto': { titulo: 'Pular o almoço', texto: 'Com o bebê no colo, o almoço some. Deixe pronto no domingo um pote que se come com uma mão só.' },
+        '40-mais': { titulo: 'Café da manhã só com café', texto: 'Nesta fase, o café da manhã pede proteína. Ovo, iogurte natural ou queijo já mudam a manhã.' }
+      },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v, n = Math.max(1, +v.atual || 2);
+        return progresso(n, Math.max(n, +v.total || 7)) +
+          '<div class="ab num" style="left:76px;top:120px;font-size:168px;line-height:1;color:var(--k-a)">' + (n < 10 ? '0' + n : n) + '</div>' +
+          ed('titulo', 'tit ab', 'left:80px;top:340px;width:920px;height:300px', br(v.titulo), '80,56') +
+          '<div class="ab" style="left:80px;top:676px">' + svgk('rotaCurta', c.t.rota, c.t.p, 'width:330px;height:auto') + '</div>' +
+          ed('texto', 'cor ab', 'left:80px;top:760px;width:900px;height:380px;line-height:1.45', br(v.texto), '42,32') +
+          rodape(c);
+      }
+    },
+    {
+      id: 'car-fim', grupo: 'Instagram · feed 4:5', nome: 'Carrossel · fim', rede: 'Instagram e LinkedIn', w: 1080, h: 1350, fases: TODAS, fase: 'gestacao',
+      regra: 'Último cartão: um único convite, assinatura e CRN.',
+      campos: [
+        { k: 'total', r: 'Total de cartões', tipo: 'numero', min: 2, max: 20 },
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 8 },
+        { k: 'titulo', r: 'Convite', tipo: 'texto', max: 10 },
+        { k: 'texto', r: 'Texto de apoio', tipo: 'texto', max: 20 },
+        { k: 'botao', r: 'Botão', tipo: 'linha', max: 6 }
+      ],
+      padrao: { total: 7, rot: 'Salve e mande para uma amiga', titulo: 'Me conta a sua dúvida nos comentários.', texto: 'Eu gravei uma aula gratuita de 6 minutos sobre o ferro na gestação.', botao: 'Guia grátis do ferro · link na bio' },
+      padraoFase: {
+        'pos-parto': { texto: 'No grupo gratuito Bem Nutrida tem conversa de verdade sobre o pós-parto, só entre mulheres.', botao: 'Entrar no grupo · link na bio' },
+        '40-mais': { texto: 'No grupo gratuito Bem Nutrida tem um tema por mês para a mulher de 40+.', botao: 'Entrar no grupo · link na bio' }
+      },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v, e = c.t.escuro, fundo = e ? C.mar : C.salvia, tinta = e ? C.algodao : C.mar, n = +v.total || 7;
+        return '<div class="ab" style="inset:0;background:' + fundo + '"></div>' +
+          '<div class="prog" aria-hidden="true">' + Array.apply(null, Array(n)).map(function () { return '<i style="background:' + (e ? C.ouro : C.mar) + '"></i>'; }).join('') + '</div>' +
+          '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:80px;top:130px;width:920px;color:' + (e ? C.ouro : C.mar) + '">' + esc(v.rot) + '</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:186px;width:920px;height:330px;color:' + tinta, br(v.titulo), '100,64') +
+          ed('texto', 'cor ab', 'left:80px;top:540px;width:860px;height:160px;color:' + tinta, br(v.texto), '38,32') +
+          '<div class="ab" style="left:80px;top:732px;right:80px"><span class="btn" style="background:' + (e ? C.ouro : C.mar) + ';color:' + (e ? C.mar : C.algodao) + ';max-width:920px"><span data-k="botao" contenteditable="plaintext-only">' + esc(v.botao) + '</span>' + setaSVG(e ? C.mar : C.algodao, 96) + '</span></div>' +
+          logo('logo-vertical', e ? 'sobre-escuro' : 'sobre-salvia', 'position:absolute;left:50%;top:915px;width:400px;transform:translateX(-50%)', 'Ana Paula Costa, Nutricionista') +
+          '<p class="ab" style="left:80px;right:80px;top:1186px;margin:0;text-align:center;font:600 28px/1.3 var(--fonte-texto);color:' + tinta + '">Ana Paula Costa · Nutricionista · ' + esc(crn()) + '</p>';
+      }
+    },
+    {
+      id: 'levo', grupo: 'Instagram · feed 4:5', nome: 'Levo ou Deixo', rede: 'Instagram', w: 1080, h: 1350, fases: TODAS, fase: 'pos-parto',
+      slots: [{ id: 'a', r: 'Foto do produto que leva' }, { id: 'b', r: 'Foto do produto que deixa' }],
+      regra: 'Metade Sálvia Ana (o que entra) e metade Mar Fundo (o que fica na prateleira). Comparação educativa de rótulo: nenhuma marca paga, de presente ou com cupom.',
+      campos: [
+        { k: 'titulo', r: 'Onde estamos', tipo: 'linha', max: 6 },
+        { k: 'levo', r: 'Levo', tipo: 'texto', max: 6 },
+        { k: 'levoPq', r: 'Por que levo', tipo: 'texto', max: 16 },
+        { k: 'deixo', r: 'Deixo', tipo: 'texto', max: 6 },
+        { k: 'deixoPq', r: 'Por que deixo', tipo: 'texto', max: 16 }
+      ],
+      padrao: { titulo: 'Na geladeira dos iogurtes', levo: 'Iogurte natural e fruta', levoPq: 'Você escolhe a doçura: uma fruta picada ou um fio de mel.', deixo: 'Bebida láctea adoçada', deixoPq: 'Fica para outro dia. Para o lanche de todo dia, o rótulo pede o natural.' },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v;
+        return '<p class="rot ab" style="left:80px;top:84px;width:920px">Levo ou Deixo · comparação educativa</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:130px;width:920px;height:150px', br(v.titulo), '76,52') +
+          '<div class="ab" style="left:0;top:320px;width:540px;height:860px;background:' + C.salvia + '"></div>' +
+          '<div class="ab" style="left:540px;top:320px;width:540px;height:860px;background:' + (c.t.escuro ? C.marSup : C.mar) + '"></div>' +
+          (function () {
+            var fa = slotSrc('levo', 'a'), fb = slotSrc('levo', 'b'), com = !!(fa || fb);
+            var yR = com ? 704 : 384, yT = com ? 752 : 436, hT = com ? 150 : 380, yP = com ? 916 : 850, hP = com ? 234 : 300;
+            return (com ? '<div class="slot" style="left:64px;top:376px;width:412px;height:296px;background:' + C.salviaClara + '">' + (fa ? '<img src="' + esc(fa) + '" alt="Produto que leva">' : '') + '</div>' +
+              '<div class="slot" style="left:604px;top:376px;width:412px;height:296px;background:' + C.marMedio + '">' + (fb ? '<img src="' + esc(fb) + '" alt="Produto que deixa">' : '') + '</div>' : '') +
+              '<p class="rot ab" style="left:64px;top:' + yR + 'px;color:' + C.mar + '">Levo</p>' +
+              ed('levo', 'tit ab', 'left:64px;top:' + yT + 'px;width:430px;height:' + hT + 'px;color:' + C.mar, br(v.levo), com ? '60,40' : '76,48') +
+              ed('levoPq', 'cor ab', 'left:64px;top:' + yP + 'px;width:430px;height:' + hP + 'px;font-size:32px;color:' + C.mar, br(v.levoPq), com ? '30,26' : '34,30') +
+              '<p class="rot ab" style="left:604px;top:' + yR + 'px;color:' + C.salvia + '">Deixo</p>' +
+              ed('deixo', 'tit ab', 'left:604px;top:' + yT + 'px;width:420px;height:' + hT + 'px;color:' + C.algodao, br(v.deixo), com ? '60,40' : '76,48') +
+              ed('deixoPq', 'cor ab', 'left:604px;top:' + yP + 'px;width:420px;height:' + hP + 'px;font-size:32px;color:' + C.algodao, br(v.deixoPq), com ? '30,26' : '34,30');
+          })() +
+          rodape(c, { semArroba: false });
+      }
+    },
+    {
+      id: 'peco', grupo: 'Instagram · feed 4:5', nome: 'Peço ou Não Peço', rede: 'Instagram', w: 1080, h: 1350, fases: TODAS, fase: 'pos-parto',
+      slots: [{ id: 'a', r: 'Print da tela do delivery (sai desfocado)' }],
+      regra: 'A escolha possível do dia em que deu tudo errado. Sem marca de restaurante em destaque e sem culpa.',
+      campos: [
+        { k: 'titulo', r: 'O pedido', tipo: 'linha', max: 6 },
+        { k: 'peco', r: 'Peço', tipo: 'texto', max: 10 },
+        { k: 'nao', r: 'Não peço', tipo: 'texto', max: 10 },
+        { k: 'pq', r: 'Por quê', tipo: 'texto', max: 22 }
+      ],
+      padrao: { titulo: 'Pizza na sexta à noite', peco: 'Duas fatias, com uma salada antes', nao: 'A borda recheada extra e o refrigerante de 2 litros', pq: 'Ninguém precisa sair do delivery com culpa. Dá para pedir e ainda cuidar da semana.' },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v, e = c.t.escuro;
+        var linha = function (rot, bg, cor, k, txt) {
+          return '<div style="display:grid;grid-template-columns:240px minmax(0,1fr);gap:28px;align-items:start;padding:36px 0;border-top:3px dashed ' + (e ? 'rgba(242,240,235,.25)' : 'rgba(16,58,64,.2)') + '">' +
+            '<span class="pil" style="height:72px;padding:0 28px;font-size:28px;letter-spacing:.1em;text-transform:uppercase;background:' + bg + ';color:' + cor + ';justify-content:center">' + rot + '</span>' +
+            ed(k, 'tit', 'font-size:52px;height:200px;line-height:1.1', br(txt), '54,38') + '</div>';
+        };
+        return '<p class="rot ab" style="left:80px;top:96px;width:920px">Peço ou Não Peço</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:142px;width:920px;height:190px', br(v.titulo), '92,60') +
+          '<div class="ab" style="left:80px;top:370px;width:920px;height:640px;background:var(--k-s);border-radius:28px;padding:44px 56px 0;overflow:hidden;isolation:isolate">' +
+          (slotSrc('peco', 'a') ? '<img src="' + esc(slotSrc('peco', 'a')) + '" alt="" style="position:absolute;inset:-40px;width:1000px;height:720px;max-width:none;object-fit:cover;filter:blur(18px) saturate(.6);opacity:.28;z-index:-1">' : '') +
+          '<p class="rot" style="margin:0 0 28px;color:var(--k-a)">Pedido do dia difícil</p>' +
+          linha('Peço', e ? C.ouro : C.salviaFunda, e ? C.mar : C.algodao, 'peco', v.peco) +
+          linha('Não peço', e ? C.algodao : C.mar, e ? C.mar : C.algodao, 'nao', v.nao) + '</div>' +
+          ed('pq', 'cor ab', 'left:80px;top:1024px;width:900px;height:122px;font-size:32px', br(v.pq), '34,28') +
+          rodape(c);
+      }
+    },
+    {
+      id: 'isso', grupo: 'Instagram · feed 4:5', nome: 'Isso ou Aquilo', rede: 'Instagram e Threads', w: 1080, h: 1350, fases: TODAS, fase: 'gestacao',
+      regra: 'Duas opções que cabem na rotina, nenhuma vilã. Termina com uma pergunta para puxar comentário.',
+      campos: [
+        { k: 'titulo', r: 'Pergunta', tipo: 'texto', max: 8 },
+        { k: 'isso', r: 'Isso', tipo: 'linha', max: 5 },
+        { k: 'aquilo', r: 'Aquilo', tipo: 'linha', max: 5 },
+        { k: 'texto', r: 'Texto', tipo: 'texto', max: 30 }
+      ],
+      padrao: { titulo: 'Qual entra no seu café da manhã?', isso: 'Tapioca com ovo', aquilo: 'Pão com queijo', texto: 'Os dois cabem. O que muda é o que vem junto. Me conta nos comentários qual é o seu.' },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v, e = c.t.escuro;
+        var circ = function (x, bg, cor, k, txt) {
+          return '<div class="ab" style="left:' + x + 'px;top:420px;width:440px;height:440px;border-radius:50%;background:' + bg + ';display:flex;align-items:center;justify-content:center;padding:70px">' +
+            ed(k, 'tit', 'width:100%;height:240px;display:flex;align-items:center;justify-content:center;text-align:center;color:' + cor, br(txt), '64,40') + '</div>';
+        };
+        return '<p class="rot ab" style="left:80px;top:96px;width:920px">Isso ou Aquilo</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:142px;width:920px;height:230px', br(v.titulo), '92,60') +
+          circ(70, C.salvia, C.mar, 'isso', v.isso) + circ(570, e ? C.algodao : C.mar, e ? C.mar : C.algodao, 'aquilo', v.aquilo) +
+          '<div class="ab" style="left:480px;top:580px;width:120px;height:120px;border-radius:50%;background:var(--k-f);display:flex;align-items:center;justify-content:center;font-family:var(--fonte-titulo);font-style:italic;font-weight:500;font-size:56px;line-height:1;color:var(--k-a)">ou</div>' +
+          ed('texto', 'cor ab', 'left:80px;top:910px;width:900px;height:240px', br(v.texto), '38,32') +
+          rodape(c);
+      }
+    },
+    {
+      id: 'casos', grupo: 'Instagram · feed 4:5', nome: 'Casos de consultório', rede: 'Instagram', w: 1080, h: 1350, fases: TODAS, fase: 'pos-parto',
+      regra: 'Dúvida real contada sem identificar ninguém. Sem resultado clínico, exame, quilo ou medida.',
+      campos: [
+        { k: 'fasec', r: 'Fase do caso', tipo: 'linha', max: 3 },
+        { k: 'fala', r: 'Ela chegou dizendo', tipo: 'texto', max: 14 },
+        { k: 'fez', r: 'O que a gente fez', tipo: 'texto', max: 24 },
+        { k: 'nota', r: 'Nota de cuidado', tipo: 'texto', max: 22 }
+      ],
+      padraoFase: {
+        gestacao: { fasec: 'Gestação', fala: 'Eu passo mal com o ferro e não sei o que fazer.', fez: 'Levar o enjoo para o pré-natal e organizar as refeições do dia em volta do horário do ferro.' },
+        '40-mais': { fasec: '40+', fala: 'Já tentei de tudo e nada funciona comigo.', fez: 'Parar de copiar a estratégia de outra fase e montar um prato com proteína em todas as refeições.' }
+      },
+      padrao: { fasec: 'Pós-parto', fala: 'Eu não tenho tempo nem de almoçar.', fez: 'Um almoço montado no domingo, em potes, e um lanche que cabe na bolsa do bebê.', nota: 'Caso contado sem identificar ninguém. Cada mulher vive a fase do seu jeito.' },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v;
+        return '<p class="rot ab" style="left:80px;top:100px;width:600px">Casos de consultório</p>' +
+          '<span class="ab pil" style="right:80px;top:80px;height:64px;padding:0 28px;font-size:26px;background:var(--k-s);color:var(--k-t)"><span class="dot" style="background:var(--k-p)"></span><span data-k="fasec" contenteditable="plaintext-only">' + numFase(v.fasec) + '</span></span>' +
+          '<div class="ab" style="left:80px;top:176px;width:920px;height:830px;background:var(--k-s);border-radius:28px"></div>' +
+          '<p class="rot ab" style="left:136px;top:232px">Ela chegou dizendo</p>' +
+          ed('fala', 'tit ab', 'left:136px;top:286px;width:808px;height:320px;font-style:italic;font-weight:500', '“' + br(v.fala) + '”', '76,48') +
+          '<div class="ab" style="left:136px;top:640px">' + svgk('rotaCurta', c.t.rota, c.t.p, 'width:260px;height:auto') + '</div>' +
+          '<p class="rot ab" style="left:136px;top:712px">O que a gente fez</p>' +
+          ed('fez', 'cor ab', 'left:136px;top:762px;width:808px;height:210px', br(v.fez), '38,32') +
+          ed('nota', 'cor ab', 'left:80px;top:1028px;width:900px;height:118px;font-size:28px;line-height:1.35', br(v.nota), '30,28') +
+          rodape(c);
+      }
+    },
+    {
+      id: 'coisas', grupo: 'Instagram · feed 4:5', nome: 'Coisas que eu falo sendo nutri', rede: 'Instagram e Threads', w: 1080, h: 1350, fases: TODAS, fase: 'gestacao', foto: 'close',
+      regra: 'O óbvio que precisa ser dito, com humor e sem alimento vilão. Foto real na moldura em arco.',
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 6 },
+        { k: 'titulo', r: 'Frase', tipo: 'texto', max: 8 },
+        { k: 'texto', r: 'Texto', tipo: 'texto', max: 20 }
+      ],
+      padrao: { rot: 'Coisas que eu falo sendo nutri', titulo: 'Vilão, só no cinema.', texto: 'Não existe alimento proibido. Existe a quantidade que cabe na sua fase.' },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v;
+        return progresso(1, 5) +
+          '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:80px;top:112px;width:920px">' + esc(v.rot) + '</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:164px;width:920px;height:330px', br(v.titulo), '128,72') +
+          '<div class="ab arco" style="right:80px;top:520px;width:500px;height:660px;background:var(--k-s)"></div>' +
+          foto(c, 'right:116px;top:556px;width:428px;height:624px', 'arco') +
+          ed('texto', 'cor ab', 'left:80px;top:800px;width:400px;height:340px;display:flex;flex-direction:column;justify-content:flex-end', br(v.texto), '38,30') +
+          rodape(c);
+      }
+    },
+    {
+      id: 'receita', grupo: 'Instagram · feed 4:5', nome: 'Receita', rede: 'Instagram e Pinterest', w: 1080, h: 1350, fases: TODAS, fase: 'pos-parto', foto: 'nenhuma', fotoOpcional: true,
+      regra: 'Receita de até 15 minutos. Foto só do prato feito pela Ana; sem foto, entra o ícone de Receitas.',
+      campos: [
+        { k: 'titulo', r: 'Nome da receita', tipo: 'texto', max: 7 },
+        { k: 'tempo', r: 'Tempo', tipo: 'linha', max: 3 },
+        { k: 'porcoes', r: 'Rendimento', tipo: 'linha', max: 3 },
+        { k: 'ingr', r: 'Ingredientes (um por linha)', tipo: 'texto' },
+        { k: 'modo', r: 'Modo de fazer (um passo por linha)', tipo: 'texto' }
+      ],
+      padrao: { titulo: 'Panqueca de banana e aveia', tempo: '10 min', porcoes: '2 porções', ingr: '1 banana madura\n2 ovos\n3 colheres de aveia\nCanela a gosto', modo: 'Amasse a banana e misture tudo.\nDoure dos dois lados na frigideira untada.\nSirva com fruta ou iogurte natural.' },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v;
+        var topo = c.foto && c.foto.src ? foto(c, 'left:0;top:0;width:1080px;height:500px') :
+          '<div class="ab" style="left:0;top:0;width:1080px;height:500px;background:var(--k-s);display:flex;align-items:center;justify-content:center">' + svgk('ic-receitas', c.t.t, c.t.p, 'width:260px;height:260px') + '</div>';
+        var lista = String(v.ingr || '').split('\n').filter(Boolean).map(function (l) { return '<li style="display:flex;gap:16px;align-items:baseline"><span style="flex:none;width:12px;height:12px;border-radius:50%;background:var(--k-p);transform:translateY(-4px)"></span><span>' + esc(l) + '</span></li>'; }).join('');
+        var passos = String(v.modo || '').split('\n').filter(Boolean).map(function (l, i) { return '<li style="display:grid;grid-template-columns:36px minmax(0,1fr);gap:10px"><span class="num" style="color:var(--k-a);font-size:34px;line-height:1.3">' + (i + 1) + '</span><span>' + esc(l) + '</span></li>'; }).join('');
+        return topo +
+          '<p class="rot ab" style="left:80px;top:548px">Receita em 15</p>' +
+          '<div class="ab" style="right:80px;top:536px;display:flex;gap:10px">' +
+          '<span class="pil" style="height:56px;padding:0 22px;font-size:26px;background:var(--k-s);color:var(--k-t)"><span data-k="tempo" contenteditable="plaintext-only">' + esc(v.tempo) + '</span></span>' +
+          '<span class="pil" style="height:56px;padding:0 22px;font-size:26px;background:var(--k-s);color:var(--k-t)"><span data-k="porcoes" contenteditable="plaintext-only">' + esc(v.porcoes) + '</span></span></div>' +
+          ed('titulo', 'tit ab', 'left:80px;top:610px;width:920px;height:160px', br(v.titulo), '76,52') +
+          '<div class="ab cor" data-cabe style="left:80px;top:800px;width:400px;height:360px;font-size:32px;line-height:1.35"><p class="rot" style="font-size:24px;margin:0 0 14px">Ingredientes</p><ul style="list-style:none;margin:0;padding:0;display:grid;gap:8px">' + lista + '</ul></div>' +
+          '<div class="ab cor" data-cabe style="left:530px;top:800px;width:470px;height:360px;font-size:32px;line-height:1.35"><p class="rot" style="font-size:24px;margin:0 0 14px">Modo de fazer</p><ol style="list-style:none;margin:0;padding:0;display:grid;gap:10px">' + passos + '</ol></div>' +
+          rodape(c);
+      }
+    },
+    {
+      id: 'boas-vindas', grupo: 'Instagram · feed 4:5', nome: 'Boas-vindas da Comunidade', rede: 'Grupo e Instagram', w: 1080, h: 1350, fases: TODAS, fase: 'gestacao',
+      regra: 'Sub-marca Comunidade Bem Nutrida, fundo Bruma de preferência. Três combinados da casa.',
+      campos: [
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 8 },
+        { k: 'texto', r: 'Texto', tipo: 'texto', max: 24 },
+        { k: 'c1', r: 'Combinado 1', tipo: 'linha', max: 10 },
+        { k: 'c2', r: 'Combinado 2', tipo: 'linha', max: 10 },
+        { k: 'c3', r: 'Combinado 3', tipo: 'linha', max: 10 }
+      ],
+      padrao: { titulo: 'Que bom que você chegou.', texto: 'Aqui a gente conversa sobre o prato de cada fase, sem julgamento e sem alimento vilão.', c1: 'Só mulheres, com respeito pela fase de cada uma.', c2: 'Sem foto de corpo, medida ou número da balança.', c3: 'Dúvida de saúde individual vai para a consulta.' },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v;
+        var item = function (k) {
+          return '<li style="display:grid;grid-template-columns:20px minmax(0,1fr);gap:22px;align-items:start;padding:24px 0;border-top:2px solid ' + (c.t.escuro ? 'rgba(242,240,235,.18)' : 'rgba(16,58,64,.14)') + '"><span style="width:14px;height:14px;border-radius:50%;background:var(--k-p);margin-top:16px"></span>' +
+            ed(k, 'cor', 'font-size:34px;line-height:1.35;height:94px', esc(v[k]), '34,30') + '</li>';
+        };
+        return logo('submarca-comunidade-bem-nutrida', c.t.esquema, 'position:absolute;left:80px;top:110px;width:600px', 'Comunidade Bem Nutrida com Ana Paula Costa') +
+          ed('titulo', 'tit ab', 'left:80px;top:300px;width:920px;height:230px', br(v.titulo), '100,64') +
+          ed('texto', 'cor ab', 'left:80px;top:550px;width:900px;height:160px', br(v.texto), '38,32') +
+          '<ul class="ab" style="left:80px;top:740px;width:920px;margin:0;padding:0;list-style:none">' + item('c1') + item('c2') + item('c3') + '</ul>' +
+          rodape(c, { semLogo: true });
+      }
+    },
+    /* ---------- Stories, Reels e status 9:16 ---------- */
+    {
+      id: 'anuncio-4x5', grupo: 'Instagram · feed 4:5', nome: 'Anúncio do feed', rede: 'Instagram e Facebook (anúncio)', w: 1080, h: 1350, fases: TODAS, fase: 'gestacao', foto: 'gestante',
+      regra: 'Anúncio de saúde: “Para gestantes que...”, nunca “Você, gestante”. Sem preço de consulta, sem promessa de resultado, sem antes e depois. Assinatura e CRN no rodapé.',
+      campos: [
+        { k: 'publico', r: 'Para quem é (“Para ... que ...”)', tipo: 'texto', max: 10 },
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 9 },
+        { k: 'texto', r: 'Texto de apoio', tipo: 'texto', max: 24 }
+      ],
+      padrao: { publico: 'Para gestantes que passam mal com o ferro', titulo: 'Um plano para a sua gestação, do jeito que a sua rotina deixa.', texto: 'Na Avaliação da Fase, eu olho a sua rotina, os seus exames e o que você gosta de comer.' },
+      padraoFase: {
+        'pos-parto': { publico: 'Para mães no pós-parto que não têm tempo nem de almoçar', titulo: 'Comer bem com o bebê no colo cabe na rotina.', texto: 'Na Avaliação da Fase, a gente monta refeições que se fazem com uma mão só.' },
+        '40-mais': { publico: 'Para mulheres de 40+ que já tentaram de tudo', titulo: 'Cada fase pede outro prato. A sua também.', texto: 'Na Avaliação da Fase, eu olho a sua rotina, os seus exames e o que mudou nesta fase.' }
+      },
+      zonas: zFeed,
+      render: function (c) {
+        var v = c.v;
+        return ed('publico', 'cor ab', 'left:80px;top:104px;width:920px;height:120px;font-weight:600;color:var(--k-a);line-height:1.25', br(v.publico), '40,30') +
+          ed('titulo', 'tit ab', 'left:80px;top:236px;width:920px;height:300px', br(v.titulo), '84,56') +
+          '<div class="ab arco" style="right:80px;top:560px;width:470px;height:600px;background:' + (c.t.escuro ? C.marMedio : C.salvia) + '"></div>' +
+          foto(c, 'right:106px;top:586px;width:418px;height:574px', 'arco') +
+          ed('texto', 'cor ab', 'left:80px;top:580px;width:400px;height:430px', br(v.texto), '38,30') +
+          '<div class="ab" style="left:80px;top:1040px">' + svgk('rotaCurta', c.t.rota, c.t.p, 'width:300px;height:auto') + '</div>' +
+          rodape(c);
+      }
+    },
+    {
+      id: 'grade-3x4', grupo: 'Instagram · feed 4:5', nome: 'Post só para a grade (3:4)', rede: 'Instagram', w: 1080, h: 1440, fases: TODAS, fase: 'pos-parto',
+      regra: 'Fica inteiro na grade do perfil. Margem de 80 px. Não serve para anúncio: anúncio é 4:5.',
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 6 },
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 10 },
+        { k: 'texto', r: 'Texto', tipo: 'texto', max: 30 }
+      ],
+      padrao: { rot: 'Nutrição por fases', titulo: 'Cada fase pede outro prato.', texto: 'Gestação, pós-parto e 40+ não comem igual. Aqui eu explico o prato de cada fase, sem alimento vilão e sem promessa milagrosa.' },
+      zonas: function () { return [{ t: 'util', x: 80, y: 80, w: 920, h: 1280, r: 'Margem de 80 px', c: 'b-dir' }]; },
+      render: function (c) {
+        var v = c.v;
+        return '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:80px;top:112px;width:920px">' + esc(v.rot) + '</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:170px;width:920px;height:520px', br(v.titulo), '128,76') +
+          '<div class="ab" style="left:80px;top:736px">' + svgk('rotaCurta', c.t.rota, c.t.p, 'width:360px;height:auto') + '</div>' +
+          ed('texto', 'cor ab', 'left:80px;top:830px;width:900px;height:390px;line-height:1.45', br(v.texto), '42,32') +
+          rodape(c);
+      }
+    },
+    {
+      id: 'story-enquete', grupo: 'Stories, Reels e status 9:16', nome: 'Story · enquete de fase', rede: 'Instagram', w: 1080, h: 1920, fases: TODAS, fase: 'pos-parto', foto: 'retrato',
+      regra: 'Pergunta em Literata, botões de fase e a figurinha de enquete dentro da área útil.',
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 5 },
+        { k: 'titulo', r: 'Pergunta', tipo: 'texto', max: 8 }
+      ],
+      padrao: { rot: 'Me conta', titulo: 'Em qual fase você está hoje?' },
+      zonas: function () { return zStory().concat([{ t: 'fig', x: 80, y: 1360, w: 860, h: 160, r: 'Figurinha de enquete', c: 'b-centro' }]); },
+      render: function (c) {
+        var v = c.v;
+        var pil = function (txt, f) {
+          var on = c.fase === f;
+          return '<span class="pil" style="height:92px;padding:0 34px;background:' + (on ? c.t.t : c.t.s) + ';color:' + (on ? c.t.f : c.t.t) + '"><span class="dot" style="background:' + (on ? c.t.f : c.t.p) + '"></span>' + txt + '</span>';
+        };
+        return foto(c, 'left:0;top:0;width:1080px;height:880px') +
+          '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:80px;top:930px;width:860px">' + esc(v.rot) + '</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:982px;width:860px;height:240px', br(v.titulo), '96,64') +
+          '<div class="ab" style="left:80px;top:1240px;width:860px;display:flex;gap:16px;flex-wrap:wrap">' + pil('Gestação', 'gestacao') + pil('Pós-parto', 'pos-parto') + pil('<span><span class="num">40</span>+</span>', '40-mais') + '</div>';
+      }
+    },
+    {
+      id: 'story-caixinha', grupo: 'Stories, Reels e status 9:16', nome: 'Story · caixinha de pergunta', rede: 'Instagram', w: 1080, h: 1920, fases: TODAS, fase: 'pos-parto',
+      regra: 'Fundo de apoio, pergunta da Ana em Literata e a caixinha dentro da zona segura.',
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 5 },
+        { k: 'titulo', r: 'Pergunta', tipo: 'texto', max: 8 },
+        { k: 'texto', r: 'Subtítulo', tipo: 'texto', max: 18 }
+      ],
+      padrao: { rot: 'Caixinha da madrugada', titulo: 'Tem alguém acordada aí?', texto: 'Me faz companhia. Manda a sua dúvida da fase que eu respondo amanhã.' },
+      zonas: function () { return zStory().concat([{ t: 'fig', x: 120, y: 1040, w: 780, h: 340, r: 'Figurinha de pergunta', c: 'b-centro' }]); },
+      render: function (c) {
+        var v = c.v;
+        return '<div class="ab" style="inset:0;background:var(--k-s)"></div>' +
+          '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:80px;top:300px;width:860px">' + esc(v.rot) + '</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:352px;width:860px;height:380px', br(v.titulo), '120,72') +
+          '<div class="ab" style="left:80px;top:756px">' + svgk('rotaCurta', c.t.rota, c.t.p, 'width:260px;height:auto') + '</div>' +
+          ed('texto', 'cor ab', 'left:80px;top:820px;width:860px;height:190px;font-size:46px;line-height:1.3', br(v.texto), '46,36') +
+          '<div class="ab" style="left:80px;top:1430px;display:flex;align-items:center;gap:20px">' + logo('simbolo', c.t.esquema, 'height:64px;width:auto', 'Símbolo ap.') + '<span style="display:grid;gap:2px"><b style="font:600 30px/1.2 var(--fonte-texto);color:var(--k-t)">Ana Paula Costa · Nutricionista</b><span style="font:400 28px/1.2 var(--fonte-texto);color:var(--k-x)">' + esc(crn()) + '</span></span></div>';
+      }
+    },
+    {
+      id: 'story-cta', grupo: 'Stories, Reels e status 9:16', nome: 'Story · convite para a consulta', rede: 'Instagram', w: 1080, h: 1920, fases: TODAS, fase: 'pos-parto', foto: 'consulta',
+      regra: 'Como funciona a Avaliação da Fase, um único botão e a figurinha de link por cima dele. Consulta nunca tem preço na peça.',
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 4 },
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 9 },
+        { k: 'p1', r: 'Passo 1', tipo: 'linha', max: 10 },
+        { k: 'p2', r: 'Passo 2', tipo: 'linha', max: 10 },
+        { k: 'p3', r: 'Passo 3', tipo: 'linha', max: 10 },
+        { k: 'botao', r: 'Botão', tipo: 'linha', max: 4 }
+      ],
+      padrao: { rot: 'Avaliação da Fase', titulo: 'Uma consulta online, de onde você estiver.', p1: 'Cerca de 1 hora sobre a sua rotina', p2: 'O plano da sua fase em até 24 horas', p3: '30 dias de suporte, com ajustes', botao: 'Agendar minha avaliação' },
+      zonas: function () { return zStory().concat([{ t: 'fig', x: 80, y: 1328, w: 860, h: 104, r: 'Figurinha de link (entre o botão e a assinatura)', c: 'b-centro' }]); },
+      render: function (c) {
+        var v = c.v;
+        var passo = function (n, k) {
+          return '<div style="display:grid;grid-template-columns:64px minmax(0,1fr);gap:18px;align-items:baseline;padding:22px 0;border-top:2px solid ' + (c.t.escuro ? 'rgba(242,240,235,.18)' : 'rgba(16,58,64,.14)') + '"><span class="num" style="font-size:56px;line-height:1;color:var(--k-a)">' + n + '</span>' +
+            '<span data-k="' + k + '" contenteditable="plaintext-only" style="font-size:var(--corpo);line-height:1.3;color:var(--k-x)">' + esc(v[k]) + '</span></div>';
+        };
+        return foto(c, 'left:0;top:0;width:1080px;height:600px') +
+          '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:80px;top:640px;width:860px">' + esc(v.rot) + '</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:688px;width:860px;height:196px', br(v.titulo), '80,56') +
+          '<div class="ab" style="left:80px;top:892px;width:860px">' + passo(1, 'p1') + passo(2, 'p2') + passo(3, 'p3') + '</div>' +
+          '<div class="ab" style="left:80px;top:1210px;width:860px"><span class="btn"><span data-k="botao" contenteditable="plaintext-only">' + esc(v.botao) + '</span>' + setaSVG(c.t.btnT, 96) + '</span></div>' +
+          '<p class="ab" style="left:80px;top:1446px;width:860px;margin:0;font:400 28px/1.3 var(--fonte-texto);color:var(--k-x)">Valores informados no agendamento.</p>' +
+          assinatura(c, 'left:80px;top:1490px;width:860px');
+      }
+    },
+    {
+      id: 'reels', grupo: 'Stories, Reels e status 9:16', nome: 'Capa de Reels e TikTok', rede: 'Instagram, TikTok e Shorts', w: 1080, h: 1920, fases: TODAS, fase: 'pos-parto', foto: 'capaReels',
+      regra: 'Foto da Ana, faixa Sálvia com o título em até 6 palavras dentro do retângulo x 80 a 1000 · y 420 a 1500. A mesma capa aparece em 9:16, 4:5 e 3:4.',
+      campos: [
+        { k: 'quadro', r: 'Nome do quadro', tipo: 'linha', max: 4 },
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 6 },
+        { k: 'pos', r: 'Posição da faixa', tipo: 'escolha', opcoes: [['baixo', 'Embaixo'], ['meio', 'No meio']] }
+      ],
+      padrao: { quadro: 'Dúvida da fase', titulo: 'Queda de cabelo no pós-parto', pos: 'baixo' },
+      padraoFase: {
+        gestacao: { titulo: 'Ferro sem enjoo na gestação' },
+        '40-mais': { titulo: 'Proteína no café da manhã' }
+      },
+      zonas: function () {
+        return [
+          { t: 'livre', x: 0, y: 0, w: 1080, h: 250, r: 'Topo livre · 250 px' },
+          { t: 'livre', x: 0, y: 1540, w: 1080, h: 380, r: 'Base livre · 380 px', c: 'b-baixo' },
+          { t: 'livre', x: 940, y: 250, w: 140, h: 1290, r: 'Botões', c: 'b-dir' },
+          { t: 'corte', x: 0, y: 240, w: 1080, h: 1440, r: 'Grade do perfil · 3:4' },
+          { t: 'corte', x: 0, y: 285, w: 1080, h: 1350, r: 'Feed · 4:5', c: 'b-baixo' },
+          { t: 'util', x: 80, y: 420, w: 920, h: 1080, r: 'Título da capa · x 80 a 1000 · y 420 a 1500' }
+        ];
+      },
+      render: function (c) {
+        var v = c.v, top = v.pos === 'meio' ? 760 : 1076;
+        return foto(c, 'left:0;top:0;width:1080px;height:1920px') +
+          '<div class="ab" style="left:80px;top:' + top + 'px;width:920px;height:400px;background:' + (c.t.escuro ? C.mar : C.salvia) + ';border-radius:28px;padding:52px 56px">' +
+          '<p class="rot" data-k="quadro" contenteditable="plaintext-only" style="color:' + (c.t.escuro ? C.ouro : C.mar) + '">' + esc(v.quadro) + '</p>' +
+          ed('titulo', 'tit', 'margin-top:14px;height:236px;color:' + (c.t.escuro ? C.algodao : C.mar), br(v.titulo), '96,64') + '</div>' +
+          logo('simbolo', c.t.escuro ? 'sobre-escuro' : 'sobre-salvia', 'position:absolute;right:120px;top:' + (top + 52) + 'px;height:52px;width:auto', 'Símbolo ap.');
+      }
+    },
+    {
+      id: 'destaque', grupo: 'Stories, Reels e status 9:16', nome: 'Capas dos destaques', rede: 'Instagram', w: 1080, h: 1920, fases: ['pos-parto'], fase: 'pos-parto',
+      regra: 'Fundo Sálvia Ana sólido, ícone com a pena da marca em Mar Fundo e ponto Algodão. Só o círculo central de 640 px aparece; ícone com no máximo 400 px.',
+      variantes: DESTAQUES,
+      campos: [],
+      padrao: {},
+      zonas: function () { return [{ t: 'circ', x: 220, y: 640, w: 640, h: 640, r: 'Só o círculo aparece', sombra: true }, { t: 'circ', x: 340, y: 760, w: 400, h: 400, r: 'Ícone até 400 px', c: 'b-centro' }]; },
+      render: function (c) {
+        return '<div class="ab" style="inset:0;background:' + C.salvia + '"></div>' +
+          '<div class="ab" style="left:340px;top:760px;width:400px;height:400px">' + svgk('ic-' + c.variante, C.mar, C.algodao, 'width:400px;height:400px') + '</div>';
+      }
+    },
+    {
+      id: 'status', grupo: 'Stories, Reels e status 9:16', nome: 'Status do WhatsApp', rede: 'WhatsApp Business', w: 1080, h: 1920, fases: TODAS, fase: 'pos-parto', foto: 'perfil',
+      regra: 'Recado curto da Ana, mesma zona segura dos stories. A caixa de resposta ocupa a base.',
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 4 },
+        { k: 'titulo', r: 'Recado', tipo: 'texto', max: 14 },
+        { k: 'texto', r: 'Complemento', tipo: 'texto', max: 14 }
+      ],
+      padrao: { rot: 'Recado da Ana', titulo: 'Bom dia! Hoje no grupo: o lanche que cabe na bolsa.', texto: 'Passa lá e me conta o seu.' },
+      zonas: function () { return zStory('Caixa de resposta'); },
+      render: function (c) {
+        var v = c.v;
+        return '<div class="ab arco" style="left:300px;top:270px;width:480px;height:560px;background:' + (c.t.escuro ? C.marMedio : C.salvia) + '"></div>' +
+          foto(c, 'left:328px;top:298px;width:424px;height:532px', 'arco') +
+          '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:80px;top:880px;width:860px;text-align:center">' + esc(v.rot) + '</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:930px;width:860px;height:380px;text-align:center', br(v.titulo), '88,60') +
+          ed('texto', 'cor ab', 'left:80px;top:1320px;width:860px;height:104px;text-align:center', br(v.texto), '40,32') +
+          '<div class="ab" style="left:80px;width:860px;top:1444px;display:flex;align-items:center;justify-content:center;gap:18px">' + logo('simbolo', c.t.esquema, 'height:56px;width:auto', 'Símbolo ap.') + '<span style="display:grid;gap:2px;text-align:left"><b style="font:600 28px/1.2 var(--fonte-texto);color:var(--k-t)">Ana Paula Costa · Nutricionista</b><span style="font:400 28px/1.2 var(--fonte-texto);color:var(--k-x)">' + esc(crn()) + '</span></span></div>';
+      }
+    },
+    {
+      id: 'anuncio-9x16', grupo: 'Stories, Reels e status 9:16', nome: 'Anúncio vertical', rede: 'Instagram, Facebook e TikTok (anúncio)', w: 1080, h: 1920, fases: TODAS, fase: 'gestacao', foto: 'gestante',
+      regra: 'Base livre de 480 px para o botão do anúncio: tudo acima de y 1440. “Para gestantes que...”, nunca “Você, gestante”. Sem preço de consulta e sem promessa de resultado.',
+      campos: [
+        { k: 'publico', r: 'Para quem é (“Para ... que ...”)', tipo: 'texto', max: 10 },
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 9 },
+        { k: 'texto', r: 'Texto de apoio', tipo: 'texto', max: 22 }
+      ],
+      padrao: { publico: 'Para gestantes que passam mal com o ferro', titulo: 'Um plano para a sua gestação, do jeito que a sua rotina deixa.', texto: 'Consulta online, por vídeo, de onde você estiver.' },
+      padraoFase: {
+        'pos-parto': { publico: 'Para mães no pós-parto que não têm tempo nem de almoçar', titulo: 'Comer bem com o bebê no colo cabe na rotina.' },
+        '40-mais': { publico: 'Para mulheres de 40+ que já tentaram de tudo', titulo: 'Cada fase pede outro prato. A sua também.' }
+      },
+      zonas: function () {
+        return [
+          { t: 'livre', x: 0, y: 0, w: 1080, h: 250, r: 'Topo livre · 250 px' },
+          { t: 'livre', x: 0, y: 1440, w: 1080, h: 480, r: 'Botão do anúncio · base livre de 480 px', c: 'b-baixo' },
+          { t: 'livre', x: 940, y: 250, w: 140, h: 1190, r: 'Botões', c: 'b-dir' },
+          { t: 'util', x: 60, y: 250, w: 880, h: 1190, r: 'Área útil do anúncio · y 250 a 1440' }
+        ];
+      },
+      render: function (c) {
+        var v = c.v;
+        return foto(c, 'left:0;top:0;width:1080px;height:720px') +
+          ed('publico', 'cor ab', 'left:80px;top:768px;width:860px;height:120px;font-weight:600;color:var(--k-a);line-height:1.25', br(v.publico), '42,32') +
+          ed('titulo', 'tit ab', 'left:80px;top:900px;width:860px;height:300px', br(v.titulo), '84,56') +
+          ed('texto', 'cor ab', 'left:80px;top:1216px;width:860px;height:110px', br(v.texto), '38,30') +
+          '<div class="ab" style="left:80px;top:1346px;display:flex;align-items:center;gap:18px">' + logo('simbolo', c.t.esquema, 'height:56px;width:auto', 'Símbolo ap.') +
+          '<span style="display:grid;gap:2px"><b style="font:600 28px/1.2 var(--fonte-texto);color:var(--k-t)">Ana Paula Costa · Nutricionista</b><span style="font:400 28px/1.2 var(--fonte-texto);color:var(--k-x)">' + esc(crn()) + '</span></span></div>';
+      }
+    },
+    {
+      id: 'live', grupo: 'Stories, Reels e status 9:16', nome: 'Capa de live e de encontro', rede: 'Instagram, YouTube e grupo', w: 1080, h: 1920, fases: TODAS, fase: 'pos-parto', foto: 'capaReels',
+      regra: 'Tema, dia e horário em até 3 linhas, dentro da zona segura dos stories. No encontro da comunidade, o selo Comunidade Bem Nutrida entra no lugar do nome.',
+      variantes: [{ id: 'ana', nome: 'Live da Ana' }, { id: 'comunidade', nome: 'Encontro da Comunidade' }],
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 4 },
+        { k: 'tema', r: 'Tema', tipo: 'texto', max: 8 },
+        { k: 'dia', r: 'Dia', tipo: 'linha', max: 4 },
+        { k: 'horario', r: 'Horário', tipo: 'linha', max: 3 }
+      ],
+      padrao: { rot: 'Ao vivo', tema: 'O lanche que cabe na bolsa do bebê', dia: 'Quinta, 16/10', horario: '20h' },
+      padraoVar: { comunidade: { rot: 'Encontro da comunidade', tema: 'Café da manhã da semana corrida' } },
+      zonas: function () { return zStory(); },
+      render: function (c) { return capaLive(c, false); }
+    },
+    {
+      id: 'destaque-story', grupo: 'Stories, Reels e status 9:16', nome: 'Stories dos destaques', rede: 'Instagram', w: 1080, h: 1920, fases: TODAS, fase: 'pos-parto',
+      regra: 'Um story por tela, texto dentro da área útil. A figurinha de link entra só no último story de cada destaque, no lugar marcado.',
+      variantes: DESTAQUES,
+      faseVar: { gestacao: 'gestacao', 'pos-parto': 'pos-parto', '40-mais': '40-mais' },
+      campos: [
+        { k: 'texto', r: 'Texto do story', tipo: 'texto', max: 30 },
+        { k: 'link', r: 'Texto da figurinha de link (último story)', tipo: 'linha', max: 5 }
+      ],
+      padrao: { texto: 'Oi, eu sou a Ana Paula. Nutricionista, mãe de dois e atleta. Aqui eu te ajudo a comer bem na fase que você está vivendo.', link: 'Comece por aqui' },
+      padraoVar: {
+        consulta: { texto: 'Como funciona a Avaliação da Fase? Uma consulta online, por vídeo, de onde você estiver.', link: 'Agendar minha avaliação' },
+        comunidade: { texto: 'Nenhuma mulher precisa passar por cada fase sozinha.', link: 'Entrar no grupo' },
+        gestacao: { texto: 'Toma sulfato ferroso e passa mal? Não pare por conta própria. Primeiro, entenda o porquê.', link: 'Quero o guia do ferro' },
+        'pos-parto': { texto: 'O corpo não falhou. Ele fez algo extraordinário!', link: 'Entrar no grupo' },
+        '40-mais': { texto: 'Você não falhou. Muitas vezes, tentou a estratégia de outra fase.', link: 'Entrar no grupo' },
+        receitas: { texto: 'Receitas de até 15 minutos, para quem não tem tempo ou não gosta de cozinhar. Aqui ninguém julga.', link: 'Conhecer a Semana Bem Nutrida' },
+        depoimentos: { texto: 'O que as mulheres contam depois de caminhar comigo.', link: 'Agendar minha avaliação' }
+      },
+      zonas: function () { return zStory().concat([{ t: 'fig', x: 120, y: 1250, w: 780, h: 150, r: 'Figurinha de link · só no último story', c: 'b-centro' }]); },
+      render: function (c) {
+        var v = c.v, d = DESTAQUES.filter(function (x) { return x.id === c.variante; })[0] || DESTAQUES[0];
+        return '<div class="ab" style="left:80px;top:300px;width:200px;height:200px;border-radius:50%;background:' + C.salvia + ';display:flex;align-items:center;justify-content:center">' + svgk('ic-' + d.id, C.mar, C.algodao, 'width:124px;height:124px') + '</div>' +
+          '<p class="rot ab" style="left:80px;top:552px;width:860px">Destaque · ' + numFase(d.nome) + '</p>' +
+          ed('texto', 'tit ab', 'left:80px;top:604px;width:860px;height:560px;line-height:1.12', br(v.texto), '84,52') +
+          '<div class="ab" style="left:80px;top:1186px">' + svgk('rotaCurta', c.t.rota, c.t.p, 'width:240px;height:auto') + '</div>' +
+          '<div class="ab" style="left:80px;top:1438px;display:flex;align-items:center;gap:18px">' + logo('simbolo', c.t.esquema, 'height:56px;width:auto', 'Símbolo ap.') + '<span style="font:600 28px/1.2 var(--fonte-texto);color:var(--k-t)">Ana Paula Costa · Nutricionista</span></div>';
+      }
+    },
+    {
+      id: 'story-semana', grupo: 'Stories, Reels e status 9:16', nome: 'Story · Semana Bem Nutrida', rede: 'Instagram e status do WhatsApp', w: 1080, h: 1920, fases: ['40-mais'], fase: '40-mais',
+      regra: 'Divulgação do produto digital, sobre Mar Fundo. O preço da Semana pode aparecer (não é consulta). Figurinha de link no lugar marcado.',
+      campos: [
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 12 },
+        { k: 'itens', r: 'O que vem no kit (um por linha)', tipo: 'texto' },
+        { k: 'preco', r: 'Preço', tipo: 'linha', max: 3 }
+      ],
+      padrao: { titulo: 'A semana inteira organizada, sem passar o domingo na cozinha.', itens: 'Planejador da semana\nCardápios-exemplo de 4 semanas\nReceitas de até 15 minutos\nListas de compras prontas', preco: 'R$ 47' },
+      zonas: function () { return zStory().concat([{ t: 'fig', x: 120, y: 1290, w: 780, h: 110, r: 'Figurinha de link: “Conhecer a Semana Bem Nutrida”', c: 'b-centro' }]); },
+      render: function (c) {
+        var v = c.v;
+        var itens = String(v.itens || '').split('\n').filter(Boolean).slice(0, 5).map(function (l) { return '<li style="display:flex;gap:18px;align-items:baseline"><span style="flex:none;width:14px;height:14px;border-radius:50%;background:' + C.salvia + ';transform:translateY(-4px)"></span><span>' + numFase(l) + '</span></li>'; }).join('');
+        return '<div class="ab" style="inset:0;background:' + C.mar + '"></div>' +
+          logo('submarca-semana-bem-nutrida', 'sobre-escuro', 'position:absolute;left:80px;top:300px;width:600px;height:auto', 'Semana Bem Nutrida, com Ana Paula Costa') +
+          ed('titulo', 'tit ab', 'left:80px;top:470px;width:860px;height:330px;color:' + C.algodao, br(v.titulo), '80,56') +
+          '<ul class="ab cor" data-cabe style="left:80px;top:830px;width:860px;height:300px;margin:0;padding:0;list-style:none;display:grid;gap:14px;font-size:38px;line-height:1.3;color:' + C.algodao + '">' + itens + '</ul>' +
+          '<p class="ab" style="left:80px;top:1150px;margin:0;display:flex;align-items:baseline;gap:20px;color:' + C.algodao + '"><span class="num" data-k="preco" contenteditable="plaintext-only" style="font-size:88px;line-height:1;color:' + C.ouro + '">' + esc(v.preco) + '</span><span style="font:400 28px/1.3 var(--fonte-texto)">Material educativo,<br>não substitui consulta.</span></p>' +
+          assinatura(c, 'left:80px;top:1460px;width:860px', C.algodao);
+      }
+    },
+    /* ---------- YouTube ---------- */
+    {
+      id: 'thumb', grupo: 'YouTube', nome: 'Miniatura do YouTube', rede: 'YouTube', w: 1280, h: 720, fases: TODAS, fase: 'gestacao', foto: 'close', fotoZ: 1.4,
+      regra: 'Rosto grande à esquerda, até 4 palavras à direita, canto inferior direito livre para a duração.',
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 3 },
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 4 }
+      ],
+      padrao: { rot: 'Gestação', titulo: 'Ferro sem enjoo' },
+      padraoFase: {
+        'pos-parto': { rot: 'Pós-parto', titulo: 'Almoço com uma mão' },
+        '40-mais': { rot: '40+', titulo: 'Proteína logo cedo' }
+      },
+      zonas: function () { return [{ t: 'livre', x: 1060, y: 610, w: 220, h: 110, r: 'Duração', c: 'b-dir' }, { t: 'util', x: 40, y: 40, w: 1200, h: 640, r: 'Margem' }]; },
+      render: function (c) {
+        var v = c.v;
+        return foto(c, 'left:0;top:0;width:600px;height:720px') +
+          '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:660px;top:120px;width:560px;font-size:30px">' + numFase(v.rot) + '</p>' +
+          ed('titulo', 'tit ab', 'left:660px;top:170px;width:580px;height:360px;display:flex;align-items:flex-start', br(v.titulo), '128,80') +
+          '<div class="ab" style="left:660px;top:556px">' + svgk('rotaCurta', c.t.rota, c.t.p, 'width:250px;height:auto') + '</div>' +
+          logo('simbolo', c.t.esquema, 'position:absolute;right:44px;top:44px;height:56px;width:auto', 'Símbolo ap.');
+      }
+    },
+    {
+      id: 'banner', grupo: 'YouTube', nome: 'Banner do canal', rede: 'YouTube', w: 2560, h: 1440, fases: TODAS, fase: 'pos-parto',
+      regra: 'Só o retângulo central de 1546 × 423 aparece em todos os aparelhos. Assinatura, frase e CRN dentro dele; o resto é textura.',
+      campos: [
+        { k: 'titulo', r: 'Frase', tipo: 'linha', max: 6 },
+        { k: 'texto', r: 'Linha de apoio', tipo: 'linha', max: 10 }
+      ],
+      padrao: { titulo: 'Cada fase pede outro prato.', texto: 'Gestação, pós-parto e 40+ · atendimento online' },
+      zonas: function () {
+        return [
+          { t: 'livre', x: 0, y: 0, w: 2560, h: 508, r: 'Só na TV' },
+          { t: 'livre', x: 0, y: 932, w: 2560, h: 508, r: 'Só na TV', c: 'b-baixo' },
+          { t: 'corte', x: 0, y: 508, w: 2560, h: 424, r: 'Computador · 2560 × 423' },
+          { t: 'corte', x: 352, y: 508, w: 1856, h: 424, r: 'Tablet · 1855 × 423', c: 'b-baixo' },
+          { t: 'util', x: 507, y: 508, w: 1546, h: 424, r: 'Área segura · 1546 × 423 · todos os aparelhos', c: 'b-dir' }
+        ];
+      },
+      render: function (c) {
+        var v = c.v;
+        return '<div class="ab" style="inset:0;background-color:var(--k-f);background-image:' + padrao(c.t.escuro, c.t.f) + ';background-size:480px 144px"></div>' +
+          '<div class="ab" style="left:487px;top:488px;width:1586px;height:464px;background:var(--k-f);border-radius:40px"></div>' +
+          '<div class="ab" style="left:567px;top:508px;width:1426px;height:424px;display:flex;align-items:center;gap:64px">' +
+          logo('logo-horizontal', c.t.esquema, 'width:640px;height:auto;flex:none', 'Ana Paula Costa, Nutricionista') +
+          '<span style="width:3px;align-self:stretch;margin:96px 0;background:' + (c.t.escuro ? 'rgba(242,240,235,.3)' : 'rgba(16,58,64,.22)') + '"></span>' +
+          '<div style="min-width:0;flex:1">' + ed('titulo', 'tit', 'height:190px;line-height:1.12;padding-bottom:12px;display:flex;align-items:flex-end', br(v.titulo), '92,60') +
+          '<p data-k="texto" contenteditable="plaintext-only" style="margin:16px 0 0;font:400 40px/1.35 var(--fonte-texto);color:var(--k-x)">' + numFase(v.texto) + '</p>' +
+          '<p style="margin:10px 0 0;font:600 34px/1.35 var(--fonte-texto);color:var(--k-a)">' + esc(crn()) + '</p></div></div>';
+      }
+    },
+    /* ---------- Capas e perfil ---------- */
+    {
+      id: 'facebook', grupo: 'Capas, perfil e outras redes', nome: 'Capa do Facebook', rede: 'Facebook', w: 851, h: 315, fases: TODAS, fase: 'pos-parto',
+      regra: 'O celular corta para 640 × 360: tudo que importa dentro do retângulo central de 640 × 312.',
+      campos: [{ k: 'titulo', r: 'Frase', tipo: 'linha', max: 6 }],
+      padrao: { titulo: 'Cada fase pede outro prato.' },
+      zonas: function () { return [{ t: 'corte', x: 15, y: 1, w: 821, h: 312, r: 'Computador · 820 × 312' }, { t: 'util', x: 105, y: 1, w: 641, h: 312, r: 'Celular · 640 × 312', c: 'b-baixo' }]; },
+      render: function (c) {
+        var e = c.t.escuro, g = c.fase === 'gestacao', fundo = e ? C.mar : (g ? C.bruma : C.salvia), esq = e ? 'sobre-escuro' : (g ? 'cor' : 'sobre-salvia');
+        return '<div class="ab" style="inset:0;background:' + fundo + '"></div>' +
+          '<div class="ab" style="left:125px;top:0;width:601px;height:315px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px">' +
+          logo('logo-horizontal', esq, 'width:340px;height:auto', 'Ana Paula Costa, Nutricionista') +
+          '<p data-k="titulo" contenteditable="plaintext-only" style="margin:0;font-family:var(--fonte-titulo);font-weight:580;font-variation-settings:\'opsz\' 36;font-size:28px;line-height:1.2;color:' + (e ? C.algodao : C.mar) + '">' + esc(c.v.titulo) + '</p>' +
+          '<p style="margin:0;font:600 15px/1.2 var(--fonte-texto);letter-spacing:.06em;color:' + (e ? C.algodao : C.mar) + '">' + esc(crn()) + '</p></div>' +
+          '<div class="ab" style="left:36px;top:268px">' + svgk('rota', e ? C.marMedio : (g ? C.salvia : C.mar), e ? C.ouro : (g ? C.salviaFunda : C.algodao), 'width:780px;height:auto;opacity:.6') + '</div>';
+      }
+    },
+    {
+      id: 'linkedin', grupo: 'Capas, perfil e outras redes', nome: 'Capa do LinkedIn', rede: 'LinkedIn', w: 1584, h: 396, fases: TODAS, fase: 'pos-parto',
+      regra: 'No celular só aparecem os 1200 px do centro. A foto de perfil cobre o primeiro quarto da largura na metade de baixo.',
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 4 },
+        { k: 'titulo', r: 'Frase', tipo: 'texto', max: 10 },
+        { k: 'texto', r: 'Linha de apoio', tipo: 'linha', max: 8 }
+      ],
+      padrao: { rot: 'Nutrição por Fases', titulo: 'Gestação, pós-parto e saúde da mulher 40+', texto: 'Da Marinha Mercante à Nutrição · atendimento online' },
+      zonas: function () { return [{ t: 'livre', x: 0, y: 198, w: 396, h: 198, r: 'Foto de perfil', c: 'b-baixo' }, { t: 'util', x: 192, y: 0, w: 1200, h: 396, r: 'Visível no celular · 1200 px', c: 'b-dir' }]; },
+      render: function (c) {
+        var v = c.v;
+        return '<div class="ab" style="left:0;top:0;width:400px;height:396px;background-color:var(--k-f);background-image:' + padrao(c.t.escuro, c.t.f) + ';background-size:320px 96px"></div>' +
+          '<div class="ab" style="left:430px;top:56px;width:940px;height:290px">' +
+          '<p class="rot" data-k="rot" contenteditable="plaintext-only" style="font-size:22px">' + esc(v.rot) + '</p>' +
+          ed('titulo', 'tit', 'margin-top:10px;height:122px;line-height:1.08', br(v.titulo), '54,40') +
+          '<p data-k="texto" contenteditable="plaintext-only" style="margin:14px 0 0;font:400 25px/1.35 var(--fonte-texto);color:var(--k-x)">' + esc(v.texto) + '</p>' +
+          '<p style="margin:6px 0 0;font:600 24px/1.35 var(--fonte-texto);color:var(--k-a)">Ana Paula Costa · Nutricionista · ' + esc(crn()) + '</p></div>' +
+          logo('simbolo', c.t.esquema, 'position:absolute;left:1268px;top:62px;height:52px;width:auto', 'Símbolo ap.');
+      }
+    },
+    {
+      id: 'pin', grupo: 'Capas, perfil e outras redes', nome: 'Pin do Pinterest', rede: 'Pinterest', w: 1000, h: 1500, fases: TODAS, fase: 'pos-parto', foto: 'nenhuma', fotoOpcional: true,
+      regra: 'Título no terço de cima, receita ou foto no meio, assinatura pequena no rodapé. Os últimos 120 px recebem botões da rede.',
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 4 },
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 9 },
+        { k: 'ingr', r: 'Lista (um item por linha; aparece quando não há foto)', tipo: 'texto' }
+      ],
+      padrao: { rot: 'Receita em 15', titulo: 'Café da manhã em 5 minutos para a semana corrida', ingr: 'Overnight de aveia com fruta\nTapioca com ovo mexido\nIogurte natural com granola\nPão com pasta de ricota' },
+      zonas: function () { return [{ t: 'util', x: 80, y: 80, w: 840, h: 1300, r: 'Margem de 80 px' }, { t: 'livre', x: 0, y: 1380, w: 1000, h: 120, r: 'Botões da rede · 120 px', c: 'b-baixo' }]; },
+      render: function (c) {
+        var v = c.v, meio;
+        if (c.foto && c.foto.src) meio = foto(c, 'left:80px;top:520px;width:840px;height:680px;border-radius:28px');
+        else meio = '<div class="ab cor" data-cabe style="left:80px;top:520px;width:840px;height:680px;background:var(--k-s);border-radius:28px;padding:56px 60px;font-size:36px;line-height:1.35">' +
+          '<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:24px"><p class="rot" style="font-size:24px">Para a semana</p>' + svgk('ic-receitas', c.t.t, c.t.p, 'width:96px;height:96px') + '</div>' +
+          '<ol style="list-style:none;margin:0;padding:0;display:grid;gap:18px">' + String(v.ingr || '').split('\n').filter(Boolean).map(function (l, i) { return '<li style="display:grid;grid-template-columns:52px minmax(0,1fr);gap:12px;padding-top:18px;border-top:2px solid ' + (c.t.escuro ? 'rgba(242,240,235,.18)' : 'rgba(16,58,64,.14)') + '"><span class="num" style="color:var(--k-a)">' + (i + 1) + '</span><span>' + esc(l) + '</span></li>'; }).join('') + '</ol></div>';
+        return '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:80px;top:96px;width:840px">' + esc(v.rot) + '</p>' +
+          ed('titulo', 'tit ab', 'left:80px;top:146px;width:840px;height:340px', br(v.titulo), '96,60') +
+          meio +
+          '<div class="ab" style="left:80px;top:1250px;display:flex;align-items:center;gap:20px">' + logo('simbolo', c.t.esquema, 'height:60px;width:auto', 'Símbolo ap.') +
+          '<span style="display:grid;gap:2px"><b style="font:600 28px/1.2 var(--fonte-texto);color:var(--k-t)">Ana Paula Costa · Nutricionista</b><span style="font:400 26px/1.2 var(--fonte-texto);color:var(--k-x)">' + esc(crn()) + '</span></span></div>';
+      }
+    },
+    {
+      id: 'live-16x9', grupo: 'YouTube', nome: 'Capa de live (horizontal)', rede: 'YouTube e transmissões', w: 1920, h: 1080, fases: TODAS, fase: 'pos-parto', foto: 'capaReels',
+      regra: 'Foto à esquerda, tema, dia e horário à direita, margem de 80 px. No encontro da comunidade, o selo Comunidade Bem Nutrida entra no lugar do nome.',
+      variantes: [{ id: 'ana', nome: 'Live da Ana' }, { id: 'comunidade', nome: 'Encontro da Comunidade' }],
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 4 },
+        { k: 'tema', r: 'Tema', tipo: 'texto', max: 8 },
+        { k: 'dia', r: 'Dia', tipo: 'linha', max: 4 },
+        { k: 'horario', r: 'Horário', tipo: 'linha', max: 3 }
+      ],
+      padrao: { rot: 'Ao vivo', tema: 'O lanche que cabe na bolsa do bebê', dia: 'Quinta, 16/10', horario: '20h' },
+      padraoVar: { comunidade: { rot: 'Encontro da comunidade', tema: 'Café da manhã da semana corrida' } },
+      zonas: function () { return [{ t: 'util', x: 80, y: 80, w: 1760, h: 920, r: 'Margem de 80 px', c: 'b-dir' }]; },
+      render: function (c) { return capaLive(c, true); }
+    },
+    {
+      id: 'catalogo-whatsapp', grupo: 'Capas, perfil e outras redes', nome: 'Item do catálogo do WhatsApp', rede: 'WhatsApp Business', w: 1080, h: 1080, fases: ['pos-parto'], fase: 'pos-parto',
+      regra: 'Ícone no traço da marca, título em até 3 palavras, margem de 100 px. Nunca o preço da consulta na imagem nem no campo de preço.',
+      variantes: [{ id: 'semana', nome: 'Semana Bem Nutrida' }, { id: 'comunidade', nome: 'Comunidade Bem Nutrida' }, { id: 'avaliacao', nome: 'Avaliação da Fase' }, { id: 'acompanhamento', nome: 'Acompanhamento 90 dias' }],
+      campos: [
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 3 },
+        { k: 'apoio', r: 'Linha de apoio', tipo: 'linha', max: 6 }
+      ],
+      padrao: { titulo: 'Semana Bem Nutrida', apoio: 'Kit gravado para organizar a semana' },
+      padraoVar: {
+        comunidade: { titulo: 'Comunidade Bem Nutrida', apoio: 'Lista de espera das fundadoras' },
+        avaliacao: { titulo: 'Avaliação da Fase', apoio: 'Consulta online, por vídeo' },
+        acompanhamento: { titulo: 'Acompanhamento da Fase', apoio: '90 dias de suporte' }
+      },
+      zonas: function () { return [{ t: 'util', x: 100, y: 100, w: 880, h: 880, r: 'Margem de 100 px', c: 'b-dir' }]; },
+      render: function (c) {
+        var v = c.v, ic = { semana: 'receitas', comunidade: 'comunidade', avaliacao: 'consulta', acompanhamento: 'comece-aqui' }[c.variante] || 'consulta';
+        return '<div class="ab" style="inset:0;background:' + C.salvia + '"></div>' +
+          '<div class="ab" style="left:100px;top:120px;width:280px;height:280px">' + svgk('ic-' + ic, C.mar, C.algodao, 'width:280px;height:280px') + '</div>' +
+          ed('titulo', 'tit ab', 'left:100px;top:450px;width:880px;height:230px;color:' + C.mar, br(v.titulo), '100,64') +
+          '<p class="ab" data-k="apoio" contenteditable="plaintext-only" style="left:100px;top:700px;width:880px;margin:0;font:400 38px/1.3 var(--fonte-texto);color:' + C.mar + '">' + esc(v.apoio) + '</p>' +
+          '<div class="ab" style="left:100px;top:860px;display:flex;align-items:center;gap:18px">' + logo('simbolo', 'sobre-salvia', 'height:60px;width:auto', 'Símbolo ap.') +
+          '<span style="display:grid;gap:2px"><b style="font:600 28px/1.2 var(--fonte-texto);color:' + C.mar + '">Ana Paula Costa · Nutricionista</b><span style="font:400 28px/1.2 var(--fonte-texto);color:' + C.mar + '">' + esc(crn()) + '</span></span></div>';
+      }
+    },
+    {
+      id: 'linkedin-post', grupo: 'Capas, perfil e outras redes', nome: 'Post do LinkedIn', rede: 'LinkedIn', w: 1200, h: 627, fases: TODAS, fase: 'pos-parto', foto: 'perfil',
+      regra: 'Foto à esquerda, ideia à direita, mesmas margens do feed. Assinatura e CRN no pé.',
+      campos: [
+        { k: 'rot', r: 'Rótulo', tipo: 'linha', max: 4 },
+        { k: 'titulo', r: 'Título', tipo: 'texto', max: 12 },
+        { k: 'texto', r: 'Linha de apoio', tipo: 'texto', max: 16 }
+      ],
+      padrao: { rot: 'Nutrição por Fases', titulo: 'Da Marinha Mercante à Nutrição: mudar de rota aos 30.', texto: 'Hoje eu atendo mulheres online, na gestação, no pós-parto e nos 40+.' },
+      zonas: function () { return [{ t: 'util', x: 500, y: 56, w: 644, h: 515, r: 'Margem de 56 px', c: 'b-dir' }]; },
+      render: function (c) {
+        var v = c.v;
+        return '<div class="ab" style="left:0;top:0;width:440px;height:627px;background:' + (c.t.escuro ? C.marMedio : C.salvia) + '"></div>' +
+          foto(c, 'left:0;top:0;width:440px;height:627px') +
+          '<p class="rot ab" data-k="rot" contenteditable="plaintext-only" style="left:500px;top:70px;width:640px;font-size:22px">' + esc(v.rot) + '</p>' +
+          ed('titulo', 'tit ab', 'left:500px;top:112px;width:640px;height:250px', br(v.titulo), '60,40') +
+          ed('texto', 'cor ab', 'left:500px;top:384px;width:640px;height:100px;font-size:28px;line-height:1.35', br(v.texto), '28,24') +
+          '<div class="ab" style="left:500px;top:506px;display:flex;align-items:center;gap:14px">' + logo('simbolo', c.t.esquema, 'height:40px;width:auto', 'Símbolo ap.') +
+          '<span style="font:600 22px/1.25 var(--fonte-texto);color:var(--k-t)">Ana Paula Costa · Nutricionista<br><span style="font-weight:400;color:var(--k-x)">' + esc(crn()) + '</span></span></div>';
+      }
+    },
+    {
+      id: 'email-cabecalho', grupo: 'Capas, perfil e outras redes', nome: 'Cabeçalho de e-mail', rede: 'E-mail', w: 1200, h: 400, fases: TODAS, fase: 'pos-parto',
+      regra: 'Aparece com 600 × 200. Assinatura à esquerda e faixa Sálvia, sem texto importante dentro da imagem: muitos aplicativos de e-mail bloqueiam imagens.',
+      campos: [],
+      padrao: {},
+      zonas: function () { return [{ t: 'util', x: 60, y: 60, w: 1080, h: 280, r: 'Margem de 60 px' }]; },
+      render: function (c) {
+        var e = c.t.escuro;
+        return '<div class="ab" style="inset:0;background:' + (e ? C.mar : C.algodao) + '"></div>' +
+          '<div class="ab" style="left:800px;top:0;width:400px;height:400px;background:' + (e ? C.marSup : C.salvia) + '"></div>' +
+          logo('logo-horizontal', e ? 'sobre-escuro' : 'cor', 'position:absolute;left:72px;top:130px;width:620px;height:auto', 'Ana Paula Costa, Nutricionista') +
+          '<div class="ab" style="left:860px;top:156px">' + svgk('rotaCurta', e ? C.algodao : C.mar, e ? C.salvia : C.algodao, 'width:280px;height:auto') + '</div>';
+      }
+    },
+    {
+      id: 'perfil', grupo: 'Capas, perfil e outras redes', nome: 'Foto de perfil', rede: 'Todas as redes', w: 1080, h: 1080, fases: TODAS, fase: 'pos-parto', foto: 'perfil',
+      regra: 'Nas redes, o perfil é o rosto da Ana, o mesmo em todas, com fundo sólido. O símbolo fica para o grupo e a comunidade. Arquivo quadrado: a rede recorta o círculo.',
+      variantes: [{ id: 'rosto', nome: 'Rosto da Ana' }, { id: 'simbolo', nome: 'Símbolo (grupo e comunidade)' }],
+      tamanhos: [[1080, 'Instagram e Facebook'], [800, 'YouTube'], [720, 'TikTok'], [640, 'WhatsApp'], [400, 'LinkedIn']],
+      campos: [],
+      padrao: {},
+      zonas: function (vr) { var z = [{ t: 'circ', x: 0, y: 0, w: 1080, h: 1080, r: 'Recorte da rede', sombra: true }]; if (vr === 'rosto') z.push({ t: 'circ', x: 216, y: 160, w: 648, h: 648, r: 'Rosto em cerca de 60% do círculo', c: 'b-centro' }); return z; },
+      render: function (c) {
+        var e = c.t.escuro;
+        if (c.variante === 'simbolo') return '<img src="assets/marca/svg/avatar-instagram' + (e ? '-mar' : '') + '.svg" alt="Símbolo ap. sobre fundo sólido" style="position:absolute;inset:0;width:1080px;height:1080px">';
+        return '<div class="ab" style="inset:0;background:' + (e ? C.mar : C.salvia) + '"></div>' + foto(c, 'left:110px;top:110px;width:860px;height:860px;border-radius:50%');
+      }
+    }
+  ];
+  var POR_ID = {}; MODELOS.forEach(function (m) { POR_ID[m.id] = m; });
+  function modelo() { return POR_ID[S.modelo] || MODELOS[0]; }
+  function faseDe(m) {
+    var f = S.fase[m.id]; if (m.fases.indexOf(f) >= 0) return f;
+    var fv = m.faseVar && m.faseVar[varianteDe(m)]; return fv && m.fases.indexOf(fv) >= 0 ? fv : m.fase;
+  }
+  function varianteDe(m) { if (!m.variantes) return null; var x = S.variante[m.id]; return m.variantes.some(function (o) { return o.id === x; }) ? x : m.variantes[0].id; }
+  /* texto padrão: o do modelo, o da variante e o da fase, nesta ordem */
+  function chaveV(m) { return m.padraoVar ? m.id + '|' + varianteDe(m) : m.id; }
+  function padraoDe(m, fase, vr) {
+    var p = JSON.parse(JSON.stringify(m.padrao)), pv = m.padraoVar && m.padraoVar[vr || varianteDe(m)], pf = m.padraoFase && m.padraoFase[fase];
+    [pv, pf].forEach(function (o) { if (o) Object.keys(o).forEach(function (k) { p[k] = o[k]; }); });
+    return p;
+  }
+  function valores(m) {
+    var fase = faseDe(m), ch = chaveV(m), pd = padraoDe(m, fase);
+    if (!S.v[ch]) { S.v[ch] = JSON.parse(JSON.stringify(pd)); S.v[ch]._fase = fase; }
+    var v = S.v[ch];
+    Object.keys(pd).forEach(function (k) { if (v[k] == null) v[k] = pd[k]; });
+    /* trocou de fase: o texto que ainda é o padrão acompanha a fase nova */
+    if (m.padraoFase && v._fase !== fase) {
+      var antes = padraoDe(m, v._fase || m.fase);
+      Object.keys(pd).forEach(function (k) { if (String(v[k]) === String(antes[k])) v[k] = pd[k]; });
+      v._fase = fase;
+    }
+    return v;
+  }
+  function dois(n) { n = Math.max(1, Math.round(+n || 1)); return n < 10 ? '0' + n : String(n); }
+  function nomeArquivo(m, fase, vr, mult) {
+    var v = valores(m), pos = m.id === 'car-capa' ? '01' : m.id === 'car-miolo' ? dois(v.atual) : m.id === 'car-fim' ? dois(v.total) : null;
+    var base = pos ? 'carrossel-' + pos : m.id + (vr ? '-' + vr : '');
+    return 'ana-costa_' + base + (m.fases.length > 1 ? '_' + fase : '') + '_' + Math.round(m.w * mult) + 'x' + Math.round(m.h * mult) + '.png';
+  }
+  /* fotos dos produtos (só na memória desta aba) */
+  function slotSrc(id, slot) { return UPLOAD[id + ':' + slot] || ''; }
+
+  /* foto atual do modelo: escolha guardada ou a padrão da fase */
+  function fotoDe(m, fase) {
+    if (!m.foto) return null;
+    var f = S.foto[m.id];
+    if (f && f.tipo === 'nenhuma') return null;
+    if (f && f.tipo === 'upload' && UPLOAD[m.id]) return { src: UPLOAD[m.id], alt: 'Foto enviada', fx: f.fx, fy: f.fy, z: f.z, tipo: 'upload' };
+    if (f && f.tipo === 'acervo') {
+      var a = fotoPorId(f.id);
+      if (a && fotoPermitida(a, fase)) return { src: a.arquivo, alt: a.alt, fx: f.fx, fy: f.fy, z: f.z, tipo: 'acervo', id: a.id };
+    }
+    if (m.foto === 'nenhuma') return null;
+    var p = FOTO_PADRAO[m.foto][fase], d = fotoPorId(p[0]);
+    return d ? { src: d.arquivo, alt: d.alt, fx: p[1], fy: p[2], z: m.fotoZ || 1, tipo: 'acervo', id: d.id } : null;
+  }
+
+  /* ============================== 7. Desenho da peça ============================== */
+  var host = $('#ks-host');
+  var esc_ = 1;
+  function zonasHTML(m, vr) {
+    return '<div class="zonas" aria-hidden="true"' + (S.zonas ? '' : ' hidden') + '>' + m.zonas(vr).map(function (z) {
+      var cls = 'z z-' + (z.t === 'circ' ? 'circ' : z.t) + (z.sombra ? ' sombra' : '') + (z.c ? ' ' + z.c : '');
+      return '<div class="' + cls + '" style="left:' + z.x + 'px;top:' + z.y + 'px;width:' + z.w + 'px;height:' + z.h + 'px"><b>' + esc(z.r) + '</b></div>';
+    }).join('') + '</div>';
+  }
+  function medirEscala(m) {
+    var larg = host.clientWidth - (parseFloat(getComputedStyle(host).paddingLeft) * 2);
+    var alt = Math.max(420, Math.min(window.innerHeight - 220, 980));
+    if (window.matchMedia('print').matches) { larg = 640; alt = 820; }
+    return Math.min(1, larg / m.w, alt / m.h);
+  }
+  function desenhar() {
+    var m = modelo(), fase = faseDe(m), vr = varianteDe(m), t = tema(fase), v = valores(m);
+    var ctx = { v: v, t: t, fase: fase, variante: vr, foto: fotoDe(m, fase) };
+    esc_ = medirEscala(m);
+    host.innerHTML = '<div class="ks-escala" style="width:' + Math.round(m.w * esc_) + 'px;height:' + Math.round(m.h * esc_) + 'px">' +
+      '<div class="ks-zoom" style="transform:scale(' + esc_ + ');--z:' + esc_ + '">' +
+      '<div class="pc" id="ks-peca" data-fase="' + fase + '" role="img" aria-label="' + esc(m.nome) + ', ' + m.w + ' por ' + m.h + ' pixels" style="width:' + m.w + 'px;height:' + m.h + 'px;--esc:' + esc_ + ';' + varsTema(t) + '">' +
+      m.render(ctx) + zonasHTML(m, vr) + '</div></div></div>';
+    ajustarTextos($('#ks-peca'));
+    conferir();
+  }
+  function reescalar() {
+    var m = modelo(), e = $('.ks-escala', host), z = $('.ks-zoom', host), p = $('#ks-peca');
+    if (!e) return;
+    esc_ = medirEscala(m);
+    e.style.width = Math.round(m.w * esc_) + 'px'; e.style.height = Math.round(m.h * esc_) + 'px';
+    z.style.transform = 'scale(' + esc_ + ')'; z.style.setProperty('--z', esc_); p.style.setProperty('--esc', esc_);
+  }
+  /* reduz a fonte de cada bloco [data-fit="max,min"] até caber */
+  function cabe(el) { return el.scrollHeight <= el.clientHeight + 1 && el.scrollWidth <= el.clientWidth + 1; }
+  function ajustar(el) {
+    var p = el.getAttribute('data-fit').split(','), max = +p[0], min = +p[1], s = max;
+    el.style.fontSize = s + 'px';
+    var alvo = el.firstElementChild && el.hasAttribute('data-recompor') ? el : el;
+    while (!cabe(alvo) && s > min) { s -= 2; el.style.fontSize = s + 'px'; }
+    el.dataset.estoura = cabe(alvo) ? '' : '1';
+  }
+  function ajustarTextos(r) { $$('[data-fit]', r).forEach(ajustar); $$('[data-cabe]', r).forEach(function (el) { el.dataset.estoura = cabe(el) ? '' : '1'; }); }
+
+  /* ============================== 8. Painel ============================== */
+  function pintarModelos() {
+    var grupos = {}, ordem = [];
+    MODELOS.forEach(function (m) { if (!grupos[m.grupo]) { grupos[m.grupo] = []; ordem.push(m.grupo); } grupos[m.grupo].push(m); });
+    $('#ks-modelos').innerHTML = ordem.map(function (g) {
+      return '<div class="ks-grupo"><h2>' + esc(g) + '</h2><ol>' + grupos[g].map(function (m) {
+        return '<li><button type="button" class="ks-mod" data-m="' + m.id + '"' + (m.id === S.modelo ? ' aria-current="true"' : '') + '>' + esc(m.nome) + '<small>' + m.w + ' × ' + m.h + (m.variantes ? ' · ' + m.variantes.length + ' versões' : '') + '</small></button></li>';
+      }).join('') + '</ol></div>';
+    }).join('');
+    $('#ks-sel').innerHTML = ordem.map(function (g) {
+      return '<optgroup label="' + esc(g) + '">' + grupos[g].map(function (m) { return '<option value="' + m.id + '"' + (m.id === S.modelo ? ' selected' : '') + '>' + esc(m.nome) + ' · ' + m.w + ' × ' + m.h + '</option>'; }).join('') + '</optgroup>';
+    }).join('');
+  }
+  function pintarBarra() {
+    var m = modelo(), fase = faseDe(m);
+    $('#ks-palco-t').textContent = m.nome;
+    $('#ks-medida').textContent = m.w + ' × ' + m.h + ' px · ' + m.rede;
+    $('#ks-dica').textContent = m.regra;
+    $$('#ks-fases button').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.fase === fase));
+      b.disabled = m.fases.indexOf(b.dataset.fase) < 0;
+    });
+    var sel = $('#ks-mult'), ops = m.tamanhos ? m.tamanhos.map(function (t) { return [String(t[0] / m.w), t[0] + ' × ' + t[0] + ' px · ' + t[1]]; }) : [['1', 'Resolução da rede'], ['2', 'Dobro (telas de alta densidade)']];
+    if (sel.dataset.modelo !== m.id) {
+      sel.innerHTML = ops.map(function (o) { return '<option value="' + o[0] + '">' + esc(o[1]) + '</option>'; }).join('');
+      sel.dataset.modelo = m.id; S.mult = 1;
+    }
+    $('#ks-carrossel').hidden = !/^car-/.test(m.id);
+  }
+  function pintarCampos() {
+    var m = modelo(), v = valores(m), html = '';
+    if (m.variantes) {
+      html += '<div class="ks-campo"><label for="ks-var">Versão</label><select id="ks-var">' + m.variantes.map(function (o) { return '<option value="' + o.id + '"' + (o.id === varianteDe(m) ? ' selected' : '') + '>' + esc(o.nome) + '</option>'; }).join('') + '</select></div>';
+    }
+    m.campos.forEach(function (c) {
+      var id = 'ks-c-' + c.k, val = v[c.k];
+      html += '<div class="ks-campo"><label for="' + id + '">' + esc(c.r) + '</label>';
+      if (c.tipo === 'texto') html += '<textarea id="' + id + '" data-k="' + c.k + '" rows="3">' + esc(val) + '</textarea>';
+      else if (c.tipo === 'escolha') html += '<select id="' + id + '" data-k="' + c.k + '">' + c.opcoes.map(function (o) { return '<option value="' + o[0] + '"' + (o[0] === val ? ' selected' : '') + '>' + esc(o[1]) + '</option>'; }).join('') + '</select>';
+      else if (c.tipo === 'numero') html += '<input type="number" id="' + id + '" data-k="' + c.k + '" min="' + c.min + '" max="' + c.max + '" value="' + esc(val) + '">';
+      else html += '<input type="text" id="' + id + '" data-k="' + c.k + '" value="' + esc(val) + '">';
+      if (c.max && c.tipo !== 'numero') html += '<span class="ks-conta" data-conta="' + c.k + '"></span>';
+      else if (c.ajuda) html += '<span class="ks-conta">' + esc(c.ajuda) + '</span>';
+      html += '</div>';
+    });
+    if (!m.campos.length && !m.variantes) html = '<p class="ks-conta">Este modelo não tem texto.</p>';
+    if (!m.campos.length) html += '<p class="ks-conta" style="margin:0">' + (m.id === 'destaque' ? 'O nome do destaque é escrito no próprio Instagram. Ordem: Comece aqui, Consulta, Comunidade, Gestação, Pós-parto, 40+, Receitas, Depoimentos.' : 'Use a mesma foto e o mesmo fundo em todas as redes.') + '</p>';
+    $('#ks-campos').innerHTML = html;
+    contarPalavras();
+    pintarFoto();
+  }
+  function contarPalavras() {
+    var m = modelo(), v = valores(m);
+    m.campos.forEach(function (c) {
+      var el = $('[data-conta="' + c.k + '"]'); if (!el) return;
+      var n = palavras(v[c.k]);
+      el.textContent = n + ' de até ' + c.max + ' palavras' + (n > c.max ? ': encurte para caber de relance' : '');
+      el.dataset.estado = n > c.max ? 'alto' : '';
+    });
+  }
+  function pintarSlots(m) {
+    return '<p class="ks-conta" style="margin:0 0 10px">Foto real tirada pela Ana, sem marca em destaque e sem cupom. Fica só neste navegador.</p>' +
+      m.slots.map(function (sl) {
+        var tem = !!slotSrc(m.id, sl.id);
+        return '<div class="ks-slot"><b>' + esc(sl.r) + '</b><span class="ks-linha">' +
+          '<label class="ks-bt ks-arquivo">' + (tem ? 'Trocar' : 'Escolher') + '<input type="file" accept="image/*" data-slot="' + sl.id + '"></label>' +
+          (tem ? '<button type="button" class="ks-bt" data-slot-tirar="' + sl.id + '">Tirar</button>' : '') + '</span></div>';
+      }).join('');
+  }
+  function pintarFoto() {
+    var m = modelo(), caixa = $('#ks-foto-caixa');
+    if (!m.foto && !m.slots) { caixa.hidden = true; return; }
+    caixa.hidden = false;
+    if (!m.foto) { $('#ks-foto').innerHTML = pintarSlots(m); return; }
+    var fase = faseDe(m), atual = fotoDe(m, fase), sel = S.foto[m.id] || {};
+    var lista = ACERVO.filter(function (f) { return fotoPermitida(f, fase); });
+    var html = '<div class="ks-fotos" role="group" aria-label="Acervo de fotos">';
+    if (m.fotoOpcional) html += '<button type="button" class="ks-sem" data-foto-nenhuma aria-pressed="' + String(!atual) + '">Sem foto</button>';
+    html += lista.map(function (f) {
+      return '<button type="button" data-foto="' + f.id + '" aria-pressed="' + String(!!(atual && atual.id === f.id)) + '" title="' + esc(f.alt) + '"><img src="' + f.miniatura + '" alt="' + esc(f.alt) + '" loading="lazy" width="80" height="120"></button>';
+    }).join('') + '</div>';
+    if (fase === '40-mais') html += '<p class="ks-conta" style="margin:10px 0 0">No modo 40+ aparecem só as fotos sem gestação.</p>';
+    html += '<div class="ks-linha" style="margin-top:12px"><label class="ks-bt ks-arquivo"><svg class="ks-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V5m0 0L7.5 9.5M12 5l4.5 4.5M5 19h14"/></svg>Usar outra foto<input type="file" id="ks-upload" accept="image/*"></label></div>';
+    html += '<p class="ks-conta" style="margin:8px 0 0">A foto enviada fica só neste navegador. Só a Ana, sozinha, foto real.</p>';
+    if (atual) {
+      html += '<div style="display:grid;gap:8px;margin-top:14px">' +
+        '<label class="ks-range">Horizontal<input type="range" min="0" max="100" step="1" data-ajuste="fx" value="' + Math.round(atual.fx * 100) + '"></label>' +
+        '<label class="ks-range">Vertical<input type="range" min="0" max="100" step="1" data-ajuste="fy" value="' + Math.round(atual.fy * 100) + '"></label>' +
+        '<label class="ks-range">Aproximar<input type="range" min="100" max="220" step="2" data-ajuste="z" value="' + Math.round(atual.z * 100) + '"></label></div>';
+    }
+    $('#ks-foto').innerHTML = html;
+  }
+  function conferir() {
+    var m = modelo(), fase = faseDe(m), itens = [], p = $('#ks-peca');
+    if (!S.crn.trim()) itens.push(['bloqueio', 'O CRN-4 ainda está “em confirmação” [P1]. A peça serve de modelo, mas não vai a público assim.']);
+    var f = fotoDe(m, fase);
+    if (f && f.tipo === 'acervo') itens.push(['alerta', 'Foto do acervo: uso comercial depende da autorização da Ana [P3].']);
+    if (f && f.tipo === 'upload') itens.push(['alerta', 'Foto enviada: confirme que é só a Ana, foto real, sem filhos e sem mão na barriga.']);
+    var estouro = p ? $$('[data-estoura="1"]', p) : [];
+    if (estouro.length) itens.push(['alerta', 'Tem texto que não coube no espaço mesmo com a letra no tamanho mínimo. Encurte o texto.']);
+    var v = valores(m), longos = m.campos.filter(function (c) { return c.max && c.tipo !== 'numero' && palavras(v[c.k]) > c.max; });
+    if (longos.length) itens.push(['alerta', 'Passou do limite de palavras: ' + longos.map(function (c) { return c.r.toLowerCase(); }).join(', ') + '.']);
+    var FASE_TXT = { gestacao: /gesta|gr[aá]vida|pr[eé]-natal/i, 'pos-parto': /p[oó]s-parto|amamenta|puerp[eé]rio/i, '40-mais': /\b4[05]\s?\+|menopausa|climat[eé]rio/i };
+    var nomesF = { gestacao: 'Gestação', 'pos-parto': 'Pós-parto', '40-mais': '40+' };
+    if (m.fases.length > 1) {
+      var todoTxt = m.campos.map(function (c) { return v[c.k]; }).join(' ');
+      var outras = Object.keys(FASE_TXT).filter(function (f2) { return f2 !== fase && FASE_TXT[f2].test(todoTxt); });
+      if (outras.length && !FASE_TXT[fase].test(todoTxt)) itens.push(['alerta', 'O texto fala de ' + outras.map(function (f2) { return nomesF[f2]; }).join(' e ') + ', mas o modo escolhido é ' + nomesF[fase] + '. Troque o modo ou o texto.']);
+    }
+    if (m.slots) itens.push(['alerta', 'Foto do produto: tirada pela Ana, real, sem marca em destaque e sem cupom ou “recebido”.']);
+    if (/^anuncio/.test(m.id)) itens.push(['alerta', 'Anúncio: comece por “Para gestantes que...”, sem preço de consulta, sem promessa de resultado e para maiores de 18 anos.']);
+    if (/^car-/.test(m.id)) itens.push(['ok', 'O nome do arquivo leva a posição do cartão: carrossel-01, carrossel-02... Use “Baixar carrossel inteiro” para um ZIP na ordem.']);
+    if (fase === '40-mais') itens.push(['ok', 'Modo 40+: texto de corpo maior e botão Ouro Velho com texto Mar Fundo.']);
+    itens.push(['ok', 'As zonas e a marcação de edição não saem no PNG.']);
+    $('#ks-conf').innerHTML = itens.map(function (i) { return '<li data-n="' + i[0] + '">' + esc(i[1]) + '</li>'; }).join('');
+  }
+
+  /* ============================== 9. Exportação ============================== */
+  function esperarImagens(el) {
+    return Promise.all($$('img', el).map(function (i) {
+      if (i.complete && i.naturalWidth) return i.decode ? i.decode().catch(function () {}) : null;
+      return new Promise(function (ok) { i.addEventListener('load', ok, { once: true }); i.addEventListener('error', ok, { once: true }); });
+    }));
+  }
+  function fontesProntas() {
+    return Promise.all([
+      document.fonts.load("580 96px 'Literata'"), document.fonts.load("italic 500 72px 'Literata'"),
+      document.fonts.load("400 36px 'Atkinson Hyperlegible Next'"), document.fonts.load("600 36px 'Atkinson Hyperlegible Next'"), document.fonts.load("400 36px 'Ana Numerais'", '0123456789')
+    ]).then(function () { return document.fonts.ready; });
+  }
+  function rasterizar(mult) {
+    var m = modelo(), el = $('#ks-peca');
+    if (!window.modernScreenshot) return Promise.reject(new Error('a biblioteca de exportação não carregou (sem internet?)'));
+    if (document.activeElement && el.contains(document.activeElement)) document.activeElement.blur();
+    $$('[contenteditable]', el).forEach(function (x) { x.removeAttribute('contenteditable'); });
+    return fontesProntas().then(function () { return esperarImagens(el); }).then(function () {
+      return window.modernScreenshot.domToCanvas(el, {
+        width: m.w, height: m.h, scale: mult,
+        filter: function (n) { return !(n.classList && n.classList.contains('zonas')); },
+        style: { transform: 'none', margin: '0' },
+        fetch: { requestInit: { cache: 'force-cache' } }
+      });
+    }).then(function (cv) { desenhar(); return cv; }, function (e) { desenhar(); throw e; });
+  }
+  function baixar(blob, nome) {
+    var url = URL.createObjectURL(blob), a = document.createElement('a');
+    a.href = url; a.download = nome; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+  }
+  function exportar() {
+    var b = $('#ks-exportar'), msg = $('#ks-motivo'), m = modelo(), fase = faseDe(m), vr = varianteDe(m), mult = S.mult;
+    var nome = nomeArquivo(m, fase, vr, mult);
+    b.disabled = true; msg.dataset.estado = ''; msg.textContent = 'Desenhando o arquivo…';
+    return rasterizar(mult).then(function (cv) {
+      return new Promise(function (ok) { cv.toBlob(ok, 'image/png'); }).then(function (blob) {
+        baixar(blob, nome);
+        window.KitSocial.ultimo = { nome: nome, largura: cv.width, altura: cv.height, bytes: blob.size };
+        msg.dataset.estado = 'ok'; msg.textContent = 'Baixado: ' + nome + ' (' + cv.width + ' × ' + cv.height + ' px).';
+      });
+    }).catch(function (e) {
+      msg.dataset.estado = 'erro';
+      msg.textContent = 'Não deu certo: ' + (e && e.message ? e.message : 'falha ao desenhar') + '. Abra o kit pelo endereço publicado (ou por um servidor local) e tente de novo.';
+    }).then(function () { b.disabled = false; });
+  }
+
+  /* carrossel inteiro: capa, miolos na ordem e fim, num ZIP com os nomes numerados */
+  function carregarZip() {
+    if (window.JSZip) return Promise.resolve(window.JSZip);
+    return new Promise(function (ok, erro) {
+      var sc = document.createElement('script');
+      sc.src = 'https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js';
+      sc.onload = function () { ok(window.JSZip); }; sc.onerror = function () { erro(new Error('a biblioteca do ZIP não carregou (sem internet?)')); };
+      document.head.appendChild(sc);
+    });
+  }
+  function cartoesMiolo(vm, total) {
+    var blocos = String(vm.lista || '').split(/\n\s*\n/).map(function (b) { return b.trim(); }).filter(Boolean), out = [];
+    for (var n = 2; n <= total - 1; n++) {
+      var b = blocos[n - 2];
+      if (b) { var ls = b.split('\n'); out.push({ atual: n, titulo: ls[0], texto: ls.slice(1).join('\n') || vm.texto }); }
+      else out.push({ atual: n, titulo: vm.titulo, texto: vm.texto });
+    }
+    return out;
+  }
+  function baixarCarrossel() {
+    var b = $('#ks-carrossel'), msg = $('#ks-motivo'), atual = S.modelo, mult = S.mult;
+    var fase = faseDe(modelo()), vm = valores(POR_ID['car-miolo']), total = Math.max(2, Math.min(20, +vm.total || 7));
+    var guardado = JSON.parse(JSON.stringify(vm)), faseGuard = JSON.parse(JSON.stringify(S.fase));
+    var fila = [{ id: 'car-capa' }].concat(cartoesMiolo(vm, total).map(function (x) { return { id: 'car-miolo', v: x }; })).concat([{ id: 'car-fim' }]);
+    b.disabled = true; msg.dataset.estado = ''; msg.textContent = 'Desenhando ' + fila.length + ' cartões…';
+    ['car-capa', 'car-miolo', 'car-fim'].forEach(function (id) { S.fase[id] = fase; valores(POR_ID[id]).total = total; });
+    var zip, arquivos = [];
+    return carregarZip().then(function (JSZip) {
+      zip = new JSZip();
+      return fila.reduce(function (p, item, i) {
+        return p.then(function () {
+          S.modelo = item.id;
+          if (item.v) { var vv = valores(POR_ID['car-miolo']); Object.keys(item.v).forEach(function (k) { vv[k] = item.v[k]; }); }
+          desenhar();
+          msg.textContent = 'Desenhando o cartão ' + (i + 1) + ' de ' + fila.length + '…';
+          var nome = nomeArquivo(modelo(), fase, null, mult);
+          return rasterizar(mult).then(function (cv) {
+            return new Promise(function (ok) { cv.toBlob(ok, 'image/png'); }).then(function (blob) { zip.file(nome, blob); arquivos.push(nome); });
+          });
+        });
+      }, Promise.resolve());
+    }).then(function () {
+      return zip.generateAsync({ type: 'blob' });
+    }).then(function (blob) {
+      var nomeZip = 'ana-costa_carrossel_' + fase + '_' + total + '-cartoes.zip';
+      baixar(blob, nomeZip);
+      window.KitSocial.ultimoZip = { nome: nomeZip, arquivos: arquivos };
+      msg.dataset.estado = 'ok'; msg.textContent = 'Baixado: ' + nomeZip + ' (' + arquivos.length + ' cartões na ordem).';
+    }).catch(function (e) {
+      msg.dataset.estado = 'erro'; msg.textContent = 'Não deu certo: ' + (e && e.message ? e.message : 'falha ao desenhar') + '.';
+    }).then(function () {
+      var vv = valores(POR_ID['car-miolo']); Object.keys(guardado).forEach(function (k) { vv[k] = guardado[k]; });
+      S.fase = faseGuard; S.modelo = atual; b.disabled = false;
+      pintarBarra(); pintarCampos(); desenhar(); guardar();
+    });
+  }
+
+  /* ============================== 10. Guardar no aparelho ============================== */
+  var tGuardar;
+  function guardar() {
+    clearTimeout(tGuardar);
+    tGuardar = setTimeout(function () {
+      try {
+        var foto = {}; Object.keys(S.foto).forEach(function (k) { if (S.foto[k].tipo !== 'upload') foto[k] = S.foto[k]; });
+        localStorage.setItem(CHAVE, JSON.stringify({ modelo: S.modelo, fase: S.fase, v: S.v, foto: foto, variante: S.variante, crn: S.crn, zonas: S.zonas }));
+      } catch (e) {}
+    }, 250);
+  }
+  function recuperar() {
+    try {
+      if (/[?&]limpo=1/.test(location.search)) return;
+      var d = JSON.parse(localStorage.getItem(CHAVE) || 'null'); if (!d) return;
+      ['modelo', 'fase', 'v', 'foto', 'variante', 'crn', 'zonas'].forEach(function (k) { if (d[k] != null) S[k] = d[k]; });
+      if (!POR_ID[S.modelo]) S.modelo = MODELOS[0].id;
+    } catch (e) {}
+  }
+
+  /* ============================== 11. Eventos ============================== */
+  function trocarModelo(id) {
+    if (!POR_ID[id]) return;
+    S.modelo = id;
+    pintarModelos(); pintarBarra(); pintarCampos(); desenhar(); guardar();
+    try { history.replaceState(null, '', '#' + id); } catch (e) {}
+  }
+  function fotoAtualEditavel() {
+    var m = modelo(), fase = faseDe(m), a = fotoDe(m, fase);
+    if (!a) return null;
+    if (!S.foto[m.id] || S.foto[m.id].tipo === 'nenhuma' || (S.foto[m.id].tipo === 'acervo' && S.foto[m.id].id !== a.id)) S.foto[m.id] = { tipo: a.tipo, id: a.id, fx: a.fx, fy: a.fy, z: a.z };
+    return S.foto[m.id];
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    if (b.dataset.m) { trocarModelo(b.dataset.m); return; }
+    if (b.dataset.fase && !b.disabled) { S.fase[S.modelo] = b.dataset.fase; pintarBarra(); pintarFoto(); desenhar(); guardar(); return; }
+    if (b.dataset.foto) {
+      var m = modelo(), pd = m.foto !== 'nenhuma' ? FOTO_PADRAO[m.foto][faseDe(m)] : null;
+      S.foto[m.id] = { tipo: 'acervo', id: b.dataset.foto, fx: .5, fy: pd && pd[0] === b.dataset.foto ? pd[2] : .25, z: 1 };
+      pintarFoto(); desenhar(); guardar(); return;
+    }
+    if (b.hasAttribute('data-foto-nenhuma')) { S.foto[S.modelo] = { tipo: 'nenhuma' }; pintarFoto(); desenhar(); guardar(); return; }
+    if (b.id === 'ks-exportar') { exportar(); return; }
+    if (b.id === 'ks-restaurar') { delete S.v[chaveV(modelo())]; delete S.foto[S.modelo]; pintarCampos(); desenhar(); guardar(); return; }
+    if (b.id === 'ks-carrossel') { baixarCarrossel(); return; }
+    if (b.dataset.slotTirar) { var ch = S.modelo + ':' + b.dataset.slotTirar; if (UPLOAD[ch]) URL.revokeObjectURL(UPLOAD[ch]); delete UPLOAD[ch]; pintarFoto(); desenhar(); conferir(); return; }
+    if (b.dataset.abrir) { trocarModelo(b.dataset.abrir); $('#ks-editor').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  });
+  document.addEventListener('input', function (e) {
+    var t = e.target, m = modelo(), v = valores(m);
+    if (t.closest('#ks-campos') && t.dataset.k) { v[t.dataset.k] = t.type === 'number' ? Math.max(+t.min || 1, Math.min(+t.max || 20, +t.value || +t.min || 1)) : t.value; contarPalavras(); desenhar(); guardar(); return; }
+    if (t.closest('#ks-peca') && t.dataset.k) {
+      var k = t.dataset.k, txt = t.innerText.replace(/\n$/, '');
+      if (k === 'fala') txt = txt.replace(/^[“"]|[”"]$/g, '');
+      v[k] = txt;
+      var campo = $('#ks-c-' + k); if (campo) campo.value = txt;
+      if (t.hasAttribute('data-fit')) ajustar(t);
+      contarPalavras(); conferir(); guardar(); return;
+    }
+    if (t.dataset.ajuste) { var f = fotoAtualEditavel(); if (!f) return; f[t.dataset.ajuste] = (+t.value) / 100; desenhar(); guardar(); return; }
+    if (t.id === 'ks-crn') { S.crn = t.value.replace(/[^\dA-Za-z\/.\- ]/g, '').slice(0, 14); desenhar(); guardar(); return; }
+  });
+  document.addEventListener('focusout', function (e) {
+    var t = e.target;
+    if (t.closest && t.closest('#ks-peca') && t.dataset.k) desenhar();
+  });
+  document.addEventListener('change', function (e) {
+    var t = e.target;
+    if (t.id === 'ks-sel') { trocarModelo(t.value); return; }
+    if (t.id === 'ks-var') { S.variante[S.modelo] = t.value; pintarBarra(); pintarCampos(); desenhar(); guardar(); return; }
+    if (t.dataset && t.dataset.slot && t.files && t.files[0]) {
+      var chs = S.modelo + ':' + t.dataset.slot;
+      if (UPLOAD[chs]) URL.revokeObjectURL(UPLOAD[chs]);
+      UPLOAD[chs] = URL.createObjectURL(t.files[0]);
+      pintarFoto(); desenhar(); return;
+    }
+    if (t.id === 'ks-zonas') { S.zonas = t.checked; var z = $('#ks-peca .zonas'); if (z) z.hidden = !S.zonas; guardar(); return; }
+    if (t.id === 'ks-mult') { S.mult = +t.value || 1; return; }
+    if (t.id === 'ks-upload' && t.files && t.files[0]) {
+      var m = modelo();
+      if (UPLOAD[m.id]) URL.revokeObjectURL(UPLOAD[m.id]);
+      UPLOAD[m.id] = URL.createObjectURL(t.files[0]);
+      S.foto[m.id] = { tipo: 'upload', fx: .5, fy: .3, z: 1 };
+      pintarFoto(); desenhar(); return;
+    }
+  });
+  var tRes;
+  window.addEventListener('resize', function () { clearTimeout(tRes); tRes = setTimeout(reescalar, 120); });
+  window.addEventListener('beforeprint', reescalar);
+  window.addEventListener('afterprint', reescalar);
+  try { window.matchMedia('print').addEventListener('change', reescalar); } catch (e) {}
+  /* teclado: setas trocam de modelo quando o foco está na lista */
+  $('#ks-modelos').addEventListener('keydown', function (e) {
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+    var i = MODELOS.indexOf(modelo()) + (e.key === 'ArrowDown' ? 1 : -1);
+    if (i < 0 || i >= MODELOS.length) return;
+    e.preventDefault(); trocarModelo(MODELOS[i].id); var b = $('[data-m="' + MODELOS[i].id + '"]'); if (b) b.focus();
+  });
+
+  /* ============================== 12. Tabela e downloads ============================== */
+  function pintarTabela() {
+    $('#ks-tabela tbody').innerHTML = MODELOS.map(function (m) {
+      return '<tr><td data-r="Modelo"><button type="button" data-abrir="' + m.id + '">' + esc(m.nome) + '</button></td><td data-r="Rede">' + esc(m.rede) + '</td><td data-r="Arquivo">' + m.w + '\u00a0×\u00a0' + m.h + '\u00a0px' + (m.tamanhos ? ' (também ' + m.tamanhos.slice(1).map(function (t) { return t[0]; }).join(', ') + ')' : '') + '</td><td data-r="Regra">' + esc(m.regra) + '</td></tr>';
+    }).join('');
+  }
+  function pintarDownloads() {
+    fetch('assets/redes/manifesto.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
+      $('#ks-baixar').innerHTML = (d.arquivos || []).map(function (a) {
+        return '<li><a href="assets/redes/' + encodeURIComponent(a.arquivo) + '" download><figure><img src="assets/redes/' + encodeURIComponent(a.arquivo) + '" alt="" loading="lazy" width="' + a.largura + '" height="' + a.altura + '"></figure>' + esc(a.nome) + '<small>' + a.largura + ' × ' + a.altura + ' px · PNG</small></a></li>';
+      }).join('');
+    }).catch(function () { $('.ks-baixar-sec').hidden = true; });
+  }
+  function linksOpcionais() {
+    $$('[data-opcional]').forEach(function (a) {
+      fetch(a.getAttribute('href'), { method: 'HEAD' }).then(function (r) { if (r.ok) a.hidden = false; }).catch(function () {});
+    });
+  }
+
+  /* foto do acervo fora do repositório público até a autorização [P3]: moldura no lugar */
+  document.addEventListener('error', function (e) {
+    var im = e.target;
+    if (!im || im.tagName !== 'IMG' || !/assets\/(fotos|redes|aplicacoes\/site)\//.test(im.getAttribute('src') || '')) return;
+    var d = document.createElement('div');
+    d.className = 'ft-reservada'; d.setAttribute('role', 'img'); d.setAttribute('aria-label', 'Foto da Ana, autorização em confirmação');
+    d.style.cssText = (im.getAttribute('style') || '') + ';width:100%;height:100%';
+    d.textContent = 'Foto da Ana · autorização em confirmação [P3]';
+    if (im.parentNode) im.parentNode.replaceChild(d, im);
+  }, true);
+
+  /* ============================== 13. Início e interface para testes ============================== */
+  var pronto = Promise.all([carregarSVG(), carregarAcervo(), (document.fonts ? fontesProntas() : null)]).then(function () {
+    lerCores();
+    recuperar();
+    var h = location.hash.replace('#', ''); if (POR_ID[h]) S.modelo = h;
+    $('#ks-crn').value = S.crn; $('#ks-zonas').checked = S.zonas;
+    pintarModelos(); pintarBarra(); pintarCampos(); desenhar(); pintarTabela(); pintarDownloads(); linksOpcionais();
+  }).catch(function (e) {
+    host.innerHTML = location.protocol === 'file:' ?
+      '<p style="max-width:52ch;margin:24px;font-size:17px">Aberto direto do computador, o kit não consegue ler os arquivos da marca. Abra o kit pelo endereço publicado: <a href="https://rafaelnasch.github.io/branding-ana-costa/kit-social.html">rafaelnasch.github.io/branding-ana-costa/kit-social.html</a>. Funciona no celular e no computador, sem instalar nada.</p>' :
+      '<p style="max-width:52ch;margin:24px;font-size:17px">Não consegui abrir os arquivos da marca (' + esc(e && e.message || e) + '). Recarregue a página ou abra o kit pelo endereço publicado: <a href="https://rafaelnasch.github.io/branding-ana-costa/kit-social.html">rafaelnasch.github.io/branding-ana-costa/kit-social.html</a>.</p>';
+    throw e;
+  });
+
+  window.KitSocial = {
+    pronto: pronto,
+    lista: function () { return MODELOS.map(function (m) { return { id: m.id, nome: m.nome, rede: m.rede, w: m.w, h: m.h, fase: m.fase, fases: m.fases, tamanhos: m.tamanhos || null, variantes: m.variantes ? m.variantes.map(function (o) { return { id: o.id, nome: o.nome }; }) : null }; }); },
+    selecionar: function (id, o) {
+      o = o || {}; S.modelo = id;
+      if (o.fase) S.fase[id] = o.fase;
+      if (o.variante) S.variante[id] = o.variante;
+      if (o.zonas != null) { S.zonas = !!o.zonas; }
+      pintarModelos(); pintarBarra(); pintarCampos(); desenhar();
+      return { arquivo: nomeArquivo(modelo(), faseDe(modelo()), varianteDe(modelo()), o.mult || 1), estouro: $$('#ks-peca [data-estoura="1"]').length, foto: !!$('#ks-peca img[src*="assets/fotos/"]') };
+    },
+    gerar: function (id, o) {
+      o = o || {}; var info = this.selecionar(id, o);
+      return rasterizar(o.mult || 1).then(function (cv) { return { arquivo: info.arquivo, largura: cv.width, altura: cv.height, estouro: info.estouro, foto: info.foto, png: cv.toDataURL('image/png') }; });
+    },
+    exportar: exportar,
+    ultimo: null
+  };
+})();
+</script>
+</body>
+</html>

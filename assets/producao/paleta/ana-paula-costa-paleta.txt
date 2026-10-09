@@ -1,0 +1,32 @@
+Ana Paula Costa · Nutricionista · paleta (sistema Rota ap., tokens v1.2)
+CMYK pelo perfil ISO Coated v2 300% (FOGRA39, papel revestido). Em papel não revestido, peça à gráfica para converter o RGB.
+
+PRINCIPAIS
+  Sálvia Ana        #63AF9C  RGB 99 175 156  CMYK 62 9 44 2  28%
+      Cor-assinatura e superfície dominante: avatar, capas de destaque, faixas, blocos de cor, capa de post. Nunca para texto sobre claro.
+  Algodão           #F2F0EB  RGB 242 240 235  CMYK 6 5 9 0  26%
+      Fundo claro neutro (derivado do fundo dos ensaios dela, #ECE9E4). Leitura longa.
+  Bruma             #D8ECE5  RGB 216 236 229  CMYK 18 2 13 0  16%
+      Sálvia clareada: segunda superfície, modo Gestação, sub-marca Bem Nutrida.
+  Mar Fundo         #103A40  RGB 16 58 64  CMYK 85 49 50 60  16%
+      Símbolo, nome, títulos e base escura. Verde-mar azulado (não é o verde-floresta).
+  Sálvia Funda      #2F6E60  RGB 47 110 96  CMYK 77 31 58 29  6%
+      Verde de texto, botões e links sobre claro; descritor do logotipo.
+  Pedra             #E4E0D8  RGB 228 224 216  CMYK 13 11 16 0  4%
+      Cartões e fundos de apoio neutros.
+  Caramelo          #C99A68  RGB 201 154 104  CMYK 19 39 61 8  2%
+      O ponto de chegada. Um ponto caramelo por peça, e o do logotipo conta. Nunca texto sobre claro.
+  Caramelo Tostado  #8A5A2E  RGB 138 90 46  CMYK 33 58 82 33  1%
+      Texto quente, frase de apoio e links sobre claro.
+  Ouro Velho        #C9B583  RGB 201 181 131  CMYK 22 24 52 5  0,5%
+      Acento do modo 40+ e menopausa, sempre sobre Mar Fundo. Dourado acinzentado, longe da mostarda.
+  Grafite Quente    #2B2724  RGB 43 39 36  CMYK 65 60 60 74  0,5%
+      Texto corrido longo.
+
+DERIVADAS (só para os usos indicados)
+  Sálvia Clara      #A9D3C6  RGB 169 211 198  CMYK 38 3 27 0
+      Traço do padrão de fundo sobre Algodão ou Bruma. Só gráfico.
+  Mar Médio         #2A5C63  RGB 42 92 99  CMYK 79 41 45 36
+      Traço do padrão de fundo sobre Mar Fundo. Só gráfico.
+  Mar Superfície    #17464D  RGB 23 70 77  CMYK 84 47 47 51
+      Cartões e caixas dentro do modo 40+ (sobre Mar Fundo).

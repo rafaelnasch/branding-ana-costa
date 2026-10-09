@@ -1,0 +1,9 @@
+# Metadados de exibição para Codex e ChatGPT (formato de https://learn.chatgpt.com/docs/build-skills).
+# Opcional: o Claude ignora este arquivo; as regras da skill estão no SKILL.md.
+interface:
+  display_name: "Ana Paula Costa · Rota ap."
+  short_description: "Marca da nutricionista Ana Paula Costa: cor, tipografia, logotipo, Rota, fotografia, voz, conformidade do conselho e medidas por canal."
+  icon_small: "./assets/marca/favicon/favicon.svg"
+  icon_large: "./assets/marca/favicon/favicon-512.png"
+  brand_color: "#63AF9C"
+  default_prompt: "No padrão da Ana Paula Costa, faça a peça a seguir. Antes, confirme a peça, a fase (gestação, pós-parto ou 40+), o canal e o único convite."

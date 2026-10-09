@@ -1,0 +1,205 @@
+<section class="secao" id="s10" data-parte="III" data-titulo="Contraste e leitura" data-busca="contraste leitura acessibilidade aa aaa pares texto fundo botao link proibido grafico graficos dados barras rosca series legenda">
+  <header class="secao-cabeca">
+    <p class="rotulo">Cor</p>
+    <h2>Quem lê a Ana está cansada, sem óculos ou com o filho no colo.</h2>
+    <p class="chamada">Por isso todo texto passa no teste de contraste antes de sair. Aqui estão os pares que podem, os que só servem para enfeitar e os que nunca podem, mais as regras de cor para gráficos.</p>
+  </header>
+
+  <div class="resumo">
+    <p class="resumo-titulo">Em um minuto</p>
+    <ul>
+      <li>Texto precisa de pelo menos <strong>4,5 para 1</strong> de contraste com o fundo. Texto longo, de preferência <strong>7 para 1</strong> ou mais.</li>
+      <li>Sobre Sálvia Ana, o texto é <strong>Mar Fundo</strong>, nunca branco nem Algodão. Isso muda o costume antigo das faixas dos Reels.</li>
+      <li>No modo 40+, o botão é <strong>Ouro Velho com texto Mar Fundo</strong>. O botão verde some sobre o fundo escuro.</li>
+      <li>Em gráfico, no máximo três cores, rótulo escrito ao lado de cada parte e nunca vermelho contra verde.</li>
+    </ul>
+  </div>
+
+  <h3 id="s10-1">Como ler o contraste</h3>
+  <p>O contraste mede a diferença de luz entre a letra e o fundo, numa escala de 1 para 1 (mesma cor) até 21 para 1 (preto no branco). As diretrizes internacionais de acessibilidade para a web pedem pelo menos <strong>4,5 para 1</strong> para texto comum, o nível chamado AA. O nível AAA, de <strong>7 para 1</strong> ou mais, é o que usamos para texto longo. Entre 3 e 4,5 para 1, só texto grande (24 px ou mais, ou 19 px em negrito) e ícones. Abaixo de 3, a cor só enfeita: não carrega palavra nem informação.</p>
+  <p>Todos os números abaixo foram calculados com a fórmula oficial e estão no arquivo <code>tokens.json</code>.</p>
+
+  <h3 id="s10-2">Pares aprovados para texto</h3>
+  <h4>Texto longo: legendas, plano alimentar, artigos, e-mails</h4>
+  <div class="pares">
+    <div class="par" style="--par-fundo:#F2F0EB;--par-texto:#2B2724" data-texto="#2B2724" data-fundo="#F2F0EB" data-razao="13.00" data-nivel="AAA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Grafite Quente sobre Algodão</span><span class="par-razao">13,0 para 1 · AAA</span></div>
+    <div class="par" style="--par-fundo:#F2F0EB;--par-texto:#103A40" data-texto="#103A40" data-fundo="#F2F0EB" data-razao="10.84" data-nivel="AAA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Mar Fundo sobre Algodão</span><span class="par-razao">10,8 para 1 · AAA</span></div>
+    <div class="par" style="--par-fundo:#D8ECE5;--par-texto:#103A40" data-texto="#103A40" data-fundo="#D8ECE5" data-razao="10.02" data-nivel="AAA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Mar Fundo sobre Bruma</span><span class="par-razao">10,0 para 1 · AAA</span></div>
+    <div class="par" style="--par-fundo:#E4E0D8;--par-texto:#103A40" data-texto="#103A40" data-fundo="#E4E0D8" data-razao="9.38" data-nivel="AAA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Mar Fundo sobre Pedra</span><span class="par-razao">9,4 para 1 · AAA</span></div>
+    <div class="par" style="--par-fundo:#103A40;--par-texto:#F2F0EB" data-texto="#F2F0EB" data-fundo="#103A40" data-razao="10.84" data-nivel="AAA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Algodão sobre Mar Fundo</span><span class="par-razao">10,8 para 1 · AAA</span></div>
+    <div class="par" style="--par-fundo:#17464D;--par-texto:#F2F0EB" data-texto="#F2F0EB" data-fundo="#17464D" data-razao="9.13" data-nivel="AAA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Algodão sobre Mar Superfície</span><span class="par-razao">9,1 para 1 · AAA</span></div>
+  </div>
+
+  <h4>Títulos curtos, links, rótulos e botões</h4>
+  <div class="pares">
+    <div class="par" style="--par-fundo:#F2F0EB;--par-texto:#2F6E60" data-texto="#2F6E60" data-fundo="#F2F0EB" data-razao="5.24" data-nivel="AA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Sálvia Funda sobre Algodão</span><span class="par-razao">5,2 para 1 · AA</span></div>
+    <div class="par" style="--par-fundo:#F2F0EB;--par-texto:#8A5A2E" data-texto="#8A5A2E" data-fundo="#F2F0EB" data-razao="5.15" data-nivel="AA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Caramelo Tostado sobre Algodão</span><span class="par-razao">5,2 para 1 · AA</span></div>
+    <div class="par" style="--par-fundo:#D8ECE5;--par-texto:#2F6E60" data-texto="#2F6E60" data-fundo="#D8ECE5" data-razao="4.84" data-nivel="AA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Sálvia Funda sobre Bruma</span><span class="par-razao">4,8 para 1 · AA</span></div>
+    <div class="par" style="--par-fundo:#63AF9C;--par-texto:#103A40" data-texto="#103A40" data-fundo="#63AF9C" data-razao="4.79" data-nivel="AA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Mar Fundo sobre Sálvia Ana</span><span class="par-razao">4,8 para 1 · AA</span></div>
+    <div class="par" style="--par-fundo:#2F6E60;--par-texto:#F2F0EB" data-texto="#F2F0EB" data-fundo="#2F6E60" data-razao="5.24" data-nivel="AA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Algodão sobre Sálvia Funda (botão)</span><span class="par-razao">5,2 para 1 · AA</span></div>
+    <div class="par" style="--par-fundo:#8A5A2E;--par-texto:#F2F0EB" data-texto="#F2F0EB" data-fundo="#8A5A2E" data-razao="5.15" data-nivel="AA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Algodão sobre Caramelo Tostado</span><span class="par-razao">5,2 para 1 · AA</span></div>
+    <div class="par" style="--par-fundo:#103A40;--par-texto:#C9B583" data-texto="#C9B583" data-fundo="#103A40" data-razao="6.13" data-nivel="AA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Ouro Velho sobre Mar Fundo</span><span class="par-razao">6,1 para 1 · AA</span></div>
+    <div class="par" style="--par-fundo:#C9B583;--par-texto:#103A40" data-texto="#103A40" data-fundo="#C9B583" data-razao="6.13" data-nivel="AA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Mar Fundo sobre Ouro Velho (botão 40+)</span><span class="par-razao">6,1 para 1 · AA</span></div>
+    <div class="par" style="--par-fundo:#103A40;--par-texto:#C99A68" data-texto="#C99A68" data-fundo="#103A40" data-razao="4.88" data-nivel="AA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Caramelo sobre Mar Fundo</span><span class="par-razao">4,9 para 1 · AA</span></div>
+    <div class="par" style="--par-fundo:#103A40;--par-texto:#63AF9C" data-texto="#63AF9C" data-fundo="#103A40" data-razao="4.79" data-nivel="AA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Sálvia Ana sobre Mar Fundo</span><span class="par-razao">4,8 para 1 · AA</span></div>
+    <div class="par" style="--par-fundo:#17464D;--par-texto:#C9B583" data-texto="#C9B583" data-fundo="#17464D" data-razao="5.16" data-nivel="AA"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Ouro Velho sobre Mar Superfície</span><span class="par-razao">5,2 para 1 · AA</span></div>
+  </div>
+
+  <h4>Só texto grande e elementos gráficos</h4>
+  <div class="pares">
+    <div class="par" style="--par-fundo:#E4E0D8;--par-texto:#8A5A2E" data-texto="#8A5A2E" data-fundo="#E4E0D8" data-razao="4.45" data-nivel="grande"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Caramelo Tostado sobre Pedra</span><span class="par-razao">4,45 para 1 · só 24 px ou mais</span></div>
+  </div>
+
+  <h3 id="s10-3">Pares que não carregam texto</h3>
+  <p>Estas combinações aparecem na marca, mas só como forma: o ponto, a faixa, o arco atrás da foto. Se alguém precisar ler, troque o par.</p>
+  <div class="pares">
+    <div class="par" style="--par-fundo:#63AF9C;--par-texto:#F2F0EB" data-texto="#F2F0EB" data-fundo="#63AF9C" data-razao="2.26" data-nivel="decorativo"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Algodão sobre Sálvia Ana</span><span class="par-razao">2,3 para 1 · só o ponto do símbolo</span></div>
+    <div class="par" style="--par-fundo:#F2F0EB;--par-texto:#63AF9C" data-texto="#63AF9C" data-fundo="#F2F0EB" data-razao="2.26" data-nivel="decorativo"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Sálvia Ana sobre Algodão</span><span class="par-razao">2,3 para 1 · só forma e faixa</span></div>
+    <div class="par" style="--par-fundo:#F2F0EB;--par-texto:#C99A68" data-texto="#C99A68" data-fundo="#F2F0EB" data-razao="2.22" data-nivel="decorativo"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Caramelo sobre Algodão</span><span class="par-razao">2,2 para 1 · só o ponto</span></div>
+    <div class="par" style="--par-fundo:#103A40;--par-texto:#2F6E60" data-texto="#2F6E60" data-fundo="#103A40" data-razao="2.07" data-nivel="decorativo"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Sálvia Funda sobre Mar Fundo</span><span class="par-razao">2,1 para 1 · proibido em botão</span></div>
+    <div class="par" style="--par-fundo:#63AF9C;--par-texto:#C99A68" data-texto="#C99A68" data-fundo="#63AF9C" data-razao="1.02" data-nivel="proibido"><span class="par-aa" aria-hidden="true">Aa</span><span class="par-nome">Caramelo sobre Sálvia Ana</span><span class="par-razao">1,02 para 1 · proibido</span></div>
+  </div>
+
+  <div class="faca-nao">
+    <figure class="faca">
+      <div class="faca-palco" data-fundo="pedra"><div class="s10-reels"><p class="s10-faixa">Casos de consultório</p><p class="s10-faixa-sub">Ferro na gestação</p></div></div>
+      <figcaption><strong>Faça</strong>Faixa de título dos Reels em Sálvia Ana com texto Mar Fundo (4,8 para 1).</figcaption>
+    </figure>
+    <figure class="nao-faca" data-exemplo="proibido">
+      <div class="faca-palco" data-fundo="pedra"><div class="s10-reels s10-reels-erro"><p class="s10-faixa">Casos de consultório</p><p class="s10-faixa-sub">Ferro na gestação</p></div></div>
+      <figcaption><strong>Não faça</strong>Texto branco sobre a Sálvia Ana, como nas faixas antigas: 2,3 para 1, some no celular ao sol.</figcaption>
+    </figure>
+  </div>
+
+  <h3 id="s10-4">Qual texto vai em cada fundo</h3>
+  <div class="tabela" data-empilha>
+    <table>
+      <caption>Entre parênteses, o contraste de cada par (quanto maior, melhor).</caption>
+      <thead><tr><th>Fundo</th><th>Texto corrido</th><th>Títulos, links e destaques</th><th>Nunca</th></tr></thead>
+      <tbody>
+        <tr><td>Algodão</td><td>Grafite Quente (13,0) ou Mar Fundo (10,8)</td><td>Mar Fundo, Sálvia Funda (5,2), Caramelo Tostado (5,2)</td><td>Sálvia Ana, Caramelo, Ouro Velho</td></tr>
+        <tr><td>Bruma</td><td>Mar Fundo (10,0)</td><td>Sálvia Funda (4,8), Caramelo Tostado (4,8)</td><td>Sálvia Ana, Caramelo</td></tr>
+        <tr><td>Pedra</td><td>Mar Fundo (9,4) ou Grafite Quente (11,3)</td><td>Sálvia Funda (4,5); Caramelo Tostado só a partir de 24 px</td><td>Sálvia Ana, Caramelo</td></tr>
+        <tr><td>Sálvia Ana</td><td>Evite: só frases curtas em Mar Fundo (4,8)</td><td>Mar Fundo; ponto em Algodão</td><td>Branco, Algodão e Caramelo como texto</td></tr>
+        <tr><td>Mar Fundo</td><td>Algodão (10,8) ou Bruma (10,0)</td><td>Ouro Velho (6,1), Caramelo (4,9), Sálvia Ana (4,8)</td><td>Sálvia Funda e Caramelo Tostado (2,1)</td></tr>
+        <tr><td>Mar Superfície</td><td>Algodão (9,1)</td><td>Ouro Velho (5,2)</td><td>Sálvia Funda, Caramelo Tostado</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="s10-5">Botões e links</h3>
+  <p>O botão de ação tem altura mínima de 48 px e é sempre de cor sólida. No fundo claro, Sálvia Funda com texto Algodão; ao passar o mouse, escurece para Mar Fundo. No modo 40+, inverte para Ouro Velho com texto Mar Fundo. Link no meio do texto vai sublinhado, na cor de título da fase, nunca só pela cor.</p>
+  <div class="grade" data-col="3">
+    <div class="s10-palco s10-palco-algodao"><p class="s10-modo">Fundo Algodão</p><a class="botao" href="#s10-5" tabindex="-1">Agendar minha avaliação<span class="s10-seta" data-svg="assets/forma/rota-seta.svg" data-decorativo></span></a><p class="s10-link">Veja <a href="#s10-5" tabindex="-1">como funciona a consulta</a> online.</p></div>
+    <div class="s10-palco s10-palco-bruma"><p class="s10-modo">Fundo Bruma</p><a class="botao" href="#s10-5" tabindex="-1">Agendar minha avaliação<span class="s10-seta" data-svg="assets/forma/rota-seta.svg" data-decorativo></span></a><p class="s10-link">Veja <a href="#s10-5" tabindex="-1">como funciona a consulta</a> online.</p></div>
+    <div class="s10-palco s10-palco-mar" data-fase="40-mais"><p class="s10-modo">Fundo Mar Fundo, modo 40+</p><a class="botao" href="#s10-5" tabindex="-1">Agendar minha avaliação<span class="s10-seta" data-svg="assets/forma/rota-seta.svg" data-decorativo></span></a><p class="s10-link">Veja <a href="#s10-5" tabindex="-1">como funciona a consulta</a> online.</p></div>
+  </div>
+
+  <h3 id="s10-6">Cor em dados e gráficos</h3>
+  <p>Gráfico aparece em carrossel educativo, no relatório de acompanhamento e em aula. A cor organiza, mas quem explica é o rótulo escrito. Siga a ordem da tabela: a primeira série pega a primeira cor, e assim por diante. Mais de três séries vira tabela.</p>
+  <div class="tabela" data-empilha>
+    <table>
+      <thead><tr><th>Papel no gráfico</th><th>Sobre fundo claro</th><th>Sobre Mar Fundo (40+)</th></tr></thead>
+      <tbody>
+        <tr><td>Série 1 (a principal)</td><td><span class="s10-chip" style="--amostra:#2F6E60"></span>Sálvia Funda</td><td><span class="s10-chip" style="--amostra:#63AF9C"></span>Sálvia Ana</td></tr>
+        <tr><td>Série 2</td><td><span class="s10-chip" style="--amostra:#103A40"></span>Mar Fundo</td><td><span class="s10-chip" style="--amostra:#F2F0EB"></span>Algodão</td></tr>
+        <tr><td>Série 3</td><td><span class="s10-chip" style="--amostra:#8A5A2E"></span>Caramelo Tostado</td><td><span class="s10-chip" style="--amostra:#C9B583"></span>Ouro Velho</td></tr>
+        <tr><td>O valor em destaque</td><td>Barra em Mar Fundo e um ponto Caramelo</td><td>Barra em Algodão e um ponto Ouro Velho</td></tr>
+        <tr><td>Grade, eixo e números</td><td>Linhas Pedra; números em Grafite Quente</td><td>Linhas Mar Superfície; números em Algodão</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grade" data-col="3">
+    <figure class="s10-graf s10-graf-claro">
+      <svg viewBox="0 0 320 240" role="img" aria-label="Gráfico de barras de exemplo, fundo claro: copos de água por dia de segunda a domingo, 5, 6, 4, 7, 6, 8 e 7. O sábado está em destaque, com um ponto caramelo.">
+        <g class="s10-grade-l"><line x1="28" x2="312" y1="190" y2="190"/><line x1="28" x2="312" y1="150" y2="150"/><line x1="28" x2="312" y1="110" y2="110"/><line x1="28" x2="312" y1="70" y2="70"/><line x1="28" x2="312" y1="30" y2="30"/></g>
+        <g class="s10-eixo"><text x="20" y="194">0</text><text x="20" y="154">2</text><text x="20" y="114">4</text><text x="20" y="74">6</text><text x="20" y="34">8</text></g>
+        <g class="s10-b1"><rect x="40" y="90" width="28" height="100" rx="4"/><rect x="80" y="70" width="28" height="120" rx="4"/><rect x="120" y="110" width="28" height="80" rx="4"/><rect x="160" y="50" width="28" height="140" rx="4"/><rect x="200" y="70" width="28" height="120" rx="4"/><rect x="280" y="50" width="28" height="140" rx="4"/></g>
+        <rect class="s10-bd" x="240" y="30" width="28" height="160" rx="4"/>
+        <circle class="s10-pd" cx="254" cy="17" r="5"/>
+        <g class="s10-dias"><text x="54" y="212">S</text><text x="94" y="212">T</text><text x="134" y="212">Q</text><text x="174" y="212">Q</text><text x="214" y="212">S</text><text x="254" y="212">S</text><text x="294" y="212">D</text></g>
+        <text class="s10-rot" x="28" y="234">Copos de água por dia · exemplo</text>
+      </svg>
+      <figcaption>Uma cor para a série, outra para o dia que importa, e o ponto caramelo uma vez só.</figcaption>
+    </figure>
+    <figure class="s10-graf s10-graf-escuro">
+      <svg viewBox="0 0 320 240" role="img" aria-label="O mesmo gráfico de barras no modo 40 mais: fundo Mar Fundo, barras Sálvia Ana, sábado em Algodão com ponto Ouro Velho.">
+        <g class="s10-grade-l"><line x1="28" x2="312" y1="190" y2="190"/><line x1="28" x2="312" y1="150" y2="150"/><line x1="28" x2="312" y1="110" y2="110"/><line x1="28" x2="312" y1="70" y2="70"/><line x1="28" x2="312" y1="30" y2="30"/></g>
+        <g class="s10-eixo"><text x="20" y="194">0</text><text x="20" y="154">2</text><text x="20" y="114">4</text><text x="20" y="74">6</text><text x="20" y="34">8</text></g>
+        <g class="s10-b1"><rect x="40" y="90" width="28" height="100" rx="4"/><rect x="80" y="70" width="28" height="120" rx="4"/><rect x="120" y="110" width="28" height="80" rx="4"/><rect x="160" y="50" width="28" height="140" rx="4"/><rect x="200" y="70" width="28" height="120" rx="4"/><rect x="280" y="50" width="28" height="140" rx="4"/></g>
+        <rect class="s10-bd" x="240" y="30" width="28" height="160" rx="4"/>
+        <circle class="s10-pd" cx="254" cy="17" r="5"/>
+        <g class="s10-dias"><text x="54" y="212">S</text><text x="94" y="212">T</text><text x="134" y="212">Q</text><text x="174" y="212">Q</text><text x="214" y="212">S</text><text x="254" y="212">S</text><text x="294" y="212">D</text></g>
+        <text class="s10-rot" x="28" y="234">Copos de água por dia · exemplo</text>
+      </svg>
+      <figcaption>No modo 40+, as mesmas regras com as cores claras da fase.</figcaption>
+    </figure>
+    <figure class="s10-graf s10-graf-claro">
+      <svg viewBox="0 0 320 240" role="img" aria-label="Gráfico de rosca de exemplo: metade do prato com legumes e verduras, um quarto com proteínas e um quarto com cereais, tubérculos e feijões, cada parte com rótulo escrito.">
+        <circle class="s10-r1" cx="96" cy="112" r="64" pathLength="100" stroke-dasharray="49.4 50.6" stroke-dashoffset="0"/>
+        <circle class="s10-r2" cx="96" cy="112" r="64" pathLength="100" stroke-dasharray="24.4 75.6" stroke-dashoffset="-50"/>
+        <circle class="s10-r3" cx="96" cy="112" r="64" pathLength="100" stroke-dasharray="24.4 75.6" stroke-dashoffset="-75"/>
+        <text class="s10-centro" x="96" y="120" text-anchor="middle">prato</text>
+        <g class="s10-leg"><circle class="s10-c1" cx="190" cy="72" r="6"/><text x="202" y="77">Legumes e</text><text x="202" y="95">verduras · ½</text><circle class="s10-c2" cx="190" cy="124" r="6"/><text x="202" y="129">Proteínas · ¼</text><circle class="s10-c3" cx="190" cy="158" r="6"/><text x="202" y="163">Cereais, raízes</text><text x="202" y="181">e feijões · ¼</text></g>
+        <text class="s10-rot" x="28" y="234">Como o prato se divide · exemplo</text>
+      </svg>
+      <figcaption>Na rosca, a Sálvia Ana só entra em área grande, com rótulo escrito ao lado.</figcaption>
+    </figure>
+  </div>
+
+  <aside class="alerta">
+    <p class="alerta-rotulo">Atenção</p>
+    <p>Gráfico da Ana nunca pinta alimento de vermelho contra verde, como se houvesse comida boa e comida proibida: não existe alimento vilão. No quadro Levo ou Deixo, "Levo" é Sálvia Ana e "Deixo" é Mar Fundo. E gráfico nunca mostra peso, medida do corpo ou resultado de paciente.</p>
+  </aside>
+
+  <style data-fragmento="s10">
+    .s10-reels{width:min(100%,280px);display:grid;gap:6px;justify-items:start}
+    .s10-reels p{margin:0!important}
+    .s10-faixa{background:var(--cor-salvia);color:var(--cor-mar);font:700 15px/1 var(--fonte-texto);letter-spacing:.1em;text-transform:uppercase;padding:12px 14px}
+    .s10-faixa-sub{background:var(--cor-algodao);color:var(--cor-mar);font:580 24px/1.1 var(--fonte-titulo);padding:8px 14px 10px}
+    .s10-reels-erro .s10-faixa{color:var(--cor-algodao)}
+    .s10-reels-erro .s10-faixa-sub{background:var(--cor-algodao);color:var(--cor-salvia)}
+    .s10-palco{border-radius:var(--raio-g);padding:24px 20px;display:flex;flex-direction:column;align-items:flex-start;gap:16px;min-width:0}
+    .s10-palco p{margin:0!important;font-size:16px}
+    .s10-palco-algodao{background:var(--cor-algodao);color:var(--cor-grafite);box-shadow:inset 0 0 0 1px rgba(16,58,64,.12)}
+    .s10-palco-bruma{background:var(--cor-bruma);color:var(--cor-mar)}
+    .s10-palco-mar{background:var(--cor-mar);color:var(--cor-algodao);box-shadow:inset 0 0 0 1px rgba(242,240,235,.22)}
+    .s10-modo{font:600 12px/1.3 var(--fonte-texto)!important;letter-spacing:.14em;text-transform:uppercase;color:var(--cor-salvia-funda)}
+    .s10-palco-mar .s10-modo{color:var(--cor-ouro-velho)}
+    .s10-palco .botao{max-width:100%;white-space:normal;font-size:16px;background:var(--cor-salvia-funda);color:var(--cor-algodao)}
+    .s10-palco .botao:hover{background:var(--cor-mar)}
+    .s10-palco-mar .botao{background:var(--cor-ouro-velho);color:var(--cor-mar)}
+    .s10-palco-mar .botao:hover{background:var(--cor-algodao)}
+    .s10-seta{display:block;width:28px;flex:none;color:currentColor;--svg-ponto:currentColor}
+    .s10-link a{color:var(--cor-salvia-funda);text-decoration:underline;text-underline-offset:3px;font-weight:600}
+    .s10-palco-mar .s10-link a{color:var(--cor-ouro-velho)}
+    .s10-chip{display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--amostra);margin-right:10px;vertical-align:-1px;box-shadow:inset 0 0 0 1px rgba(16,58,64,.25),0 0 0 1px rgba(242,240,235,.3)}
+    .s10-graf{margin:0;display:flex;flex-direction:column}
+    .s10-graf svg{display:block;width:100%;height:auto;border-radius:var(--raio-m);padding:16px 14px 6px;overflow:visible}
+    .s10-graf figcaption{margin-top:10px;font-size:15px;line-height:1.5;color:var(--texto-suave)}
+    .s10-graf-claro svg{background:var(--cor-algodao);box-shadow:inset 0 0 0 1px rgba(16,58,64,.12)}
+    .s10-graf-escuro svg{background:var(--cor-mar);box-shadow:inset 0 0 0 1px rgba(242,240,235,.22)}
+    .s10-grade-l line{stroke:var(--cor-pedra);stroke-width:1}
+    .s10-graf-escuro .s10-grade-l line{stroke:var(--cor-mar-superficie)}
+    .s10-graf text{font:500 13px var(--fonte-texto);fill:var(--cor-grafite)}
+    .s10-graf-escuro text{fill:var(--cor-algodao)}
+    .s10-eixo text{text-anchor:end}
+    .s10-dias text{text-anchor:middle;font-weight:600}
+    .s10-graf .s10-rot{font-weight:600;font-size:12px;letter-spacing:.06em}
+    .s10-b1 rect{fill:var(--cor-salvia-funda)}
+    .s10-graf-escuro .s10-b1 rect{fill:var(--cor-salvia)}
+    .s10-bd{fill:var(--cor-mar)}
+    .s10-graf-escuro .s10-bd{fill:var(--cor-algodao)}
+    .s10-pd{fill:var(--cor-caramelo)}
+    .s10-graf-escuro .s10-pd{fill:var(--cor-ouro-velho)}
+    .s10-r1,.s10-r2,.s10-r3{fill:none;stroke-width:34;transform:rotate(-90deg);transform-origin:96px 112px}
+    .s10-r1,.s10-c1{stroke:var(--cor-salvia);fill:var(--cor-salvia)}
+    .s10-r2,.s10-c2{stroke:var(--cor-mar);fill:var(--cor-mar)}
+    .s10-r3,.s10-c3{stroke:var(--cor-caramelo-tostado);fill:var(--cor-caramelo-tostado)}
+    .s10-r1,.s10-r2,.s10-r3{fill:none}
+    .s10-graf .s10-centro{font:580 22px var(--fonte-titulo);fill:var(--cor-mar)}
+    .s10-leg text{font-size:14px}
+    @media (max-width:1099px) and (min-width:761px){.s10-palco .botao{font-size:15px;padding:0 1em}}
+  </style>
+</section>
