@@ -32,18 +32,6 @@ dist-skill/
 
 # Pacote do Drive é montado fora do repositório (tools/montar_pacote_drive.py)
 
-# P3 · autorização de uso das fotos ainda aberta. Fotos da Ana e tudo que mostra o rosto dela
-# ficam fora do repositório público até a autorização por escrito. No endereço publicado, cada
-# foto vira a moldura "foto da Ana · autorização em confirmação". As peças de redes com foto
-# estão listadas em assets/redes/.gitignore (gerado por tools/exportar_redes.py).
-# Quando a P3 fechar: apague este bloco e o assets/redes/.gitignore e faça o commit dos arquivos.
-assets/fotos/640/
-assets/fotos/1600/
-assets/aplicacoes/site/
-assets/referencia/
-assets/producao/legenda/legenda-referencia*
-assets/producao/cor/previa-antes-depois.jpg
-assets/producao/zona-segura/previa-zona-segura.jpg
 
 # Andaime de produção do manual (o conteúdo está nos fragmentos sNN)
 _fragmentos/MODELO-SECAO.md

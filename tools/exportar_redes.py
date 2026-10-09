@@ -129,11 +129,8 @@ def main():
         if velho.name not in gerados:
             velho.unlink()
             print(f"  removido (nome antigo): {velho.name}")
-    # P3: peças com a foto da Ana ficam fora do repositório público até a autorização por escrito
-    (SAIDA / ".gitignore").write_text(
-        "# Gerado por tools/exportar_redes.py. P3: peças com a foto da Ana ficam fora do repositório\n"
-        "# público até a autorização por escrito. Quando a P3 fechar, apague este arquivo.\n"
-        + "".join(f"{n}\n" for n in sorted(com_foto)), encoding="utf-8")
+    # Fotos da Ana (só ela, sem os filhos) entram no repositório: são da própria marca.
+    (SAIDA / ".gitignore").unlink(missing_ok=True)
     (SAIDA / "manifesto.json").write_text(json.dumps({"gerado_por": "tools/exportar_redes.py", "arquivos": manifesto}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     graves = [a for a in avisos if "404" not in a]  # 404 esperado: links opcionais (lockup, guia) conferidos por HEAD
     if graves:
